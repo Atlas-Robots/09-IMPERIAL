@@ -742,6 +742,7 @@ DECL BOOL DARSENA2=TRUE
 
 
 DECL INT DatosProduccion[50,10] ; [Produccion, Producto (1.MaximoCapas 2.MaximaPosicion 3.TipoSaco 4.TipoPale)]
+
 ;FOLD Produccion 1
 DatosProduccion[1,1]=10
 DatosProduccion[1,2]=5
@@ -756,16 +757,16 @@ DatosProduccion[2,3]=2
 DatosProduccion[2,4]=1
 ;ENDFOLD
 
-;FOLD Produccion 2
-DatosProduccion[2,1]=8
-DatosProduccion[2,2]=2
-DatosProduccion[2,3]=2
-DatosProduccion[2,4]=2
+;FOLD Produccion 3
+DatosProduccion[3,1]=8
+DatosProduccion[3,2]=2
+DatosProduccion[3,3]=2
+DatosProduccion[3,4]=2
 ;ENDFOLD
 
 
 
-DECL INT DatosSaco[1,3] ; [TipoCaja, Dimension (1.Ancho 2.Largo 3.Alto)]
+DECL INT DatosSaco[3,3] ; [TipoCaja, Dimension (1.Ancho 2.Largo 3.Alto)]
 ;FOLD Tipo Saco 1
 
 ; Tipo Saco 1
@@ -775,15 +776,15 @@ DatosSaco[1,3]=130
 ;ENDFOLD
 
 ; Tipo Saco 2
-DatosSaco[1,1]=450
-DatosSaco[1,2]=700
-DatosSaco[1,3]=160
+DatosSaco[2,1]=450
+DatosSaco[2,2]=700
+DatosSaco[2,3]=160
 ;ENDFOLD
 
 
 
 
-DECL INT DatosPale[1,3] ; [TipoPale, Dimension(1.Ancho 2.Largo 3.Alto)]
+DECL INT DatosPale[2,3] ; [TipoPale, Dimension(1.Ancho 2.Largo 3.Alto)]
 ;FOLD Tipo Pale 1
 DatosPale[1,1]=1000
 DatosPale[1,2]=1200
