@@ -1,0 +1,139 @@
+11/27/2019 07:48:36 Application Start
+11/27/2019 07:50:08 Connecting PlugIn "CallerStack"
+11/27/2019 07:50:09 PlugIn "CallerStack" connected
+11/27/2019 07:50:10 Connecting PlugIn "KrcRobotLogic"
+11/27/2019 07:50:10 PlugIn "KrcRobotLogic" connected
+11/27/2019 07:50:10 Connecting PlugIn "LogonService"
+11/27/2019 07:50:14 PlugIn "LogonService" connected
+11/27/2019 07:50:14 Connecting PlugIn "MessageView"
+11/27/2019 07:50:14 AppSetting "PlugInUserConfigPath" not found; using Default: C:\KRC\HMI\Config\Save: Missing Configuration.
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 PlugIn "MessageView" connected
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:15 Connecting PlugIn "RobotData"
+11/27/2019 07:50:15 KrcEventLog::RegisterSource: KUKA-RDTU
+11/27/2019 07:50:16 PlugIn "RobotData" connected
+11/27/2019 07:50:16 Connecting PlugIn "SafeRobotMonitoring"
+11/27/2019 07:50:16 KrcEventLog::RegisterSource: KUKA-SRMI
+11/27/2019 07:50:16 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:16 PlugIn "SafeRobotMonitoring" connected
+11/27/2019 07:50:16 Connecting PlugIn "SIMULATE"
+11/27/2019 07:50:16 PlugIn "SIMULATE" connected
+11/27/2019 07:50:17 Connecting PlugIn "TechPackageCommands"
+11/27/2019 07:50:17 PlugIn "TechPackageCommands" connected
+11/27/2019 07:50:17 Connecting PlugIn "FILEHANDLER"
+11/27/2019 07:50:17 PlugIn "FILEHANDLER" connected
+11/27/2019 07:50:17 Connecting PlugIn "XEDIT"
+11/27/2019 07:50:17 PlugIn "XEDIT" connected
+11/27/2019 07:50:26 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 07:50:26 Application Ready
+11/27/2019 07:51:46 Connecting PlugIn "LogonDisplay"
+11/27/2019 07:51:46 PlugIn "LogonDisplay" connected
+11/27/2019 07:51:50 KrcEventLog::RegisterSource: KUKA-LOSU
+11/27/2019 07:52:06 Fail: Reload CrossMeld#1379: M_1379
+11/27/2019 08:06:29 Fail: Reload CrossMeld#1379: M_1379
+11/27/2019 08:16:46 Fail: Reload CrossMeld#1379: M_1379
+11/27/2019 08:25:43 OnModalChanged IsModal = True
+11/27/2019 08:25:44 OnModalChanged IsModal = False
+11/27/2019 08:25:56 KrcEventLog::RegisterSource: KUKA-KRCU
+11/27/2019 08:32:30 Connecting PlugIn "PowerOnStartType"
+11/27/2019 08:32:30 PlugIn "PowerOnStartType" connected
+11/27/2019 08:32:36 KrcEventLog::RegisterSource: KUKA-POSU
+11/27/2019 08:32:36 OnModalChanged IsModal = True
+11/27/2019 08:32:38 OnModalChanged IsModal = False
+11/27/2019 08:32:38 HMI Shutdown : OnBofExit called.
+11/27/2019 08:32:38 Disconnecting PlugIn "CallerStack"
+11/27/2019 08:32:38 PlugIn "CallerStack" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "FILEHANDLER"
+11/27/2019 08:32:38 PlugIn "FILEHANDLER" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "KrcRobotLogic"
+11/27/2019 08:32:38 PlugIn "KrcRobotLogic" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "LogonDisplay"
+11/27/2019 08:32:38 PlugIn "LogonDisplay" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "LogonService"
+11/27/2019 08:32:38 PlugIn "LogonService" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "MessageView"
+11/27/2019 08:32:38 PlugIn "MessageView" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "PowerOnStartType"
+11/27/2019 08:32:38 PlugIn "PowerOnStartType" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "RobotData"
+11/27/2019 08:32:38 PlugIn "RobotData" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "SafeRobotMonitoring"
+11/27/2019 08:32:38 PlugIn "SafeRobotMonitoring" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "SIMULATE"
+11/27/2019 08:32:38 PlugIn "SIMULATE" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "TechPackageCommands"
+11/27/2019 08:32:38 PlugIn "TechPackageCommands" disconnected
+11/27/2019 08:32:38 Disconnecting PlugIn "XEDIT"
+11/27/2019 08:32:38 PlugIn "XEDIT" disconnected
+11/27/2019 08:32:38 OnHandleDestroyed: FILEHANDLER - KUKARoboter.Navigator.FILEHANDLER
+11/27/2019 08:32:38 OnHandleDestroyed: XEDIT - KUKARoboter.AxXeditLib.XEDIT
+11/27/2019 08:32:38 OnHandleDestroyed: SIMULATE - KUKARoboter.AxSimulateLib.SIMULATE
+11/27/2019 08:32:38 OnHandleDestroyed: axSoftKeyBar - KUKARoboter.AxSoftKeyLib.AxSoftKeyBar
+11/27/2019 08:32:38 OnHandleDestroyed: OvProStatKey - KUKARoboter.AxMoveStatKeyLib.AxOvProStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: ParamStatKey4 - KUKARoboter.AxParaStatKeyLib.AxParaStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: MoveStatKey0 - KUKARoboter.AxMoveStatKeyLib.AxMoveStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: MoveStatKey1 - KUKARoboter.AxMoveStatKeyLib.AxMoveStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: MoveStatKey2 - KUKARoboter.AxMoveStatKeyLib.AxMoveStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: MoveStatKey3 - KUKARoboter.AxMoveStatKeyLib.AxMoveStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: MoveStatKey4 - KUKARoboter.AxMoveStatKeyLib.AxMoveStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: MoveStatKey5 - KUKARoboter.AxMoveStatKeyLib.AxMoveStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: ParamStatKey0 - KUKARoboter.AxParaStatKeyLib.AxParaStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: ParamStatKey1 - KUKARoboter.AxParaStatKeyLib.AxParaStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: ParamStatKey2 - KUKARoboter.AxParaStatKeyLib.AxParaStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: ParamStatKey3 - KUKARoboter.AxParaStatKeyLib.AxParaStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: EAxisStatkey - KUKARoboter.AxMoveStatKeyLib.AxEAxisStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: IncStatKey - KUKARoboter.AxMoveStatKeyLib.AxIncStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: CoordStatKey - KUKARoboter.AxMoveStatKeyLib.AxCoordStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: OvJogStatKey - KUKARoboter.AxMoveStatKeyLib.AxOvJogStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: DomStatKey - KUKARoboter.AxMoveStatKeyLib.AxDomStatKey
+11/27/2019 08:32:38 OnHandleDestroyed:  - KUKARoboter.AxNewUserKeyBar.AxNewUserKeyBar
+11/27/2019 08:32:38 OnHandleDestroyed: ModeStatKey - KUKARoboter.AxMoveStatKeyLib.AxModeStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: StepStatKey - KUKARoboter.AxMoveStatKeyLib.AxStepStatKey
+11/27/2019 08:32:38 OnHandleDestroyed: axMenuBar - KUKARoboter.AxSoftKeyLib.AxMenuBar
+11/27/2019 08:32:38 HMI: Application End

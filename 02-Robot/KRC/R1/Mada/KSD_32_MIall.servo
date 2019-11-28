@@ -1,0 +1,16 @@
+;****************************************
+;*** KUKA   Parametersatz             	***
+;*** Servoregler: KSD1-32             	***
+;*** Motortyp:  I    1FK7101S06        ***
+;*** Version 	vom 19.01.04            ***
+;****************************************
+;
+;
+PI   1069,  0 =    70    ;VP_Isq-Regler
+PI   1070,  0 =   150    ;KI_Isq-Regler
+PI   1071,  0 =    69    ;VP_Isd-Regler
+PI   1072,  0 =   150    ;KI_Isd-Regler
+PI   1073,  0 =   157    ;Back_EMF
+PI   1092,  0 =    18    ;Reglervorsteuerung
+PI   1018,  0 =     0    ;Schaltfrquenz 4kHz 
+;

@@ -1,0 +1,12 @@
+&ACCESS RVP
+&REL 1
+&PARAM TEMPLATE = C:\KRC\Roboter\Template\ExpertVorgabe
+&PARAM EDITMASK = *
+DEF BrakeTestSelfTest( )
+;FOLD perform brake test self test
+
+;ENDFOLD
+;FOLD ;%{H}
+BrakeTestReq(TRUE)
+;ENDFOLD
+END

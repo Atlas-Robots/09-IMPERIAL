@@ -1,0 +1,8 @@
+Friday, 22 November 2019 13:03:37
+Class: KUKARoboter.SafeRobot.Logic.SafetyRdwProxy; Method: UInt32 GetFormatVersion()
+Error Message: Comparison in telegram retries failed - values are different
+Stack Trace:    at KUKARoboter.SafeRobot.Logic.SafetyRdwProxy.GetFormatVersion()
+   at KUKARoboter.SafeRobot.Logic.SafetyRdwProxy.get_FormatVersion()
+   at KUKARoboter.SafeRobot.Monitoring.SafeRobotMonitoring.DataCheck()
+------------------------------------------------------------------------
+

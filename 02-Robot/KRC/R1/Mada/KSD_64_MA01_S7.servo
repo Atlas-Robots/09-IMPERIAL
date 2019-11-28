@@ -1,0 +1,17 @@
+;****************************************
+;*** KUKA   Parametersatz             ***
+;*** Servoregler: KSD1-64             ***
+;*** Motortyp:  1FK7105 A01           ***
+;*** Lieferant: Fa. Siemens           ***
+;*** TestVersion 0	vom 02.04.03  ***
+;****************************************
+;
+;
+PI   1069,  0 =    64    ;VP_Isq-Regler  
+PI   1070,  0 =   119     ;KI_Isq-Regler 
+PI   1071,  0 =    63    ;VP_Isd-Regler
+PI   1072,  0 =   119    ;KI_Isd-Regler
+PI   1073,  0 =   189    ;Back_EMF
+PI   1092,  0 =    18    ;Reglervorsteuerung
+PI   1018,  0 =     0    ;Schaltfrequenz 4kHz
+;

@@ -1,0 +1,15 @@
+KUKA IOSYS LOGFILE
+------------------
+Log Date 27.11.19 : 12:41
+
+open ini-file successful, version 2.00
+
+driver PNIODRV information
+  object file    
+  driver ready   1
+  driver version 0203
+  function entry 
+  input  objects 2
+  output objects 2
+
+IOLINKING: 0 links configured

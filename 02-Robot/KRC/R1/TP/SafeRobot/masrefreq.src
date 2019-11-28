@@ -1,0 +1,71 @@
+&ACCESS RV
+&REL 1
+&COMMENT MasRef-main task
+&PARAM EDITMASK = *
+DEF MasRefReq()
+;FOLD perform mastering reference
+
+;ENDFOLD
+;FOLD ;%{H};KUKA.TP.MASTERREFERENCE.BEGIN
+$MasteringTest_MonReset=TRUE
+if Varstate("$pro_ip.si01.name[]")==#declared  then
+else
+  if PerformMasterReference>0 then
+    if NOT $MasteringTest_Req_Ex AND NOT $MasteringTest_Req_Int AND NOT $Flag[PerformMasterReference] then
+      Return
+    endif
+    $Flag[PerformMasterReference]=FALSE
+  else
+    if NOT $MasteringTest_Req_Ex AND NOT $MasteringTest_Req_Int then
+      Return
+    endif
+  endif
+endif
+repeat 
+  if NOT $MasteringTestSwitch_OK then
+    ;quittmeldung
+    mrMsg({TYP #QUIT, KEY[] "MasteringSwitchFail"})
+  endif
+  $MasteringTest_Start=TRUE
+  WAIT SEC 0.024
+  if $MasteringTest_InPro then
+    mrMsg({TYP #QUIT, KEY[] "RDWNotResponse"}); $MasteringTest_InPro still TRUE
+  endif
+until NOT $MasteringTest_InPro AND $MasteringTestSwitch_OK
+MasRefStart()
+MasRefBack()
+WAIT FOR TRUE
+if $MasteringTest_Start then
+  $MasteringTest_Start=FALSE
+  WAIT SEC 0.024
+  if NOT $MasteringTest_InPro then
+    mrMsg({TYP #QUIT, KEY[] "MasterReferenceFailed"})
+  endif
+endif
+END
+DEF mrMsg(Msg :OUT)
+DECL MSG_T Msg
+Msg.PARAM[]="  "
+Msg.VALID=FALSE
+Msg.RELEASE=FALSE
+Msg.MODUL[]="MasRef"
+Msg.PARAM_TYP=#VALUE
+Msg.DLG_FORMAT[]=" "
+Msg.ANSWER=0
+WAIT SEC 0.2
+$MSG_T=Msg
+SWITCH Msg.TYP
+ CASE #QUIT
+  $MSG_T.VALID=TRUE
+  WHILE $MSG_T.VALID
+   WAIT SEC 0.05
+  ENDWHILE
+  WAIT SEC 0.2
+ CASE #NOTIFY
+  $MSG_T.VALID=TRUE
+  WHILE  $MSG_T.VALID
+   WAIT SEC 0.05
+  ENDWHILE
+ENDSWITCH
+END
+;ENDFOLD;KUKA.TP.MASTERREFERENCE.END

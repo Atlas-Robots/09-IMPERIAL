@@ -1,0 +1,144 @@
+<SafeRobotDisabledBackup>
+  <Path Name="RangeMonitoring.WorkspaceMonitoring" Number="1">
+    <Default Name="InterfaceNumberIn" Value="0" />
+  </Path>
+  <Path Name="RangeMonitoring.WorkspaceMonitoring" Number="2">
+    <Default Name="InterfaceNumberIn" Value="1" />
+  </Path>
+  <Path Name="RangeMonitoring.WorkspaceMonitoring" Number="3">
+    <Default Name="InterfaceNumberIn" Value="2" />
+  </Path>
+  <Path Name="RangeMonitoring.WorkspaceMonitoring" Number="4">
+    <Default Name="InterfaceNumberIn" Value="3" />
+  </Path>
+  <Path Name="RangeMonitoring.WorkspaceMonitoring" Number="5">
+    <Default Name="InterfaceNumberIn" Value="-1" />
+  </Path>
+  <Path Name="RangeMonitoring.WorkspaceMonitoring" Number="6">
+    <Default Name="InterfaceNumberIn" Value="-1" />
+  </Path>
+  <Path Name="RangeMonitoring.WorkspaceMonitoring" Number="7">
+    <Default Name="InterfaceNumberIn" Value="-1" />
+  </Path>
+  <Default Name="RangeMonitoring.CellSpace.StopsBeforeCellSpace" Value="false" />
+  <Path Name="RangeMonitoring.CellSpace.Polygon" Number="1">
+    <Default Name="X" Value="10000" />
+    <Default Name="Y" Value="10000" />
+    <Default Name="IsPolygonNodeActive" Value="true" />
+  </Path>
+  <Path Name="RangeMonitoring.CellSpace.Polygon" Number="2">
+    <Default Name="X" Value="-10000" />
+    <Default Name="Y" Value="10000" />
+    <Default Name="IsPolygonNodeActive" Value="true" />
+  </Path>
+  <Path Name="RangeMonitoring.CellSpace.Polygon" Number="3">
+    <Default Name="X" Value="-10000" />
+    <Default Name="Y" Value="-10000" />
+    <Default Name="IsPolygonNodeActive" Value="true" />
+  </Path>
+  <Path Name="RangeMonitoring.CellSpace.Polygon" Number="4">
+    <Default Name="X" Value="10000" />
+    <Default Name="Y" Value="-10000" />
+    <Default Name="IsPolygonNodeActive" Value="true" />
+  </Path>
+  <Path Name="RangeMonitoring.CellSpace.Polygon" Number="5">
+    <Default Name="X" Value="0" />
+    <Default Name="Y" Value="0" />
+    <Default Name="IsPolygonNodeActive" Value="false" />
+  </Path>
+  <Path Name="RangeMonitoring.CellSpace.Polygon" Number="6">
+    <Default Name="X" Value="0" />
+    <Default Name="Y" Value="0" />
+    <Default Name="IsPolygonNodeActive" Value="false" />
+  </Path>
+  <Path Name="ControlledAxis.Axis" Number="1">
+    <Default Name="AxisMonitoring" Value="false" />
+  </Path>
+  <Path Name="ControlledAxis.Axis" Number="2">
+    <Default Name="AxisMonitoring" Value="false" />
+  </Path>
+  <Path Name="ControlledAxis.Axis" Number="3">
+    <Default Name="AxisMonitoring" Value="false" />
+  </Path>
+  <Path Name="ControlledAxis.Axis" Number="4">
+    <Default Name="AxisMonitoring" Value="false" />
+  </Path>
+  <Path Name="ControlledAxis.Axis" Number="5">
+    <Default Name="AxisMonitoring" Value="false" />
+  </Path>
+  <Path Name="ControlledAxis.Axis" Number="6">
+    <Default Name="AxisMonitoring" Value="false" />
+  </Path>
+  <Path Name="ControlledAxis.Axis" Number="7">
+    <Default Name="AxisMonitoring" Value="false" />
+  </Path>
+  <Path Name="ControlledAxis.Axis" Number="8">
+    <Default Name="AxisMonitoring" Value="false" />
+  </Path>
+  <Default Name="ReducedVelocityCartesian.globalCartVel" Value="10000" />
+  <Default Name="ReducedVelocityCartesian.actualTCPVelocity" Value="10000" />
+  <Path Name="SafetyStop.Axis" Number="1">
+    <Default Name="MonitorSafetyStop" Value="true" />
+  </Path>
+  <Path Name="SafetyStop.Axis" Number="2">
+    <Default Name="MonitorSafetyStop" Value="true" />
+  </Path>
+  <Path Name="SafetyStop.Axis" Number="3">
+    <Default Name="MonitorSafetyStop" Value="true" />
+  </Path>
+  <Path Name="SafetyStop.Axis" Number="4">
+    <Default Name="MonitorSafetyStop" Value="true" />
+  </Path>
+  <Path Name="SafetyStop.Axis" Number="5">
+    <Default Name="MonitorSafetyStop" Value="true" />
+  </Path>
+  <Path Name="SafetyStop.Axis" Number="6">
+    <Default Name="MonitorSafetyStop" Value="true" />
+  </Path>
+  <Path Name="SafetyStop.Axis" Number="7">
+    <Default Name="MonitorSafetyStop" Value="false" />
+  </Path>
+  <Path Name="SafetyStop.Axis" Number="8">
+    <Default Name="MonitorSafetyStop" Value="false" />
+  </Path>
+  <Path Name="Tools.Tool" Number="1">
+    <Default Name="InterfaceNumberIn" Value="-1" />
+    <Default Name="Payload.M" Value="0" />
+    <Default Name="Payload.CM.X" Value="0" />
+    <Default Name="Payload.CM.Y" Value="0" />
+    <Default Name="Payload.CM.Z" Value="0" />
+    <Default Name="Payload.CM.A" Value="0" />
+    <Default Name="Payload.CM.B" Value="0" />
+    <Default Name="Payload.CM.C" Value="0" />
+    <Default Name="Payload.J.X" Value="0" />
+    <Default Name="Payload.J.Y" Value="0" />
+    <Default Name="Payload.J.Z" Value="0" />
+    <Default Name="TCPVector_X" Value="0" />
+    <Default Name="TCPVector_Y" Value="0" />
+    <Default Name="TCPVector_Z" Value="0" />
+    <Path Name="Sphere" Number="1">
+      <Default Name="X" Value="0" />
+    </Path>
+    <Path Name="Sphere" Number="2">
+      <Default Name="X" Value="0" />
+    </Path>
+    <Path Name="Sphere" Number="1">
+      <Default Name="Y" Value="0" />
+    </Path>
+    <Path Name="Sphere" Number="2">
+      <Default Name="Y" Value="0" />
+    </Path>
+    <Path Name="Sphere" Number="1">
+      <Default Name="Z" Value="0" />
+    </Path>
+    <Path Name="Sphere" Number="2">
+      <Default Name="Z" Value="0" />
+    </Path>
+    <Path Name="Sphere" Number="1">
+      <Default Name="Radius" Value="500" />
+    </Path>
+    <Path Name="Sphere" Number="2">
+      <Default Name="Radius" Value="500" />
+    </Path>
+  </Path>
+</SafeRobotDisabledBackup>

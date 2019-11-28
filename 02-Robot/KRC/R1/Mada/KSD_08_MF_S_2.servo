@@ -1,0 +1,24 @@
+;****************************************
+;*** KUKA   Parametersatz             ***
+;*** Servoregler: KSD1-08             ***
+;*** Motortyp:  1FK7022     	      ***
+;*** Lieferant: Siemens               ***
+;*** Testversion V1.0                 ***
+;***                                  ***
+;*** optimierung des Entkoppelungs-   ***
+;*** netzwerkes                       ***
+;***                                  ***
+;*** Hartmut Keyl                     ***
+;*** R12-M25                          ***
+;*** 05.03.2010                       ***
+;****************************************
+;
+;
+PI   1069,  0 =    80    ;VP_Isq-Regler
+PI   1070,  0 =   200    ;KI_Isq-Regler
+PI   1071,  0 =    79    ;VP_Isd-Regler
+PI   1072,  0 =   200    ;KI_Isd-Regler
+PI   1073,  0 =    67    ;Back_EMF
+PI   1092,  0 =    49    ;Reglervorsteuerung (20mH ~ 128)
+PI   1018,  0 =     0    ;Schaltfrequenz 4kHz
+;

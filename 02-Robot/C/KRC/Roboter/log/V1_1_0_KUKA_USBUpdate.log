@@ -1,0 +1,148 @@
+09:19:40 .SETUP.EXE started at: November 22, 2019 09:19:40
+09:19:40 -----------------------------------------------------------------------------
+09:19:40 .Command line: -Q
+09:19:40 .Check if the user belongs to the Administrators group
+09:19:40 .User belongs to the Administrators group
+09:19:40 .Kit-Dll loaded from: D:\KRC1_CD\INTERNAT\TOOLS\USB\Kit.dll
+09:19:40 .CheckKitVersion: TRUE (KitVersion: 1.16.1.0)
+09:19:40 .Version.ini: Option=KUKA.USB Version=V1.1.0 Build=8 Date=20081030 
+09:19:40 .Start init PreSelectBase
+09:19:40 .enumerate installed options
+09:19:40 .->result: KUKA.SafeRobot
+09:19:40 .->result: ProfiNetIO
+09:19:40 .->result: KUKA.USB
+09:19:40 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "Version"
+09:19:40 .->result: V5.6.12
+09:19:40 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "OfficeLite"
+09:19:40 .->result: 0
+09:19:40 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "Customer"
+09:19:40 .->result: KUKA
+09:19:40 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "InstallationDir"
+09:19:40 .->result: C:\KRC
+09:19:40 .S4R: Get the TrafoName for the actual mada typ.
+09:19:40 .S4R: Actual TrafoName: #KR2210_2 S C2 FLR ZH210
+09:19:40 .reading: [HKLM\Software\Microsoft\Windows NT\CurrentVersion], "KUKA_Build"
+09:19:40 .->result: XPe V2.0.0 Build 2, 2006-06-01
+09:19:40 .End init PreSelectBase
+09:19:40 .Execute check parameter: D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\DevInstXP.exe #/Q /F PCI\VEN_8086&DEV_1019&SUBSYS_101E1734&REV_00#
+09:19:40 .Execute start: "D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\DevInstXP.exe" /Q /F PCI\VEN_8086&DEV_1019&SUBSYS_101E1734&REV_00
+09:19:40 .Return value from executed program: 0
+09:19:40 .reading: [HKLM\Software\KUKA Roboter GmbH\Options\KUKA.USB], "Version"
+09:19:40 !can't open key
+09:19:40 .reading: [HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\KUKA.USB], "DisplayVersion"
+09:19:40 .->result: V1.1.0
+09:19:40 .reading: [HKLM\HARDWARE\DESCRIPTION\System], "SystemBiosDate"
+09:19:40 .->result: 03/16/07
+09:19:40 .use section [Update]
+09:19:40 .Use INI-File: D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\Update_08.ini
+09:19:40 .Check INI-files.
+09:19:41 !Section 'Exec4' not found in 'D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\Update_08.ini'.
+09:19:41 !Section 'Delete0' not found in 'D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\Update_08.ini'.
+09:19:41 !Section 'WinDir' not found in 'D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\Update_08.ini'.
+09:19:41 !Section 'UserVar' not found in 'D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\Update_08.ini'.
+09:19:41 !Section 'Dependencies' not found in 'D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\Update_08.ini'.
+09:19:41 !Section 'NoKrc' not found in 'D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\Update_08.ini'.
+09:19:41 !Unable to get 'CheckRegistry' from KuKaUpd.ini
+09:19:41 !Unable to get 'OperatingSystem' from KuKaUpd.ini
+09:19:41 .No check of operating system
+09:19:41 .Get infos from current installed release
+09:19:41 !Unable to get value of registry key 'Patch'.
+09:19:41 !Unable to get value of registry key 'PatchDir'.
+09:19:41 !Get ParameterMark: No value for ParameterMark found. Use #
+09:19:41 !Unable to get 'LogFile' from KuKaUpd.ini
+09:19:41 .GetUserExeLangID: 0x409
+09:19:41 !Get LanguageDir no Id available in section [WinDir]
+09:19:41 !Get LanguageDir Id not found in section [WinDir]
+09:19:41 .Check whether 'KUKA_HMI.EXE' is running
+09:19:41 .Check whether 'CROSS3.EXE' is running
+09:19:41 .Check whether 'KUKABOF.EXE' is running
+09:19:41 .Check whether 'KUKADB.EXE' is running
+09:19:41 .No KRC process is running => RunOnce=FALSE
+09:19:41 .Check if the user belongs to the Administrators group
+09:19:41 .User belongs to the Administrators group
+09:19:41 !Unable to get 'ShowSecurityCheck' from KuKaUpd.ini
+09:19:41 !Unable to get 'KrcRunning' from KuKaUpd.ini
+09:19:41 !Unable to get 'CheckDependencies' from KuKaUpd.ini
+09:19:41 .Start prepare Technology Setup installation
+09:19:41 .Don't check installed version and service pack version
+09:19:41 .Copy all files of the Technology Setup to: D:\KUKA_OPT\KUKA.USB
+09:19:41 .EraseDir: 43 in D:\KUKA_OPT\KUKA.USB
+09:19:41 .CopyDir: 42 from D:\KRC1_CD\INTERNAT\TOOLS\USB to D:\KUKA_OPT\KUKA.USB
+09:19:41 .CopyFiles: 1 from D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\Update_08.ini to D:\KUKA_OPT\KUKA.USB\Internat\KrcUpd\KukaUpd.ini
+09:19:41 .Copy Exec1 files disabled
+09:19:41 .Copy Exec2 files disabled
+09:19:41 .Copy Exec3 files disabled
+09:19:41 .Copy Exec4 files disabled
+09:19:41 .Delete work 0
+09:19:41 !Delete work nothing to do
+09:19:41 .Make SaveDir
+09:19:41 !Make SaveDir nothing to do
+09:19:41 .Save files
+09:19:41 .Copy files with wininit-method
+09:19:41 .Execute check parameter: D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\DevInstXP.exe #/Q /EA *kcbiosd1688
+09:19:41 .Execute start: "D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\DevInstXP.exe" /Q /EA *kcbiosd1688
+09:19:42 .Return value from executed program: 0
+09:19:42 .Execute check parameter: D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\XchgFile.exe #SERVICE | D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\KukaDriveManager.del#
+09:19:42 .Execute start: "D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\XchgFile.exe" SERVICE | D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\KukaDriveManager.del
+09:19:42 .XchgFile: CmdLine "SERVICE | D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\KukaDriveManager.del"
+09:19:42 .Kit-Dll loaded from: D:\KRC1_CD\Internat\tools\USB\Kit.dll
+09:19:42 .----- service operation: [StopKukaDriveManager] -----
+09:19:42 .stop service succeeded
+09:19:42 .----- service operation: [UnInstKukaDriveManager] -----
+09:19:44 .delete service succeeded
+09:19:44 .Return value from executed program: 0
+09:19:44 !Get NoHibernate: No value for NoHibernate found. Use 'AUTO'
+09:19:44 .Check whether 'KUKA_HMI.EXE' is running
+09:19:44 .Check whether 'CROSS3.EXE' is running
+09:19:44 .Check whether 'KUKABOF.EXE' is running
+09:19:44 .Check whether 'KUKADB.EXE' is running
+09:19:44 .No KRC process is running => RunOnce=FALSE
+09:19:44 .KRC process is not running => NoHibernate=FALSE
+09:19:44 .Check whether 'KUKA_HMI.EXE' is running
+09:19:44 .Check whether 'CROSS3.EXE' is running
+09:19:44 .Check whether 'KUKABOF.EXE' is running
+09:19:44 .Check whether 'KUKADB.EXE' is running
+09:19:44 .No KRC process is running => RunOnce=FALSE
+09:19:44 .Unregister files
+09:19:44 .Delete work 1
+09:19:44 .Copy files final step
+09:19:44 .CopyDir: 6 from D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KRCSetup\WINDOWS to C:\WINDOWS
+09:19:44 .CopyDir: 2 from D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KRCUPD\Floppy08 to C:\WINDOWS
+09:19:44 !Condition FALSE: [CopyFiles] %WinDir%=%SourceDir%\Internat\KRCUPD\NoFloppy08,0x0002 ///KrcVersion=V7
+09:19:44 .Execute check parameter: D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\DevInstXP.exe #/Q /EA *kcbiosd1688
+09:19:44 .Execute start: "D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\DevInstXP.exe" /Q /EA *kcbiosd1688
+09:19:44 .Return value from executed program: 4
+09:19:44 .Execute check parameter: D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\DevInstXP.exe #/Q *kcbiosd1688 "D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\KCBiosD1688.inf"#
+09:19:44 .Execute start: "D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\DevInstXP.exe" /Q *kcbiosd1688 "D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\KCBiosD1688.inf"
+09:19:47 .Return value from executed program: 0
+09:19:47 .Execute check parameter: C:\WINDOWS\system32\rundll32.exe #setupapi,InstallHinfSection DefaultInstall 132 D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\WBD_UsbFltDrv.inf#
+09:19:47 .Execute start: "C:\WINDOWS\system32\rundll32.exe" setupapi,InstallHinfSection DefaultInstall 132 D:\KRC1_CD\INTERNAT\TOOLS\USB\INTERNAT\KRCUPD\WBD_UsbFltDrv.inf
+09:19:48 .Return value from executed program: 0
+09:19:48 .Register files
+09:19:48 .Save registry
+09:19:48 .Registry work
+09:19:48 !Unable to get 'RegeditDir' from KuKaUpd.ini use default value.
+09:19:48 .Registry work: "D:\KRC1_CD\INTERNAT\TOOLS\USB\Internat\KrcUpd\Usb.reg"
+09:19:48 .Modify files
+09:19:48 .Make shortcuts
+09:19:48 .No update of patch info in registry
+09:19:48 .Add KukaLog
+09:19:48 .Reset security of registry key 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\KUKA.USB' and subkeys.
+09:19:48 .Reset security of registry key 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\KUKA.USB\Dependencies' and subkeys.
+09:19:48 .Force KRC1 to make cold start
+09:19:48 .Force no hibernate
+09:19:48 .Check whether 'KUKA_HMI.EXE' is running
+09:19:48 .Check whether 'CROSS3.EXE' is running
+09:19:48 .Check whether 'KUKABOF.EXE' is running
+09:19:48 .Check whether 'KUKADB.EXE' is running
+09:19:48 .No KRC process is running => RunOnce=FALSE
+09:19:48 .Don't force windows to make restart  after installation of the Technology Setup
+09:19:48 .Check whether 'KUKA_HMI.EXE' is running
+09:19:48 .Check whether 'CROSS3.EXE' is running
+09:19:48 .Check whether 'KUKABOF.EXE' is running
+09:19:48 .Check whether 'KUKADB.EXE' is running
+09:19:48 .No KRC process is running => RunOnce=FALSE
+09:19:48 .Technology Setup executed successfully!!
+09:19:48 !Unable to get 'DelSourceDir' from KuKaUpd.ini
+09:19:48 .SETUP.EXE ends at: November 22, 2019 09:19:48
+09:19:48 -----------------------------------------------------------------------------

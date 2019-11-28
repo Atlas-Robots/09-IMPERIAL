@@ -1,0 +1,16 @@
+;****************************************
+;*** KUKA   Parametersatz             ***
+;*** Servoregler: KSD1-32             ***
+;*** Motortyp:  HS7                   ***
+;*** Art.-Nr.:  00-115-925            ***
+;****************************************
+;
+;
+PI   1069,  0 =   108    ;VP_Isq-Regler
+PI   1070,  0 =   300    ;KI_Isq-Regler
+PI   1071,  0 =   108    ;VP_Isd-Regler
+PI   1072,  0 =   300    ;KI_Isd-Regler
+PI   1073,  0 =   131    ;Back_EMF
+PI   1092,  0 =    18    ;Reglervorsteuerung
+PI   1018,  0 =     0    ;Schaltfrequenz 4kHz
+;

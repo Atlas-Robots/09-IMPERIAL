@@ -1,0 +1,643 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  22.11.2019  Time: 09:24:27
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     22.11.2019, 09:24:27 FW connection established
+Driverevent     22.11.2019, 09:24:28 reading INI file...OK
+Driverevent     22.11.2019, 09:24:28 FW Version 2.5.1.0
+Driverevent     22.11.2019, 09:24:29 IP Adress of CP is 192.168.100.1
+Driverevent     22.11.2019, 09:24:34 identical serialnumber on CP and in backup
+Driverevent     22.11.2019, 09:24:34 identical FW version on CP and in backup
+Driverevent     22.11.2019, 09:24:35 identical S7Project on CP and in backup
+Controllerevent 22.11.2019, 09:24:35 Controller mode change to OPERATE
+Driverevent     22.11.2019, 09:24:36 Controllerinstance...OK
+IOCTLEvent      22.11.2019, 09:24:39 START IOCTL command for driver
+Controllerevent 22.11.2019, 10:04:06 Controller mode change to OFFLINE
+IOCTLEvent      22.11.2019, 10:06:53 FREEZE IOCTL command for driver
+IOCTLEvent      22.11.2019, 10:06:54 CONTINUE IOCTL command for driver
+Driverevent     22.11.2019, 10:06:54 FW connection established
+Controllerevent 22.11.2019, 10:06:55 Controller mode change to OPERATE
+IOCTLEvent      22.11.2019, 10:06:56 START IOCTL command for driver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  22.11.2019  Time: 11:31:20
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     22.11.2019, 11:31:20 FW connection established
+Driverevent     22.11.2019, 11:31:21 reading INI file...OK
+Driverevent     22.11.2019, 11:31:21 FW Version 2.5.1.0
+Driverevent     22.11.2019, 11:31:22 IP Adress of CP is 192.168.100.1
+Driverevent     22.11.2019, 11:31:23 identical serialnumber on CP and in backup
+Driverevent     22.11.2019, 11:31:23 identical FW version on CP and in backup
+Driverevent     22.11.2019, 11:31:24 identical S7Project on CP and in backup
+Controllerevent 22.11.2019, 11:31:24 Controller mode change to OPERATE
+Driverevent     22.11.2019, 11:31:25 Controllerinstance...OK
+IOCTLEvent      22.11.2019, 11:31:27 START IOCTL command for driver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  22.11.2019  Time: 11:50:42
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     22.11.2019, 11:50:43 FW connection established
+Driverevent     22.11.2019, 11:50:44 reading INI file...OK
+Driverevent     22.11.2019, 11:50:44 FW Version 2.5.1.0
+Driverevent     22.11.2019, 11:50:45 IP Adress of CP is 192.168.100.1
+Driverevent     22.11.2019, 11:50:45 identical serialnumber on CP and in backup
+Driverevent     22.11.2019, 11:50:46 identical FW version on CP and in backup
+Driverevent     22.11.2019, 11:50:47 identical S7Project on CP and in backup
+Controllerevent 22.11.2019, 11:50:47 Controller mode change to OPERATE
+Driverevent     22.11.2019, 11:50:48 Controllerinstance...OK
+IOCTLEvent      22.11.2019, 11:50:50 START IOCTL command for driver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  22.11.2019  Time: 12:00:40
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     22.11.2019, 12:00:41 FW connection established
+Driverevent     22.11.2019, 12:00:42 reading INI file...OK
+Driverevent     22.11.2019, 12:00:42 FW Version 2.5.1.0
+Driverevent     22.11.2019, 12:00:43 IP Adress of CP is 192.168.100.1
+Driverevent     22.11.2019, 12:00:43 identical serialnumber on CP and in backup
+Driverevent     22.11.2019, 12:00:44 identical FW version on CP and in backup
+Driverevent     22.11.2019, 12:00:45 identical S7Project on CP and in backup
+Controllerevent 22.11.2019, 12:00:45 Controller mode change to OPERATE
+Driverevent     22.11.2019, 12:00:46 Controllerinstance...OK
+IOCTLEvent      22.11.2019, 12:00:48 START IOCTL command for driver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  22.11.2019  Time: 13:03:04
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     22.11.2019, 13:03:04 FW connection established
+Driverevent     22.11.2019, 13:03:05 reading INI file...OK
+Driverevent     22.11.2019, 13:03:05 FW Version 2.5.1.0
+Driverevent     22.11.2019, 13:03:06 IP Adress of CP is 192.168.100.1
+Driverevent     22.11.2019, 13:03:07 identical serialnumber on CP and in backup
+Driverevent     22.11.2019, 13:03:07 identical FW version on CP and in backup
+Driverevent     22.11.2019, 13:03:08 identical S7Project on CP and in backup
+Controllerevent 22.11.2019, 13:03:08 Controller mode change to OPERATE
+Driverevent     22.11.2019, 13:03:09 Controllerinstance...OK
+IOCTLEvent      22.11.2019, 13:03:11 START IOCTL command for driver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  22.11.2019  Time: 13:26:21
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     22.11.2019, 13:26:22 FW connection established
+Driverevent     22.11.2019, 13:26:22 reading INI file...OK
+Driverevent     22.11.2019, 13:26:23 FW Version 2.5.1.0
+Driverevent     22.11.2019, 13:26:24 IP Adress of CP is 192.168.100.1
+Driverevent     22.11.2019, 13:26:24 identical serialnumber on CP and in backup
+Driverevent     22.11.2019, 13:26:25 identical FW version on CP and in backup
+Driverevent     22.11.2019, 13:26:25 identical S7Project on CP and in backup
+Controllerevent 22.11.2019, 13:26:26 Controller mode change to OPERATE
+Driverevent     22.11.2019, 13:26:26 Controllerinstance...OK
+IOCTLEvent      22.11.2019, 13:26:28 START IOCTL command for driver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  23.11.2019  Time: 08:32:16
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     23.11.2019, 08:32:16 FW connection established
+Driverevent     23.11.2019, 08:32:17 reading INI file...OK
+Driverevent     23.11.2019, 08:32:17 FW Version 2.5.1.0
+Driverevent     23.11.2019, 08:32:18 IP Adress of CP is 192.168.100.1
+Driverevent     23.11.2019, 08:32:19 identical serialnumber on CP and in backup
+Driverevent     23.11.2019, 08:32:19 identical FW version on CP and in backup
+Driverevent     23.11.2019, 08:32:20 identical S7Project on CP and in backup
+Controllerevent 23.11.2019, 08:32:20 Controller mode change to OPERATE
+Driverevent     23.11.2019, 08:32:21 Controllerinstance...OK
+IOCTLEvent      23.11.2019, 08:32:23 START IOCTL command for driver
+Controllerevent 23.11.2019, 12:28:43 Controller mode change to OFFLINE
+IOCTLEvent      25.11.2019, 07:44:02 FREEZE IOCTL command for driver
+IOCTLEvent      25.11.2019, 07:44:03 CONTINUE IOCTL command for driver
+Driverevent     25.11.2019, 07:44:03 FW connection established
+Controllerevent 25.11.2019, 07:44:04 Controller mode change to OPERATE
+IOCTLEvent      25.11.2019, 07:44:07 START IOCTL command for driver
+Controllerevent 25.11.2019, 09:21:47 Controller mode change to OFFLINE
+IOCTLEvent      25.11.2019, 09:28:10 FREEZE IOCTL command for driver
+IOCTLEvent      25.11.2019, 09:28:11 CONTINUE IOCTL command for driver
+Driverevent     25.11.2019, 09:28:11 FW connection established
+Controllerevent 25.11.2019, 09:28:12 Controller mode change to OPERATE
+IOCTLEvent      25.11.2019, 09:28:15 START IOCTL command for driver
+Controllerevent 25.11.2019, 09:28:21 Controller mode change to OFFLINE
+IOCTLEvent      25.11.2019, 09:30:44 FREEZE IOCTL command for driver
+IOCTLEvent      25.11.2019, 09:30:45 CONTINUE IOCTL command for driver
+Driverevent     25.11.2019, 09:30:45 FW connection established
+Controllerevent 25.11.2019, 09:30:46 Controller mode change to OPERATE
+IOCTLEvent      25.11.2019, 09:30:49 START IOCTL command for driver
+IOCTLEvent      25.11.2019, 10:28:17 STOP IOCTL command for driver
+Controllerevent 25.11.2019, 10:28:20 Controller mode change to OFFLINE
+Driverevent     25.11.2019, 10:28:21 Controllerinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  25.11.2019  Time: 10:28:25
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     25.11.2019, 10:28:26 FW connection established
+Driverevent     25.11.2019, 10:28:26 reading INI file...OK
+Driverevent     25.11.2019, 10:28:27 FW Version 2.5.1.0
+Driverevent     25.11.2019, 10:28:28 IP Adress of CP is 192.168.100.1
+Driverevent     25.11.2019, 10:28:29 identical serialnumber on CP and in backup
+Driverevent     25.11.2019, 10:28:29 identical FW version on CP and in backup
+Driverevent     25.11.2019, 10:28:30 identical S7Project on CP and in backup
+Controllerevent 25.11.2019, 10:28:31 Controller mode change to OPERATE
+Driverevent     25.11.2019, 10:28:31 Controllerinstance...OK
+IOCTLEvent      25.11.2019, 10:28:34 START IOCTL command for driver
+IOCTLEvent      25.11.2019, 10:32:49 STOP IOCTL command for driver
+Controllerevent 25.11.2019, 10:32:51 Controller mode change to OFFLINE
+Driverevent     25.11.2019, 10:32:53 Controllerinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  25.11.2019  Time: 10:32:57
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     25.11.2019, 10:32:57 FW connection established
+Driverevent     25.11.2019, 10:32:58 reading INI file...OK
+Driverevent     25.11.2019, 10:32:59 FW Version 2.5.1.0
+Driverevent     25.11.2019, 10:32:59 IP Adress of CP is 192.168.100.1
+Driverevent     25.11.2019, 10:33:00 identical serialnumber on CP and in backup
+Driverevent     25.11.2019, 10:33:01 identical FW version on CP and in backup
+Driverevent     25.11.2019, 10:33:01 identical S7Project on CP and in backup
+Controllerevent 25.11.2019, 10:33:02 Controller mode change to OPERATE
+Driverevent     25.11.2019, 10:33:02 Controllerinstance...OK
+IOCTLEvent      25.11.2019, 10:33:04 START IOCTL command for driver
+IOCTLEvent      25.11.2019, 10:47:53 STOP IOCTL command for driver
+Controllerevent 25.11.2019, 10:47:55 Controller mode change to OFFLINE
+Driverevent     25.11.2019, 10:47:57 Controllerinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  25.11.2019  Time: 10:48:01
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     25.11.2019, 10:48:01 FW connection established
+Driverevent     25.11.2019, 10:48:02 reading INI file...OK
+Driverevent     25.11.2019, 10:48:03 FW Version 2.5.1.0
+Driverevent     25.11.2019, 10:48:04 IP Adress of CP is 192.168.100.1
+Driverevent     25.11.2019, 10:48:04 identical serialnumber on CP and in backup
+Driverevent     25.11.2019, 10:48:05 identical FW version on CP and in backup
+Driverevent     25.11.2019, 10:48:05 identical S7Project on CP and in backup
+Controllerevent 25.11.2019, 10:48:06 Controller mode change to OPERATE
+Driverevent     25.11.2019, 10:48:07 Controllerinstance...OK
+IOCTLEvent      25.11.2019, 10:48:08 START IOCTL command for driver
+Controllerevent 25.11.2019, 18:32:10 Controller mode change to OFFLINE
+IOCTLEvent      26.11.2019, 09:02:48 FREEZE IOCTL command for driver
+IOCTLEvent      26.11.2019, 09:02:49 CONTINUE IOCTL command for driver
+Driverevent     26.11.2019, 09:02:49 FW connection established
+Controllerevent 26.11.2019, 09:02:50 Controller mode change to OPERATE
+IOCTLEvent      26.11.2019, 09:02:53 START IOCTL command for driver
+Controllerevent 26.11.2019, 09:08:35 Controller mode change to OFFLINE
+IOCTLEvent      26.11.2019, 09:16:23 FREEZE IOCTL command for driver
+IOCTLEvent      26.11.2019, 09:16:24 CONTINUE IOCTL command for driver
+Driverevent     26.11.2019, 09:16:24 FW connection established
+Controllerevent 26.11.2019, 09:16:25 Controller mode change to OPERATE
+IOCTLEvent      26.11.2019, 09:16:28 START IOCTL command for driver
+IOCTLEvent      26.11.2019, 09:36:28 STOP IOCTL command for driver
+Controllerevent 26.11.2019, 09:36:31 Controller mode change to OFFLINE
+Driverevent     26.11.2019, 09:36:33 Controllerinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  26.11.2019  Time: 09:36:37
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     26.11.2019, 09:36:37 FW connection established
+Driverevent     26.11.2019, 09:36:38 reading INI file...OK
+Driverevent     26.11.2019, 09:36:38 FW Version 2.5.1.0
+Driverevent     26.11.2019, 09:36:39 IP Adress of CP is 192.168.100.1
+Driverevent     26.11.2019, 09:36:41 identical serialnumber on CP and in backup
+Driverevent     26.11.2019, 09:36:41 identical FW version on CP and in backup
+Driverevent     26.11.2019, 09:36:42 identical S7Project on CP and in backup
+Controllerevent 26.11.2019, 09:36:42 Controller mode change to OPERATE
+Driverevent     26.11.2019, 09:36:43 Controllerinstance...OK
+IOCTLEvent      26.11.2019, 09:36:45 START IOCTL command for driver
+Controllerevent 26.11.2019, 10:06:21 Controller mode change to OFFLINE
+IOCTLEvent      26.11.2019, 10:12:19 FREEZE IOCTL command for driver
+IOCTLEvent      26.11.2019, 10:12:20 CONTINUE IOCTL command for driver
+Driverevent     26.11.2019, 10:12:20 FW connection established
+Controllerevent 26.11.2019, 10:12:21 Controller mode change to OPERATE
+IOCTLEvent      26.11.2019, 10:12:24 START IOCTL command for driver
+IOCTLEvent      26.11.2019, 18:11:10 STOP IOCTL command for driver
+Controllerevent 26.11.2019, 18:11:12 Controller mode change to OFFLINE
+Driverevent     26.11.2019, 18:11:13 Controllerinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  26.11.2019  Time: 18:11:18
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     26.11.2019, 18:11:18 FW connection established
+Driverevent     26.11.2019, 18:11:19 reading INI file...OK
+Driverevent     26.11.2019, 18:11:19 FW Version 2.5.1.0
+Driverevent     26.11.2019, 18:11:20 IP Adress of CP is 192.168.100.1
+Driverevent     26.11.2019, 18:11:22 identical serialnumber on CP and in backup
+Driverevent     26.11.2019, 18:11:22 identical FW version on CP and in backup
+Driverevent     26.11.2019, 18:11:23 identical S7Project on CP and in backup
+Controllerevent 26.11.2019, 18:11:23 Controller mode change to OPERATE
+Driverevent     26.11.2019, 18:11:24 Controllerinstance...OK
+IOCTLEvent      26.11.2019, 18:11:26 START IOCTL command for driver
+Controllerevent 26.11.2019, 18:12:48 Controller mode change to OFFLINE
+IOCTLEvent      26.11.2019, 18:15:14 STOP IOCTL command for driver
+Driverevent     26.11.2019, 18:15:16 Controllerinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  26.11.2019  Time: 18:15:20
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     26.11.2019, 18:15:21 FW connection established
+Driverevent     26.11.2019, 18:15:21 reading INI file...OK
+Driverevent     26.11.2019, 18:15:22 FW Version 2.5.1.0
+Driverevent     26.11.2019, 18:15:23 IP Adress of CP is 192.168.100.2
+Driverevent     26.11.2019, 18:15:23 identical serialnumber on CP and in backup
+Driverevent     26.11.2019, 18:15:24 identical FW version on CP and in backup
+Driverevent     26.11.2019, 18:15:25 different S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  26.11.2019  Time: 18:40:29
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     26.11.2019, 18:40:30 FW connection established
+Driverevent     26.11.2019, 18:40:30 reading INI file...OK
+Driverevent     26.11.2019, 18:40:31 FW Version 2.5.1.0
+Driverevent     26.11.2019, 18:40:32 IP Adress of CP is 192.168.100.2
+Driverevent     26.11.2019, 18:40:32 identical serialnumber on CP and in backup
+Driverevent     26.11.2019, 18:40:33 identical FW version on CP and in backup
+Driverevent     26.11.2019, 18:40:34 identical S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  26.11.2019  Time: 18:41:51
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     26.11.2019, 18:41:52 FW connection established
+Driverevent     26.11.2019, 18:41:52 reading INI file...OK
+Driverevent     26.11.2019, 18:41:53 FW Version 2.5.1.0
+Driverevent     26.11.2019, 18:41:54 IP Adress of CP is 192.168.100.2
+Driverevent     26.11.2019, 18:41:54 identical serialnumber on CP and in backup
+Driverevent     26.11.2019, 18:41:55 identical FW version on CP and in backup
+Driverevent     26.11.2019, 18:41:55 different S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  26.11.2019  Time: 18:42:25
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     26.11.2019, 18:42:26 FW connection established
+Driverevent     26.11.2019, 18:42:26 reading INI file...OK
+Driverevent     26.11.2019, 18:42:27 FW Version 2.5.1.0
+Driverevent     26.11.2019, 18:42:28 IP Adress of CP is 192.168.100.2
+Driverevent     26.11.2019, 18:42:28 identical serialnumber on CP and in backup
+Driverevent     26.11.2019, 18:42:29 identical FW version on CP and in backup
+Driverevent     26.11.2019, 18:42:30 identical S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 07:02:00
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 07:02:00 FW connection established
+Driverevent     27.11.2019, 07:02:01 reading INI file...OK
+Driverevent     27.11.2019, 07:02:01 FW Version 2.5.1.0
+Driverevent     27.11.2019, 07:02:02 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 07:02:03 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 07:02:04 identical FW version on CP and in backup
+Driverevent     27.11.2019, 07:02:05 different S7Project on CP and in backup
+Driverevent     27.11.2019, 07:02:05 creating S7PROJ backup on HD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 07:04:33
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 07:04:34 FW connection established
+Driverevent     27.11.2019, 07:04:35 reading INI file...OK
+Driverevent     27.11.2019, 07:04:35 FW Version 2.5.1.0
+Driverevent     27.11.2019, 07:04:36 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 07:04:37 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 07:04:37 identical FW version on CP and in backup
+Driverevent     27.11.2019, 07:04:38 identical S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 07:17:16
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 07:17:16 FW connection established
+Driverevent     27.11.2019, 07:17:17 reading INI file...OK
+Driverevent     27.11.2019, 07:17:18 FW Version 2.5.1.0
+Driverevent     27.11.2019, 07:17:18 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 07:17:19 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 07:17:20 identical FW version on CP and in backup
+Driverevent     27.11.2019, 07:17:20 identical S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 07:20:10
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 07:20:11 FW connection established
+Driverevent     27.11.2019, 07:20:11 reading INI file...OK
+Driverevent     27.11.2019, 07:20:12 FW Version 2.5.1.0
+Driverevent     27.11.2019, 07:20:13 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 07:20:13 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 07:20:14 identical FW version on CP and in backup
+Driverevent     27.11.2019, 07:20:15 different S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 07:28:33
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 07:28:34 FW connection established
+Driverevent     27.11.2019, 07:28:34 reading INI file...OK
+Driverevent     27.11.2019, 07:28:35 FW Version 2.5.1.0
+Driverevent     27.11.2019, 07:28:36 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 07:28:36 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 07:28:37 identical FW version on CP and in backup
+Driverevent     27.11.2019, 07:28:37 different S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 07:45:27
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 07:45:27 FW connection established
+Driverevent     27.11.2019, 07:45:28 reading INI file...OK
+Driverevent     27.11.2019, 07:45:29 FW Version 2.5.1.0
+Driverevent     27.11.2019, 07:45:29 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 07:45:30 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 07:45:31 identical FW version on CP and in backup
+Driverevent     27.11.2019, 07:45:31 different S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 07:49:55
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 07:49:56 FW connection established
+Driverevent     27.11.2019, 07:49:56 reading INI file...OK
+Driverevent     27.11.2019, 07:49:57 FW Version 2.5.1.0
+Driverevent     27.11.2019, 07:49:57 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 07:49:58 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 07:49:59 identical FW version on CP and in backup
+Driverevent     27.11.2019, 07:49:59 identical S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 07:52:01
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 07:52:01 FW connection established
+Driverevent     27.11.2019, 07:52:02 reading INI file...OK
+Driverevent     27.11.2019, 07:52:03 FW Version 2.5.1.0
+Driverevent     27.11.2019, 07:52:03 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 07:52:04 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 07:52:05 identical FW version on CP and in backup
+Driverevent     27.11.2019, 07:52:05 identical S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 08:06:23
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 08:06:24 FW connection established
+Driverevent     27.11.2019, 08:06:24 reading INI file...OK
+Driverevent     27.11.2019, 08:06:25 FW Version 2.5.1.0
+Driverevent     27.11.2019, 08:06:26 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 08:06:26 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 08:06:27 identical FW version on CP and in backup
+Driverevent     27.11.2019, 08:06:28 different S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 08:16:40
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 08:16:40 FW connection established
+Driverevent     27.11.2019, 08:16:41 reading INI file...OK
+Driverevent     27.11.2019, 08:16:42 FW Version 2.5.1.0
+Driverevent     27.11.2019, 08:16:42 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 08:16:43 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 08:16:43 identical FW version on CP and in backup
+Driverevent     27.11.2019, 08:16:44 identical S7Project on CP and in backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 08:25:49
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 08:25:50 FW connection established
+Driverevent     27.11.2019, 08:25:51 reading INI file...OK
+Driverevent     27.11.2019, 08:25:52 FW Version 2.5.1.0
+Driverevent     27.11.2019, 08:25:52 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 08:25:53 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 08:25:53 identical FW version on CP and in backup
+Driverevent     27.11.2019, 08:25:54 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 08:25:54 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 08:25:56 START IOCTL command for driver
+Driverevent     27.11.2019, 08:27:10 STOP REQ received
+Deviceevent     27.11.2019, 08:27:11 Device was STOPPED
+Driverevent     27.11.2019, 08:27:34 FW Version 2.5.1.0
+Driverevent     27.11.2019, 08:27:34 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 08:27:35 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 08:27:35 identical FW version on CP and in backup
+Driverevent     27.11.2019, 08:27:36 different S7Project on CP and in backup
+Driverevent     27.11.2019, 08:27:37 creating S7PROJ backup on HD
+IOCTLEvent      27.11.2019, 08:27:47 STOP IOCTL command for driver
+Deviceevent     27.11.2019, 08:27:48 Device was STOPPED
+Driverevent     27.11.2019, 08:27:50 Deviceinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 08:27:55
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 08:27:55 FW connection established
+Driverevent     27.11.2019, 08:27:56 reading INI file...OK
+Driverevent     27.11.2019, 08:27:57 FW Version 2.5.1.0
+Driverevent     27.11.2019, 08:27:57 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 08:27:58 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 08:27:59 identical FW version on CP and in backup
+Driverevent     27.11.2019, 08:27:59 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 08:28:00 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 08:28:02 START IOCTL command for driver
+Driverevent     27.11.2019, 08:31:23 STOP REQ received
+Deviceevent     27.11.2019, 08:31:24 Device was STOPPED
+Driverevent     27.11.2019, 08:31:46 FW Version 2.5.1.0
+Driverevent     27.11.2019, 08:31:47 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 08:31:47 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 08:31:48 identical FW version on CP and in backup
+Driverevent     27.11.2019, 08:31:48 identical S7Project on CP and in backup
+IOCTLEvent      27.11.2019, 08:31:56 STOP IOCTL command for driver
+Deviceevent     27.11.2019, 08:31:58 Device was STOPPED
+Driverevent     27.11.2019, 08:31:59 Deviceinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 08:32:04
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 08:32:05 FW connection established
+Driverevent     27.11.2019, 08:32:05 reading INI file...OK
+Driverevent     27.11.2019, 08:32:06 FW Version 2.5.1.0
+Driverevent     27.11.2019, 08:32:07 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 08:32:07 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 08:32:08 identical FW version on CP and in backup
+Driverevent     27.11.2019, 08:32:09 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 08:32:09 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 08:32:11 START IOCTL command for driver
+Deviceevent     27.11.2019, 08:32:40 Device was STOPPED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 08:35:20
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 08:35:21 FW connection established
+Driverevent     27.11.2019, 08:35:21 reading INI file...OK
+Driverevent     27.11.2019, 08:35:22 FW Version 2.5.1.0
+Driverevent     27.11.2019, 08:35:23 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 08:35:23 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 08:35:24 identical FW version on CP and in backup
+Driverevent     27.11.2019, 08:35:24 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 08:35:25 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 08:35:27 START IOCTL command for driver
+IOCTLEvent      27.11.2019, 11:08:48 STOP IOCTL command for driver
+Deviceevent     27.11.2019, 11:08:50 Device was STOPPED
+Driverevent     27.11.2019, 11:08:51 Deviceinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 11:08:56
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 11:08:57 FW connection established
+Driverevent     27.11.2019, 11:08:57 reading INI file...OK
+Driverevent     27.11.2019, 11:08:58 FW Version 2.5.1.0
+Driverevent     27.11.2019, 11:08:59 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 11:09:00 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 11:09:00 identical FW version on CP and in backup
+Driverevent     27.11.2019, 11:09:01 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 11:09:01 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 11:09:03 START IOCTL command for driver
+IOCTLEvent      27.11.2019, 11:20:32 STOP IOCTL command for driver
+Deviceevent     27.11.2019, 11:20:33 Device was STOPPED
+Driverevent     27.11.2019, 11:20:34 Deviceinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 11:20:39
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 11:20:40 FW connection established
+Driverevent     27.11.2019, 11:20:41 reading INI file...OK
+Driverevent     27.11.2019, 11:20:42 FW Version 2.5.1.0
+Driverevent     27.11.2019, 11:20:42 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 11:20:43 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 11:20:43 identical FW version on CP and in backup
+Driverevent     27.11.2019, 11:20:44 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 11:20:45 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 11:20:46 START IOCTL command for driver
+IOCTLEvent      27.11.2019, 11:41:32 STOP IOCTL command for driver
+Deviceevent     27.11.2019, 11:41:33 Device was STOPPED
+Driverevent     27.11.2019, 11:41:34 Deviceinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 11:41:39
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 11:41:40 FW connection established
+Driverevent     27.11.2019, 11:41:41 reading INI file...OK
+Driverevent     27.11.2019, 11:41:42 FW Version 2.5.1.0
+Driverevent     27.11.2019, 11:41:42 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 11:41:43 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 11:41:43 identical FW version on CP and in backup
+Driverevent     27.11.2019, 11:41:44 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 11:41:45 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 11:41:46 START IOCTL command for driver
+IOCTLEvent      27.11.2019, 12:34:07 STOP IOCTL command for driver
+Deviceevent     27.11.2019, 12:34:08 Device was STOPPED
+Driverevent     27.11.2019, 12:34:10 Deviceinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 12:34:15
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 12:34:16 FW connection established
+Driverevent     27.11.2019, 12:34:16 reading INI file...OK
+Driverevent     27.11.2019, 12:34:17 FW Version 2.5.1.0
+Driverevent     27.11.2019, 12:34:18 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 12:34:19 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 12:34:19 identical FW version on CP and in backup
+Driverevent     27.11.2019, 12:34:20 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 12:34:20 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 12:34:22 START IOCTL command for driver
+IOCTLEvent      27.11.2019, 12:41:02 STOP IOCTL command for driver
+Deviceevent     27.11.2019, 12:41:03 Device was STOPPED
+Driverevent     27.11.2019, 12:41:04 Deviceinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 12:41:09
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 12:41:10 FW connection established
+Driverevent     27.11.2019, 12:41:10 reading INI file...OK
+Driverevent     27.11.2019, 12:41:11 FW Version 2.5.1.0
+Driverevent     27.11.2019, 12:41:12 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 12:41:12 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 12:41:13 identical FW version on CP and in backup
+Driverevent     27.11.2019, 12:41:14 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 12:41:14 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 12:41:16 START IOCTL command for driver

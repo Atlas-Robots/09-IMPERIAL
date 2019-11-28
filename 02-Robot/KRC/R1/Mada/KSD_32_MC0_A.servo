@@ -1,0 +1,17 @@
+;****************************************
+;*** KUKA   Parametersatz             ***
+;*** Servoregler: KSD1-48             ***
+;*** Motortyp:  C0         KK55Y      ***
+;*** Lieferant: Fa. PacSci            ***
+;*** Versionsstand1 vom 18.09.2000    ***
+;****************************************
+;
+;
+PI   1069,  0 =    67    ;VP_Isq-Regler
+PI   1070,  0 =   436    ;KI_Isq-Regler
+PI   1071,  0 =    66    ;VP_Isd-Regler
+PI   1072,  0 =   436    ;KI_Isd-Regler
+PI   1073,  0 =   196    ;Back_EMF
+PI   1092,  0 =    18    ;Reglervorsteuerung
+PI   1018,  0 =     0    ;Schaltfrequenz 4kHz 
+;

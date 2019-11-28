@@ -1,0 +1,7 @@
+&ACCESS RVP
+&REL 1
+&PARAM TEMPLATE = C:\KRC\Roboter\Template\ExpertVorgabe
+&PARAM EDITMASK = *
+DEFDAT braketestselftest PUBLIC
+
+ENDDAT

@@ -1,0 +1,167 @@
+09:19:37 .REINSTALL.EXE started at: November 22, 2019 09:19:37
+09:19:37 -----------------------------------------------------------------------------
+09:19:37 .Command line: -Q
+09:19:37 .Check if the user belongs to the Administrators group
+09:19:37 .User belongs to the Administrators group
+09:19:37 .Kit-Dll loaded from: C:\KRC_Option\ProfiNetIO\Reinst\Kit.dll
+09:19:37 .CheckKitVersion: TRUE (KitVersion: 1.24.0.0)
+09:19:37 .Version.ini: Option=ProfiNetIO Version=V2.3.3 Build=9 Date=20110719 
+09:19:37 .Start init PreSelectBase
+09:19:37 .enumerate installed options
+09:19:37 .->result: KUKA.SafeRobot
+09:19:37 .->result: KUKA.USB
+09:19:37 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "Version"
+09:19:37 .->result: V5.6.12
+09:19:37 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "OfficeLite"
+09:19:37 .->result: 0
+09:19:37 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "Customer"
+09:19:37 .->result: KUKA
+09:19:37 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "InstallationDir"
+09:19:37 .->result: C:\KRC
+09:19:37 .S4R: Get the TrafoName for the actual mada typ.
+09:19:37 .S4R: Actual TrafoName: #KR2210_2 S C2 FLR ZH210
+09:19:37 .reading: [HKLM\Software\Microsoft\Windows NT\CurrentVersion], "KUKA_Build"
+09:19:37 .->result: XPe V2.0.0 Build 2, 2006-06-01
+09:19:37 .End init PreSelectBase
+09:19:37 .use section [ReInstall]
+09:19:37 .Use INI-File: C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini
+09:19:37 .Check INI-files.
+09:19:37 !Section 'Exec1a' not found in 'C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini'.
+09:19:37 !Section 'Exec4' not found in 'C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini'.
+09:19:37 !Section 'ShortCuts' not found in 'C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini'.
+09:19:37 !Section 'Delete0' not found in 'C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini'.
+09:19:37 !Section 'Delete' not found in 'C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini'.
+09:19:37 !Section 'WinDir' not found in 'C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini'.
+09:19:37 !Section 'UserVar' not found in 'C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini'.
+09:19:37 !Section 'Dependencies' not found in 'C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini'.
+09:19:37 !Section 'NoKrc' not found in 'C:\KRC_OPTION\PROFINETIO\REINST\INTERNAT\KRCUPD\ReInst.ini'.
+09:19:37 !Unable to get 'CheckRegistry' from KuKaUpd.ini
+09:19:37 !Unable to get 'OperatingSystem' from KuKaUpd.ini
+09:19:37 .No check of operating system
+09:19:37 .Get infos from current installed release
+09:19:37 !Unable to get value of registry key 'Patch'.
+09:19:37 !Unable to get value of registry key 'PatchDir'.
+09:19:37 !Get ParameterMark: No value for ParameterMark found. Use #
+09:19:37 !Unable to get 'LogFile' from KuKaUpd.ini
+09:19:37 .GetUserExeLangID: 0x409
+09:19:37 !Get LanguageDir no Id available in section [WinDir]
+09:19:37 !Get LanguageDir Id not found in section [WinDir]
+09:19:37 .Check whether 'SmartHMI.EXE' is running
+09:19:37 .Check whether 'KUKA_HMI.EXE' is running
+09:19:37 .Check whether 'CROSS3.EXE' is running
+09:19:37 .Check whether 'KUKABOF.EXE' is running
+09:19:37 .Check whether 'KUKADB.EXE' is running
+09:19:37 .Check VxWin running.
+09:19:37 .No KRC process is running => RunOnce=FALSE
+09:19:37 .Check if the user belongs to the Administrators group
+09:19:37 .User belongs to the Administrators group
+09:19:37 !Unable to get 'ShowSecurityCheck' from KuKaUpd.ini
+09:19:37 !Unable to get 'KrcRunning' from KuKaUpd.ini
+09:19:37 !Unable to get 'CheckDependencies' from KuKaUpd.ini
+09:19:37 .Start prepare Technology Restore installation
+09:19:37 .Don't check installed version and service pack version
+09:19:37 !Source path and ServicePack path are equal. No copy of files.
+09:19:37 !Get DisableFastBoot: No value for DisableFastBoot found. Use 'AUTO'
+09:19:37 .check 'KUKA Powermanagement' service
+09:19:37 !'KUKA Powermanagement' service not found
+09:19:37 .PM-Service not found => DisableFastBoot=FALSE
+09:19:37 .Delete work 0
+09:19:37 !Delete work nothing to do
+09:19:37 .Make SaveDir
+09:19:37 !Make SaveDir nothing to do
+09:19:37 .Save files
+09:19:37 .Copy files with wininit-method
+09:19:37 !Get NoHibernate: No value for NoHibernate found. Use 'AUTO'
+09:19:37 .check 'KUKA Powermanagement' service
+09:19:37 !'KUKA Powermanagement' service not found
+09:19:37 .Check whether 'SmartHMI.EXE' is running
+09:19:37 .Check whether 'KUKA_HMI.EXE' is running
+09:19:37 .Check whether 'CROSS3.EXE' is running
+09:19:37 .Check whether 'KUKABOF.EXE' is running
+09:19:37 .Check whether 'KUKADB.EXE' is running
+09:19:37 .Check VxWin running.
+09:19:37 .No KRC process is running => RunOnce=FALSE
+09:19:37 .KRC process is not running => NoHibernate=FALSE
+09:19:37 .Check whether 'SmartHMI.EXE' is running
+09:19:37 .Check whether 'KUKA_HMI.EXE' is running
+09:19:37 .Check whether 'CROSS3.EXE' is running
+09:19:37 .Check whether 'KUKABOF.EXE' is running
+09:19:37 .Check whether 'KUKADB.EXE' is running
+09:19:37 .Check VxWin running.
+09:19:37 .No KRC process is running => RunOnce=FALSE
+09:19:37 .Unregister files
+09:19:37 .Delete work 1
+09:19:37 !Delete work nothing to do
+09:19:37 .Copy files final step
+09:19:37 .CopyDir: 12 from C:\KRC_OPTION\PROFINETIO\REINST\Internat\KRCSetup\KRC to C:\KRC
+09:19:37 .Execute check parameter: C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\XchgFile.exe #REGISTRY | C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\vxwinram.add /u:C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd\vxwinram.del#
+09:19:38 .Execute start: "C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\XchgFile.exe" REGISTRY | C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\vxwinram.add /u:C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd\vxwinram.del
+09:19:38 .XchgFile: CmdLine "REGISTRY | C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\vxwinram.add /u:C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd\vxwinram.del"
+09:19:38 .Kit-Dll loaded from: C:\KRC_Option\ProfiNetIO\Reinst\Kit.dll
+09:19:38 .----- registry operation: [AddVxWinRam] -----
+09:19:38 .reading: [HKEY_LOCAL_MACHINE\Software\KUKA Roboter GmbH\Cross3\Manager\Boot\VxWin], "VxWinRAM"
+09:19:38 .->result: 01900000
+09:19:38 .writing: [HKEY_LOCAL_MACHINE\Software\KUKA Roboter GmbH\Cross3\Manager\Boot\VxWin], "VxWinRAM"="1f00000"
+09:19:39 .Return value from executed program: 0
+09:19:39 .Execute check parameter: C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Krc\Steu\Mada\$custom.dat | C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\$custom.add# /u:C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd\$Custom.del /d:C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd#
+09:19:39 .Execute start: "C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Krc\Steu\Mada\$custom.dat | C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\$custom.add  /u:C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd\$Custom.del /d:C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd
+09:19:39 .XchgFile: CmdLine "C:\KRC\Roboter\Krc\Steu\Mada\$custom.dat | C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\$custom.add  /u:C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd\$Custom.del /d:C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd"
+09:19:39 .Kit-Dll loaded from: C:\KRC_Option\ProfiNetIO\Reinst\Kit.dll
+09:19:39 .reading: C:\KRC\Roboter\Krc\Steu\Mada\$custom.dat
+09:19:39 .reading: C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\$custom.add
+09:19:39 .replaced "DECL EXT_MOD_T $EXT_MOD_1={O_FILE[]" " ,OPTION 'B0000'} ;EXT. MODUL INFORMATIONEN" by "DECL EXT_MOD_T $EXT_MOD_1={O_FILE[] "drivers/io2krlDataDrv.o",OPTION 'B0010'} ;ext. Modul Informationen"
+09:19:39 .writing: C:\KRC_OPTION\PROFINETIO\UNINST\Internat\KrcUpd\$Custom.del
+09:19:39 .writing: C:\KRC\Roboter\Krc\Steu\Mada\$custom.dat
+09:19:39 .XchgFile: success
+09:19:39 .Return value from executed program: 0
+09:19:39 .Execute check parameter: C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Init\iosys.ini | C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\iosys2.add#
+09:19:39 .Execute start: "C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Init\iosys.ini | C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\iosys2.add
+09:19:39 .XchgFile: CmdLine "C:\KRC\Roboter\Init\iosys.ini | C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\iosys2.add"
+09:19:39 .Kit-Dll loaded from: C:\KRC_Option\ProfiNetIO\Reinst\Kit.dll
+09:19:39 .reading: C:\KRC\Roboter\Init\iosys.ini
+09:19:39 .----- block operation: [AddPNET] -----
+09:19:39 !no entry found: C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\iosys2.add, [AddPNET], After
+09:19:39 .reading: C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\PNET.dat
+09:19:39 .writing: C:\KRC\Roboter\Init\iosys.ini
+09:19:39 .XchgFile: success
+09:19:39 .Return value from executed program: 0
+09:19:39 .Register files
+09:19:39 .Save registry
+09:19:39 .Registry work
+09:19:39 !Unable to get 'RegeditDir' from KuKaUpd.ini use default value.
+09:19:39 .Registry work: "C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\ProfiNetIO.reg"
+09:19:39 .Modify files
+09:19:39 .Modify ini-file 'C:\KRC\Roboter\Init\iosys.ini' with info from 'C:\KRC_OPTION\PROFINETIO\REINST\Internat\KrcUpd\iosys1.add'.
+09:19:39 .Make shortcuts
+09:19:39 !No files available to make shortcuts
+09:19:39 .No update of patch info in registry
+09:19:39 .Add KukaLog
+09:19:39 !Unable to get 'ExternalOption' from KuKaUpd.ini
+09:19:39 .Reset security of registry key 'SOFTWARE\KUKA Roboter GmbH\Options' and subkeys.
+09:19:39 .Reset security of registry key 'SOFTWARE\KUKA Roboter GmbH\Options\ProfiNetIO' and subkeys.
+09:19:39 .Reset security of registry key 'SOFTWARE\KUKA Roboter GmbH\Options\ProfiNetIO\Dependencies' and subkeys.
+09:19:39 .Force KRC1 to make cold start
+09:19:39 .check 'KUKA Powermanagement' service
+09:19:39 !'KUKA Powermanagement' service not found
+09:19:39 .Force no hibernate
+09:19:39 !Unable to get 'MergeHMIConfig' from KuKaUpd.ini
+09:19:39 .Check whether 'SmartHMI.EXE' is running
+09:19:39 .Check whether 'KUKA_HMI.EXE' is running
+09:19:39 .Check whether 'CROSS3.EXE' is running
+09:19:39 .Check whether 'KUKABOF.EXE' is running
+09:19:39 .Check whether 'KUKADB.EXE' is running
+09:19:39 .Check VxWin running.
+09:19:39 .No KRC process is running => RunOnce=FALSE
+09:19:39 .Don't force windows to make restart  after installation of the Technology Restore
+09:19:39 .Check whether 'SmartHMI.EXE' is running
+09:19:39 .Check whether 'KUKA_HMI.EXE' is running
+09:19:39 .Check whether 'CROSS3.EXE' is running
+09:19:39 .Check whether 'KUKABOF.EXE' is running
+09:19:39 .Check whether 'KUKADB.EXE' is running
+09:19:39 .Check VxWin running.
+09:19:39 .No KRC process is running => RunOnce=FALSE
+09:19:39 .Technology Restore executed successfully!!
+09:19:39 !Unable to get 'DelSourceDir' from KuKaUpd.ini
+09:19:39 .Return value = 0
+09:19:39 .REINSTALL.EXE ends at: November 22, 2019 09:19:39
+09:19:39 -----------------------------------------------------------------------------

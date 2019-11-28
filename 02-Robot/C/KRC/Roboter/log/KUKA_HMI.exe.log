@@ -1,0 +1,236 @@
+11/27/2019 08:34:01 Application Start
+11/27/2019 08:35:36 Connecting PlugIn "CallerStack"
+11/27/2019 08:35:37 PlugIn "CallerStack" connected
+11/27/2019 08:35:37 Connecting PlugIn "KrcRobotLogic"
+11/27/2019 08:35:37 PlugIn "KrcRobotLogic" connected
+11/27/2019 08:35:37 Connecting PlugIn "LogonService"
+11/27/2019 08:35:40 PlugIn "LogonService" connected
+11/27/2019 08:35:40 Connecting PlugIn "MessageView"
+11/27/2019 08:35:40 AppSetting "PlugInUserConfigPath" not found; using Default: C:\KRC\HMI\Config\Save: Missing Configuration.
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 PlugIn "MessageView" connected
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:41 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:42 Connecting PlugIn "RobotData"
+11/27/2019 08:35:42 KrcEventLog::RegisterSource: KUKA-RDTU
+11/27/2019 08:35:42 PlugIn "RobotData" connected
+11/27/2019 08:35:42 Connecting PlugIn "SafeRobotMonitoring"
+11/27/2019 08:35:42 KrcEventLog::RegisterSource: KUKA-SRMI
+11/27/2019 08:35:42 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:35:42 PlugIn "SafeRobotMonitoring" connected
+11/27/2019 08:35:42 Connecting PlugIn "SIMULATE"
+11/27/2019 08:35:42 PlugIn "SIMULATE" connected
+11/27/2019 08:35:43 Connecting PlugIn "TechPackageCommands"
+11/27/2019 08:35:43 PlugIn "TechPackageCommands" connected
+11/27/2019 08:35:43 Connecting PlugIn "FILEHANDLER"
+11/27/2019 08:35:43 PlugIn "FILEHANDLER" connected
+11/27/2019 08:35:43 Connecting PlugIn "XEDIT"
+11/27/2019 08:35:43 PlugIn "XEDIT" connected
+11/27/2019 08:35:50 Application Ready
+11/27/2019 08:35:51 SyncronizeCallback.Invoke: Target has no Handle: KUKARoboter.MessageView.MessageView
+11/27/2019 08:58:37 Connecting PlugIn "KRCListMonitor"
+11/27/2019 08:58:38 PlugIn "KRCListMonitor" connected
+11/27/2019 09:07:35 KrcEventLog::RegisterSource: KUKA-KLMU
+11/27/2019 09:07:36 KrcEventLog::InitRegistrySettings: KUKA-KLMU
+11/27/2019 09:32:53 Fail: KRCVariableProxy SetVar $OUT[95] CrossMeld#1355: M_1355
+11/27/2019 09:37:16 Connecting PlugIn "LogonDisplay"
+11/27/2019 09:37:16 PlugIn "LogonDisplay" connected
+11/27/2019 09:37:21 KrcEventLog::RegisterSource: KUKA-LOSU
+11/27/2019 09:43:50 OnModalChanged IsModal = True
+11/27/2019 09:43:54 OnModalChanged IsModal = False
+11/27/2019 09:49:20 OnModalChanged IsModal = True
+11/27/2019 09:49:22 OnModalChanged IsModal = False
+11/27/2019 09:49:40 OnModalChanged IsModal = True
+11/27/2019 09:49:42 OnModalChanged IsModal = False
+11/27/2019 09:50:16 OnModalChanged IsModal = True
+11/27/2019 09:50:18 OnModalChanged IsModal = False
+11/27/2019 09:51:39 OnModalChanged IsModal = True
+11/27/2019 09:51:41 OnModalChanged IsModal = False
+11/27/2019 10:12:09 Connecting PlugIn "Measurement"
+11/27/2019 10:12:09 PlugIn "Measurement" connected
+11/27/2019 10:21:22 KrcEventLog::RegisterSource: KUKA-MSRI
+11/27/2019 10:36:50 KrcEventLog::RegisterSource: KUKA-KcpKeysU
+11/27/2019 11:08:31 OnModalChanged IsModal = True
+11/27/2019 11:08:31 OnModalChanged IsModal = False
+11/27/2019 11:09:03 KrcEventLog::RegisterSource: KUKA-KRCU
+11/27/2019 11:11:00 Connecting PlugIn "ErrorView"
+11/27/2019 11:11:00 PlugIn "ErrorView" connected
+11/27/2019 11:11:43 OnModalChanged IsModal = True
+11/27/2019 11:11:44 OnModalChanged IsModal = False
+11/27/2019 11:12:15 OnModalChanged IsModal = True
+11/27/2019 11:12:15 OnModalChanged IsModal = False
+11/27/2019 11:13:00 OnModalChanged IsModal = True
+11/27/2019 11:13:01 OnModalChanged IsModal = False
+11/27/2019 11:13:22 OnModalChanged IsModal = True
+11/27/2019 11:13:22 OnModalChanged IsModal = False
+11/27/2019 11:13:47 OnModalChanged IsModal = True
+11/27/2019 11:13:48 OnModalChanged IsModal = False
+11/27/2019 11:20:14 OnModalChanged IsModal = True
+11/27/2019 11:20:16 OnModalChanged IsModal = False
+11/27/2019 11:25:28 OnModalChanged IsModal = True
+11/27/2019 11:25:29 OnModalChanged IsModal = False
+11/27/2019 11:26:00 OnModalChanged IsModal = True
+11/27/2019 11:26:01 OnModalChanged IsModal = False
+11/27/2019 11:26:43 OnModalChanged IsModal = True
+11/27/2019 11:26:44 OnModalChanged IsModal = False
+11/27/2019 11:27:08 OnModalChanged IsModal = True
+11/27/2019 11:27:08 OnModalChanged IsModal = False
+11/27/2019 11:27:53 CallerStack.Show not possible!
+11/27/2019 11:28:14 OnModalChanged IsModal = True
+11/27/2019 11:28:15 OnModalChanged IsModal = False
+11/27/2019 11:30:00 OnModalChanged IsModal = True
+11/27/2019 11:30:01 OnModalChanged IsModal = False
+11/27/2019 11:32:23 Connecting PlugIn "VarCorr"
+11/27/2019 11:32:23 PlugIn "VarCorr" connected
+11/27/2019 11:33:09 Connecting PlugIn "RobotPositionMonitor"
+11/27/2019 11:33:09 PlugIn "RobotPositionMonitor" connected
+KUKA_HMI.exe Error: 0 : 11/27/2019 11:33:10 Unexpected exeption in KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh: KUKARoboter.KRCModel.KRCException: CrossMeld#1375: M_1375
+   at KUKARoboter.KRCModel.Robot.Variables.KRCVariableProxy.StartSetInfo(String name, SetInfoAnswerEventHandler setInfoCallback, Object owner)
+   at KUKARoboter.KRCModel.Robot.Variables.VariableInfoImpl.add_Changed(EventHandler value)
+   at KUKARoboter.KinematicsModel.ToolBaseModel.add_ToolChanged(EventHandler value)
+   at KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh()
+11/27/2019 11:33:58 OnModalChanged IsModal = True
+11/27/2019 11:34:00 OnModalChanged IsModal = False
+11/27/2019 11:41:12 OnModalChanged IsModal = True
+11/27/2019 11:41:13 OnModalChanged IsModal = False
+11/27/2019 11:41:48 CallerStack.Show not possible!
+11/27/2019 12:08:50 OnModalChanged IsModal = True
+11/27/2019 12:08:51 OnModalChanged IsModal = False
+11/27/2019 12:10:58 Connecting PlugIn "PARALIST"
+11/27/2019 12:10:58 PlugIn "PARALIST" connected
+11/27/2019 12:11:05 OnModalChanged IsModal = True
+11/27/2019 12:11:09 OnModalChanged IsModal = False
+11/27/2019 12:12:37 OnModalChanged IsModal = True
+11/27/2019 12:12:39 OnModalChanged IsModal = False
+11/27/2019 12:12:48 OnModalChanged IsModal = True
+11/27/2019 12:12:49 OnModalChanged IsModal = False
+11/27/2019 12:17:23 OnModalChanged IsModal = True
+11/27/2019 12:17:27 OnModalChanged IsModal = False
+11/27/2019 12:18:21 OnModalChanged IsModal = True
+11/27/2019 12:18:23 OnModalChanged IsModal = False
+11/27/2019 12:18:57 OnModalChanged IsModal = True
+11/27/2019 12:18:58 OnModalChanged IsModal = False
+11/27/2019 12:21:20 OnModalChanged IsModal = True
+11/27/2019 12:21:21 OnModalChanged IsModal = False
+11/27/2019 12:25:45 OnModalChanged IsModal = True
+11/27/2019 12:25:46 OnModalChanged IsModal = False
+11/27/2019 12:33:47 OnModalChanged IsModal = True
+11/27/2019 12:33:49 OnModalChanged IsModal = False
+11/27/2019 12:40:40 OnModalChanged IsModal = True
+11/27/2019 12:40:42 OnModalChanged IsModal = False
+11/27/2019 12:40:45 OnModalChanged IsModal = True
+11/27/2019 12:40:46 OnModalChanged IsModal = False
+11/27/2019 12:42:18 OnModalChanged IsModal = True
+11/27/2019 12:42:21 OnModalChanged IsModal = False
+11/27/2019 12:53:52 OnModalChanged IsModal = True
+11/27/2019 12:53:54 OnModalChanged IsModal = False
+11/27/2019 13:05:16 KrcEventLog::RegisterSource: KUKA-VARU
+11/27/2019 13:08:23 OnModalChanged IsModal = True
+11/27/2019 13:08:24 OnModalChanged IsModal = False
+11/27/2019 13:08:32 OnModalChanged IsModal = True
+11/27/2019 13:08:33 OnModalChanged IsModal = False
+11/27/2019 13:09:39 OnModalChanged IsModal = True
+11/27/2019 13:09:39 OnModalChanged IsModal = False
+11/27/2019 13:11:04 OnModalChanged IsModal = True
+11/27/2019 13:11:05 OnModalChanged IsModal = False
+11/27/2019 13:12:11 OnModalChanged IsModal = True
+11/27/2019 13:12:12 OnModalChanged IsModal = False
+11/27/2019 13:14:34 OnModalChanged IsModal = True
+11/27/2019 13:14:34 OnModalChanged IsModal = False
+11/27/2019 13:15:56 Fail: KRCVariableProxy SetVar /R1/DEJAR_DARSENA1.SRC/XENTRADA_DEJADA_DARS1.T CrossMeld#2247: M_2247
+11/27/2019 13:17:46 OnModalChanged IsModal = True
+11/27/2019 13:17:47 OnModalChanged IsModal = False
+11/27/2019 14:34:15 OnModalChanged IsModal = True
+11/27/2019 14:34:15 OnModalChanged IsModal = False
+KUKA_HMI.exe Error: 0 : 11/27/2019 14:44:09 Unexpected exeption in KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh: KUKARoboter.KRCModel.KRCException: CrossMeld#1375: M_1375
+   at KUKARoboter.KRCModel.Robot.Variables.KRCVariableProxy.StartSetInfo(String name, SetInfoAnswerEventHandler setInfoCallback, Object owner)
+   at KUKARoboter.KRCModel.Robot.Variables.VariableInfoImpl.add_Changed(EventHandler value)
+   at KUKARoboter.KinematicsModel.ToolBaseModel.add_ToolChanged(EventHandler value)
+   at KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh()
+11/27/2019 14:47:08 OnModalChanged IsModal = True
+11/27/2019 14:47:10 OnModalChanged IsModal = False
+11/27/2019 14:56:11 OnModalChanged IsModal = True
+11/27/2019 14:56:12 OnModalChanged IsModal = False
+KUKA_HMI.exe Error: 0 : 11/27/2019 14:56:52 Unexpected exeption in KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh: KUKARoboter.KRCModel.KRCException: CrossMeld#1375: M_1375
+   at KUKARoboter.KRCModel.Robot.Variables.KRCVariableProxy.StartSetInfo(String name, SetInfoAnswerEventHandler setInfoCallback, Object owner)
+   at KUKARoboter.KRCModel.Robot.Variables.VariableInfoImpl.add_Changed(EventHandler value)
+   at KUKARoboter.KinematicsModel.ToolBaseModel.add_BaseChanged(EventHandler value)
+   at KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh()
+11/27/2019 14:59:26 OnModalChanged IsModal = True
+11/27/2019 14:59:26 OnModalChanged IsModal = False
+11/27/2019 15:03:02 OnModalChanged IsModal = True
+11/27/2019 15:03:03 OnModalChanged IsModal = False
+11/27/2019 15:08:55 OnModalChanged IsModal = True
+11/27/2019 15:08:56 OnModalChanged IsModal = False
+11/27/2019 15:09:32 OnModalChanged IsModal = True
+11/27/2019 15:09:33 OnModalChanged IsModal = False
+11/27/2019 15:10:08 OnModalChanged IsModal = True
+11/27/2019 15:10:09 OnModalChanged IsModal = False
+11/27/2019 15:41:35 OnModalChanged IsModal = True
+11/27/2019 15:41:36 OnModalChanged IsModal = False
+11/27/2019 15:42:54 OnModalChanged IsModal = True
+11/27/2019 15:42:55 OnModalChanged IsModal = False
+11/27/2019 15:45:12 OnModalChanged IsModal = True
+11/27/2019 15:45:12 OnModalChanged IsModal = False
+11/27/2019 15:45:21 OnModalChanged IsModal = True
+11/27/2019 15:45:23 OnModalChanged IsModal = False
+11/27/2019 15:46:04 OnModalChanged IsModal = True
+11/27/2019 15:46:05 OnModalChanged IsModal = False
+11/27/2019 16:03:24 OnModalChanged IsModal = True
+11/27/2019 16:03:26 OnModalChanged IsModal = False
+11/27/2019 16:07:29 OnModalChanged IsModal = True
+11/27/2019 16:07:30 OnModalChanged IsModal = False
+11/27/2019 16:34:36 OnModalChanged IsModal = True
+11/27/2019 16:34:37 OnModalChanged IsModal = False
+11/27/2019 16:34:48 OnModalChanged IsModal = True
+11/27/2019 16:34:49 OnModalChanged IsModal = False
+11/27/2019 16:37:12 OnModalChanged IsModal = True
+11/27/2019 16:37:13 OnModalChanged IsModal = False
+11/27/2019 16:40:00 OnModalChanged IsModal = True
+11/27/2019 16:40:01 OnModalChanged IsModal = False
+KUKA_HMI.exe Error: 0 : 11/27/2019 16:55:09 Unexpected exeption in KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh: KUKARoboter.KRCModel.KRCException: CrossMeld#1375: M_1375
+   at KUKARoboter.KRCModel.Robot.Variables.KRCVariableProxy.StartSetInfo(String name, SetInfoAnswerEventHandler setInfoCallback, Object owner)
+   at KUKARoboter.KRCModel.Robot.Variables.VariableInfoImpl.add_Changed(EventHandler value)
+   at KUKARoboter.KinematicsModel.ToolBaseModel.add_ToolChanged(EventHandler value)
+   at KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh()
+11/27/2019 16:57:03 OnModalChanged IsModal = True
+11/27/2019 16:57:03 OnModalChanged IsModal = False
+11/27/2019 17:02:22 OnModalChanged IsModal = True
+11/27/2019 17:02:22 OnModalChanged IsModal = False

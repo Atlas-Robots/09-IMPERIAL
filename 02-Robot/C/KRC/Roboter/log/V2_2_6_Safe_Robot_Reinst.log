@@ -1,0 +1,349 @@
+09:19:34 .REINSTALL.EXE started at: November 22, 2019 09:19:34
+09:19:34 -----------------------------------------------------------------------------
+09:19:34 .Command line: Robot\Reinst\Reinstall.exe  -Q
+09:19:34 .Check if the user belongs to the Administrators group
+09:19:34 .User belongs to the Administrators group
+09:19:34 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:34 .CheckKitVersion: TRUE (KitVersion: 1.23.1.0)
+09:19:34 .Version.ini: Option=SafeOperation Version=V2.2.6 Build=24 Date=20110519 
+09:19:34 .Start init PreSelectBase
+09:19:34 .enumerate installed options
+09:19:34 !can't open key
+09:19:34 .->result: KUKA.USB
+09:19:34 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "Version"
+09:19:34 .->result: V5.6.12
+09:19:34 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "OfficeLite"
+09:19:34 .->result: 0
+09:19:34 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "Customer"
+09:19:34 .->result: KUKA
+09:19:34 .reading: [HKLM\Software\KUKA Roboter GmbH\Version], "InstallationDir"
+09:19:34 .->result: C:\KRC
+09:19:34 .S4R: Get the TrafoName for the actual mada typ.
+09:19:34 .S4R: Actual TrafoName: #KR2210_2 S C2 FLR ZH210
+09:19:34 .reading: [HKLM\Software\Microsoft\Windows NT\CurrentVersion], "KUKA_Build"
+09:19:34 .->result: XPe V2.0.0 Build 2, 2006-06-01
+09:19:34 .End init PreSelectBase
+09:19:34 .use section [ReInstall]
+09:19:34 .Use INI-File: C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\Reinst.ini
+09:19:34 .Check INI-files.
+09:19:34 !Section 'Exec1a' not found in 'C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\Reinst.ini'.
+09:19:34 !Section 'Exec4' not found in 'C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\Reinst.ini'.
+09:19:34 !Section 'Delete0' not found in 'C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\Reinst.ini'.
+09:19:34 !Section 'WinDir' not found in 'C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\Reinst.ini'.
+09:19:34 !Section 'UserVar' not found in 'C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\Reinst.ini'.
+09:19:34 !Section 'Dependencies' not found in 'C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\Reinst.ini'.
+09:19:34 !Section 'NoKrc' not found in 'C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\Reinst.ini'.
+09:19:34 !Unable to get 'CheckRegistry' from KuKaUpd.ini
+09:19:34 !Unable to get 'OperatingSystem' from KuKaUpd.ini
+09:19:34 .No check of operating system
+09:19:34 .Get infos from current installed release
+09:19:34 !Unable to get value of registry key 'Patch'.
+09:19:34 !Unable to get value of registry key 'PatchDir'.
+09:19:34 !Get ParameterMark: No value for ParameterMark found. Use #
+09:19:34 !Unable to get 'LogFile' from KuKaUpd.ini
+09:19:34 .GetUserExeLangID: 0x409
+09:19:34 !Get LanguageDir no Id available in section [WinDir]
+09:19:34 !Get LanguageDir Id not found in section [WinDir]
+09:19:34 .Check whether 'SmartHMI.EXE' is running
+09:19:34 .Check whether 'KUKA_HMI.EXE' is running
+09:19:34 .Check whether 'CROSS3.EXE' is running
+09:19:34 .Check whether 'KUKABOF.EXE' is running
+09:19:34 .Check whether 'KUKADB.EXE' is running
+09:19:34 .Check VxWin running.
+09:19:34 .No KRC process is running => RunOnce=FALSE
+09:19:34 .Check if the user belongs to the Administrators group
+09:19:34 .User belongs to the Administrators group
+09:19:34 !Unable to get 'ShowSecurityCheck' from KuKaUpd.ini
+09:19:34 !Unable to get 'KrcRunning' from KuKaUpd.ini
+09:19:34 !Unable to get 'CheckDependencies' from KuKaUpd.ini
+09:19:34 .Start prepare Technology Restore installation
+09:19:34 .Don't check installed version and service pack version
+09:19:34 !Source path and ServicePack path are equal. No copy of files.
+09:19:34 !Get DisableFastBoot: No value for DisableFastBoot found. Use 'AUTO'
+09:19:34 .check 'KUKA Powermanagement' service
+09:19:34 !'KUKA Powermanagement' service not found
+09:19:34 .PM-Service not found => DisableFastBoot=FALSE
+09:19:34 .Delete work 0
+09:19:34 !Delete work nothing to do
+09:19:34 .Make SaveDir
+09:19:34 !Make SaveDir nothing to do
+09:19:34 .Save files
+09:19:34 .Copy files with wininit-method
+09:19:34 .CopyFiles: 1 from C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\ReInst.ini to C:\KRC\HMI\PlugIns\SafeRobot\Config\ReInst.ini
+09:19:34 !Get NoHibernate: No value for NoHibernate found. Use 'AUTO'
+09:19:34 .check 'KUKA Powermanagement' service
+09:19:34 !'KUKA Powermanagement' service not found
+09:19:34 .Check whether 'SmartHMI.EXE' is running
+09:19:34 .Check whether 'KUKA_HMI.EXE' is running
+09:19:34 .Check whether 'CROSS3.EXE' is running
+09:19:34 .Check whether 'KUKABOF.EXE' is running
+09:19:35 .Check whether 'KUKADB.EXE' is running
+09:19:35 .Check VxWin running.
+09:19:35 .No KRC process is running => RunOnce=FALSE
+09:19:35 .KRC process is not running => NoHibernate=FALSE
+09:19:35 .Check whether 'SmartHMI.EXE' is running
+09:19:35 .Check whether 'KUKA_HMI.EXE' is running
+09:19:35 .Check whether 'CROSS3.EXE' is running
+09:19:35 .Check whether 'KUKABOF.EXE' is running
+09:19:35 .Check whether 'KUKADB.EXE' is running
+09:19:35 .Check VxWin running.
+09:19:35 .No KRC process is running => RunOnce=FALSE
+09:19:35 .Unregister files
+09:19:35 .Delete work 1
+09:19:35 .DeleteFiles: 1 from C:\KRC\HMI\PlugIns\SafeRobot\Config\ReInst.ini
+09:19:35 .Copy files final step
+09:19:35 .CopyDir: 13 from C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KRCSetup\KRC\HMI to C:\KRC\HMI
+09:19:35 .CopyDir: 5 from C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KRCSetup\KRC\TP to C:\KRC\TP
+09:19:35 .CopyDir: 4 from C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KRCSetup\KRC\ROBOTER\DSE to C:\KRC\ROBOTER\DSE
+09:19:35 .CopyDir: 2 from C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KRCSetup\KRC\ROBOTER\INIT to C:\KRC\ROBOTER\INIT
+09:19:35 .CopyDir: 20 from C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KRCSetup\KRC\ROBOTER\KRC to C:\KRC\ROBOTER\KRC
+09:19:35 .CopyFiles: 1 from C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MessageViewCfg.default to C:\KRC\HMI\Config\Save\MessageView.DLL.MessageView.Config.cfg
+09:19:35 .CopyFiles: 1 from C:\KRC\UTIL\BRAKETEST\BrakeTestDrv.o to C:\KRC\ROBOTER\DRIVERS\BrakeTestDrv.o
+09:19:35 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Init\MenueKeyKuka.ini | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotMenu.del /INI#
+09:19:35 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Init\MenueKeyKuka.ini | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotMenu.del /INI
+09:19:35 .XchgFile: CmdLine "C:\KRC\Roboter\Init\MenueKeyKuka.ini | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotMenu.del /INI"
+09:19:35 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:35 .reading: C:\KRC\Roboter\Init\MenueKeyKuka.ini
+09:19:35 .deleting: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] mpSafeRobot
+09:19:35 .deleting: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSafeRobotParam
+09:19:35 .deleting: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSafeRobotMonitoring
+09:19:35 .deleting: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSafeRobotDiagnosis
+09:19:35 .deleting: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSafeRobotExport
+09:19:35 .deleting: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miBrakeTest
+09:19:35 .deleting: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSSafeRobot
+09:19:35 .deleting: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miLSafeRobot
+09:19:35 .deleting: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [#MENU] mSafeRobot
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [#MENU] mMisc=miShowLanguage, mpEditor, mpWorkspace, mpReinit, miShowCycleTimeOpt, miShowPluginCfg, miSchedulerConfig, miCheckPosCorr, miCollDetect, miShowPassword
+09:19:35 .XchgFile: success
+09:19:35 .Return value from executed program: 0
+09:19:35 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Init\MenueKeyKuka.ini | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotMenu.add /INI#
+09:19:35 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Init\MenueKeyKuka.ini | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotMenu.add /INI
+09:19:35 .XchgFile: CmdLine "C:\KRC\Roboter\Init\MenueKeyKuka.ini | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotMenu.add /INI"
+09:19:35 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:35 .reading: C:\KRC\Roboter\Init\MenueKeyKuka.ini
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] mpSafeRobot=SafeRobotMenu#SafeRobot, , , ,POPUP,mSafeRobot
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSafeRobotParam=SafeRobotMenu#SafeRobotParam, 5000, HMI, SafeRobotParam
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSafeRobotMonitoring=SafeRobotMenu#SafeRobotMonitoring, 100, SafeRobotMonitoring, SafeRobotMonitoring
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSafeRobotDiagnosis=SafeRobotMenu#SafeRobotDiagnosis, 5000, HMI, SafeRobotDiagnosis
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSafeRobotExport=SafeRobotMenu#SafeRobotExport, 5000, HMI, SafeRobotExport
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miBrakeTest=BrakeTest#Text.PlugInHeader, 5000, HMI, BrakeTest
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miSSafeRobot=SafeRobotMenu#SafeRobot,    32, FILEHANDLER , SafeRobot;Disk
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [SOFTKEYS] miLSafeRobot=SafeRobotMenu#SafeRobot,    33, FILEHANDLER , SafeRobot;Disk
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [#MENU] mSafeRobot=miSafeRobotParam, miSafeRobotMonitoring
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [#MENU] mDiagnose=mpTrace, mpLogBook, mpCross, miStackLog, miInterrupt, miEscDiagnosis, miWebDiag, miSafeRobotDiagnosis
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [#MENU] mService=miCallDSERDW, miCallEXTEDIT, miAxisConf, miDBTextConvert, mpSafeRobot
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [#MENU] mService=miCallDSERDW, miCallEXTEDIT, miAxisConf, miDBTextConvert, mpSafeRobot, miBrakeTest
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [#MENU] mSavereg=miArchivIOData, miArchivIOList, miSREGALL, miSSafeRobot
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [#MENU] mLoadreg=miRestoreIOData, miRestoreIOList, miLREGALL, miLSafeRobot
+09:19:35 .writing: C:\KRC\Roboter\Init\MenueKeyKuka.ini, [#MENU] mMisc=miShowLanguage, mpEditor, mpWorkspace, mpReinit, miShowCycleTimeOpt, miShowPluginCfg, miSchedulerConfig, miCheckPosCorr, miCollDetect
+09:19:35 .XchgFile: success
+09:19:35 .Return value from executed program: 0
+09:19:35 !Condition FALSE: [Exec2] 3=%SourceDir%\Internat\KrcUpd\XchgFile.exe #%KrcInitDir%\MenueKeyVW.ini | %SourceDir%\Internat\KrcUpd\SafeRobotMenuVW.del /INI# ///Customer=VW
+09:19:35 !Condition FALSE: [Exec2] 4=%SourceDir%\Internat\KrcUpd\XchgFile.exe #%KrcInitDir%\MenueKeyVW.ini | %SourceDir%\Internat\KrcUpd\SafeRobotMenuVW.add /INI# ///Customer=VW
+09:19:35 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\HMI\Config\PlugIns.cfg | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotPlugIn.add /TXT#
+09:19:35 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\HMI\Config\PlugIns.cfg | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotPlugIn.add /TXT
+09:19:35 .XchgFile: CmdLine "C:\KRC\HMI\Config\PlugIns.cfg | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotPlugIn.add /TXT"
+09:19:35 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:35 .reading: C:\KRC\HMI\Config\PlugIns.cfg
+09:19:35 .----- block operation: [RemoveSafeRobotParam-PlugIn] -----
+09:19:35 !block not found
+09:19:35 .----- block operation: [RemoveSafeRobotMonitoring-PlugIn] -----
+09:19:35 !block not found
+09:19:35 .----- block operation: [RemoveSafeRobotMonitoring-PlugIn] -----
+09:19:35 !block not found
+09:19:35 .----- block operation: [RemoveSafeRobotDiagnosis-PlugIn] -----
+09:19:35 !block not found
+09:19:35 .----- block operation: [RemoveSafeRobotExport-PlugIn] -----
+09:19:35 !block not found
+09:19:35 .----- block operation: [RemoveBrakeTest-PlugIn] -----
+09:19:35 !block not found
+09:19:35 .----- block operation: [InsertSafeRobot-PlugIns] -----
+09:19:35 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotPlugIn.add, [InsertSafeRobot-PlugIns], After
+09:19:35 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotPlugIn.add, [InsertSafeRobot-PlugIns], Start
+09:19:35 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotPlugIn.add, [InsertSafeRobot-PlugIns], End
+09:19:35 .reading: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobotPlugIn.txt
+09:19:35 .insert block before line 243: </ArrayOfPlugInData>
+09:19:35 .writing: C:\KRC\HMI\Config\PlugIns.cfg
+09:19:35 .XchgFile: success
+09:19:35 .Return value from executed program: 0
+09:19:35 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\HMI\Config\Save\MessageView.DLL.MessageView.Config.cfg | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MessageViewCfg.add /TXT#
+09:19:35 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\HMI\Config\Save\MessageView.DLL.MessageView.Config.cfg | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MessageViewCfg.add /TXT
+09:19:35 .XchgFile: CmdLine "C:\KRC\HMI\Config\Save\MessageView.DLL.MessageView.Config.cfg | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MessageViewCfg.add /TXT"
+09:19:35 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:35 .reading: C:\KRC\HMI\Config\Save\MessageView.DLL.MessageView.Config.cfg
+09:19:35 .----- block operation: [RemoveSafeRobotMessageViewCfg] -----
+09:19:35 !block not found
+09:19:35 .----- block operation: [InsertSafeRobotMessageViewCfg] -----
+09:19:35 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MessageViewCfg.add, [InsertSafeRobotMessageViewCfg], After
+09:19:35 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MessageViewCfg.add, [InsertSafeRobotMessageViewCfg], Start
+09:19:35 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MessageViewCfg.add, [InsertSafeRobotMessageViewCfg], End
+09:19:35 .reading: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MessageViewCfg.txt
+09:19:35 .insert block before line 63:   </MessageTypeConfigurations>
+09:19:35 .writing: C:\KRC\HMI\Config\Save\MessageView.DLL.MessageView.Config.cfg
+09:19:35 .XchgFile: success
+09:19:35 .Return value from executed program: 0
+09:19:35 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Init\MotionDrv.ini | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MotionDrv.add /TXT#
+09:19:35 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Init\MotionDrv.ini | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MotionDrv.add /TXT
+09:19:35 .XchgFile: CmdLine "C:\KRC\Roboter\Init\MotionDrv.ini | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MotionDrv.add /TXT"
+09:19:35 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:35 .reading: C:\KRC\Roboter\Init\motiondrv.ini
+09:19:35 .----- block operation: [Remove] -----
+09:19:35 !block not found
+09:19:35 .----- block operation: [Insert] -----
+09:19:35 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MotionDrv.add, [Insert], Before
+09:19:35 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MotionDrv.add, [Insert], Start
+09:19:35 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\MotionDrv.add, [Insert], End
+09:19:35 .reading: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\Motiondrv.txt
+09:19:35 .insert block after line 10: [OTHER_DRIVER]
+09:19:35 .writing: C:\KRC\Roboter\Init\motiondrv.ini
+09:19:35 .XchgFile: success
+09:19:35 .Return value from executed program: 0
+09:19:35 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.del /TXT#
+09:19:35 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.del /TXT
+09:19:36 .XchgFile: CmdLine "C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.del /TXT"
+09:19:36 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:36 .reading: C:\KRC\Roboter\Krc\R1\System\sps.sub
+09:19:36 .----- block operation: [RemoveFolds] -----
+09:19:36 !block not found
+09:19:36 .----- block operation: [RemoveOldStyleFolds] -----
+09:19:36 !block not found
+09:19:36 .writing: C:\KRC\Roboter\Krc\R1\System\sps.sub
+09:19:36 .XchgFile: success
+09:19:36 .Return value from executed program: 0
+09:19:36 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.add /TXT#
+09:19:36 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.add /TXT
+09:19:36 .XchgFile: CmdLine "C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.add /TXT"
+09:19:36 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:36 .reading: C:\KRC\Roboter\Krc\R1\System\sps.sub
+09:19:36 .----- block operation: [InsertLoop] -----
+09:19:36 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.add, [InsertLoop], After
+09:19:36 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.add, [InsertLoop], Start
+09:19:36 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.add, [InsertLoop], End
+09:19:36 .reading: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc1.txt
+09:19:36 .insert block before line 37:      WAIT FOR NOT($POWER_FAIL)
+09:19:36 .writing: C:\KRC\Roboter\Krc\R1\System\sps.sub
+09:19:36 .XchgFile: success
+09:19:36 .Return value from executed program: 0
+09:19:36 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.del /TXT#
+09:19:36 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.del /TXT
+09:19:36 .XchgFile: CmdLine "C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.del /TXT"
+09:19:36 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:36 .reading: C:\KRC\Roboter\Krc\R1\System\sps.sub
+09:19:36 .----- block operation: [RemoveFolds] -----
+09:19:36 !block not found
+09:19:36 .----- block operation: [RemoveOldStyleFolds] -----
+09:19:36 !block not found
+09:19:36 .writing: C:\KRC\Roboter\Krc\R1\System\sps.sub
+09:19:36 .XchgFile: success
+09:19:36 .Return value from executed program: 0
+09:19:36 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.add /TXT#
+09:19:36 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.add /TXT
+09:19:36 .XchgFile: CmdLine "C:\KRC\Roboter\Krc\R1\System\sps.sub | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.add /TXT"
+09:19:36 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:36 .reading: C:\KRC\Roboter\Krc\R1\System\sps.sub
+09:19:36 .----- block operation: [InsertSubroutine] -----
+09:19:36 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.add, [InsertSubroutine], After
+09:19:36 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.add, [InsertSubroutine], Start
+09:19:36 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.add, [InsertSubroutine], End
+09:19:36 .reading: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\plc2.txt
+09:19:36 .insert block before line 74: ;FOLD USER SUBROUTINE
+09:19:36 .writing: C:\KRC\Roboter\Krc\R1\System\sps.sub
+09:19:36 .XchgFile: success
+09:19:36 .Return value from executed program: 0
+09:19:36 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Krc\R1\System\$config.dat | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.del /TXT#
+09:19:36 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Krc\R1\System\$config.dat | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.del /TXT
+09:19:36 .XchgFile: CmdLine "C:\KRC\Roboter\Krc\R1\System\$config.dat | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.del /TXT"
+09:19:36 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:36 .reading: C:\KRC\Roboter\Krc\R1\System\$config.dat
+09:19:36 .----- block operation: [RemoveFolds] -----
+09:19:36 !block not found
+09:19:36 .----- block operation: [RemoveOldStyleFolds] -----
+09:19:36 !block not found
+09:19:36 .writing: C:\KRC\Roboter\Krc\R1\System\$config.dat
+09:19:36 .XchgFile: success
+09:19:36 .Return value from executed program: 0
+09:19:36 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Krc\R1\System\$config.dat | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.add /TXT#
+09:19:36 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Krc\R1\System\$config.dat | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.add /TXT
+09:19:36 .XchgFile: CmdLine "C:\KRC\Roboter\Krc\R1\System\$config.dat | C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.add /TXT"
+09:19:36 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:36 .reading: C:\KRC\Roboter\Krc\R1\System\$config.dat
+09:19:36 .----- block operation: [InsertLoop] -----
+09:19:36 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.add, [InsertLoop], After
+09:19:36 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.add, [InsertLoop], Start
+09:19:36 !no entry found: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.add, [InsertLoop], End
+09:19:36 .reading: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\config.txt
+09:19:36 .insert block before line 612: ;FOLD USER GLOBALS
+09:19:36 .writing: C:\KRC\Roboter\Krc\R1\System\$config.dat
+09:19:36 .XchgFile: success
+09:19:36 .Return value from executed program: 0
+09:19:36 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgXml.exe #"C:\KRC\HMI\KUKA_HMI.exe.config" /i="C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\HMIConfig.XchgXml.add"#
+09:19:36 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgXml.exe" "C:\KRC\HMI\KUKA_HMI.exe.config" /i="C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\HMIConfig.XchgXml.add"
+09:19:36 .XchgXml: CmdLine "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgXml.exe" "C:\KRC\HMI\KUKA_HMI.exe.config" /i="C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\HMIConfig.XchgXml.add"
+09:19:36 .Starting action REMOVENODE path:/configuration/runtime/nsprf:assemblyBinding/nsprf:dependentAssembly identifier:/nsprf:assemblyIdentity[@name="SafeRobotLogic"]
+09:19:36 .No matching nodes found for path: /configuration/runtime/nsprf:assemblyBinding/nsprf:dependentAssembly//nsprf:assemblyIdentity[@name="SafeRobotLogic"]
+09:19:36 .Starting action INSERTNODE path:/configuration/runtime/nsprf:assemblyBinding postype:Last node:dependentAssembly
+09:19:36 .Starting action REMOVENODE path:/configuration/configSections/section identifier:[@name="KUKARoboter.SafeRobot.Parameters"]
+09:19:36 .No matching nodes found for path: /configuration/configSections/section[@name="KUKARoboter.SafeRobot.Parameters"]
+09:19:36 .Starting action INSERTNODE path:/configuration/configSections postype:Last node:section
+09:19:36 .Starting action REMOVENODE path:/configuration/applicationConfigurationManagement/configSection identifier:[@name="KUKARoboter.SafeRobot.Parameters"]
+09:19:36 .No matching nodes found for path: /configuration/applicationConfigurationManagement/configSection[@name="KUKARoboter.SafeRobot.Parameters"]
+09:19:36 .Starting action INSERTNODE path:/configuration/applicationConfigurationManagement postype:Last node:configSection
+09:19:36 .Return value from executed program: 0
+09:19:36 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgXml.exe #"C:\KRC\HMI\Config\Authentication.config" /i="C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\UserGroup.add"#
+09:19:36 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgXml.exe" "C:\KRC\HMI\Config\Authentication.config" /i="C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\UserGroup.add"
+09:19:36 .XchgXml: CmdLine "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgXml.exe" "C:\KRC\HMI\Config\Authentication.config" /i="C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\UserGroup.add"
+09:19:36 .Starting action REMOVENODE path:/configuration/secondaryUserList/UserList/UserInfo identifier:[Name="KrcSafetyRecovery"]
+09:19:36 .No matching nodes found for path: /configuration/secondaryUserList/UserList/UserInfo[Name="KrcSafetyRecovery"]
+09:19:36 .Starting action INSERTNODE path:/configuration/secondaryUserList/UserList postype:Before identifier:/UserInfo[Name="KrcAdministrator"] node:UserInfo
+09:19:36 .Starting action REMOVENODE path:/configuration/secondaryUserList/UserList/UserInfo identifier:[Name="KrcSafetyMaintenance"]
+09:19:36 .No matching nodes found for path: /configuration/secondaryUserList/UserList/UserInfo[Name="KrcSafetyMaintenance"]
+09:19:36 .Starting action INSERTNODE path:/configuration/secondaryUserList/UserList postype:Before identifier:/UserInfo[Name="KrcAdministrator"] node:UserInfo
+09:19:36 .Return value from executed program: 0
+09:19:36 .Execute check parameter: C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe #C:\KRC\Roboter\Krc\Steu\Mada\$Custom.dat | C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\mada_SR_VEL_RED.add#
+09:19:36 .Execute start: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\XchgFile.exe" C:\KRC\Roboter\Krc\Steu\Mada\$Custom.dat | C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\mada_SR_VEL_RED.add
+09:19:36 .XchgFile: CmdLine "C:\KRC\Roboter\Krc\Steu\Mada\$Custom.dat | C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\mada_SR_VEL_RED.add"
+09:19:36 .Kit-Dll loaded from: C:\KRC_Option\Safe Robot\Reinst\Kit.dll
+09:19:36 .reading: C:\KRC\Roboter\Krc\Steu\Mada\$custom.dat
+09:19:36 .reading: C:\KRC_OPTION\SAFE ROBOT\REINST\INTERNAT\KRCUPD\mada_SR_VEL_RED.add
+09:19:36 .replaced "BOOL $SR_VEL_RED=FALSE ;TRUE: OVERRIDEREGELUNG DES SAFEROBOT FUER GESCHWINDIGKEITSGRENZEN IM GRUNDSYSTEM AKTIVIERT" by "BOOL $SR_VEL_RED=TRUE"
+09:19:36 .writing: C:\KRC\Roboter\Krc\Steu\Mada\$custom.dat
+09:19:36 .XchgFile: success
+09:19:36 .Return value from executed program: 0
+09:19:36 .Register files
+09:19:36 .Save registry
+09:19:36 .Registry work
+09:19:36 !Unable to get 'RegeditDir' from KuKaUpd.ini use default value.
+09:19:36 .Registry work: "C:\KRC_OPTION\SAFE ROBOT\REINST\Internat\KrcUpd\SafeRobot.reg"
+09:19:37 .Modify files
+09:19:37 .Make shortcuts
+09:19:37 .No update of patch info in registry
+09:19:37 .Add KukaLog
+09:19:37 !Unable to get 'ExternalOption' from KuKaUpd.ini
+09:19:37 .Reset security of registry key 'SOFTWARE\KUKA Roboter GmbH\Options' and subkeys.
+09:19:37 .Reset security of registry key 'SOFTWARE\KUKA Roboter GmbH\Options\KUKA.SafeRobot' and subkeys.
+09:19:37 .Reset security of registry key 'SOFTWARE\KUKA Roboter GmbH\Options\KUKA.SafeRobot\Dependencies' and subkeys.
+09:19:37 .Force KRC1 to make cold start
+09:19:37 .check 'KUKA Powermanagement' service
+09:19:37 !'KUKA Powermanagement' service not found
+09:19:37 .Force no hibernate
+09:19:37 !Unable to get 'MergeHMIConfig' from KuKaUpd.ini
+09:19:37 .Check whether 'SmartHMI.EXE' is running
+09:19:37 .Check whether 'KUKA_HMI.EXE' is running
+09:19:37 .Check whether 'CROSS3.EXE' is running
+09:19:37 .Check whether 'KUKABOF.EXE' is running
+09:19:37 .Check whether 'KUKADB.EXE' is running
+09:19:37 .Check VxWin running.
+09:19:37 .No KRC process is running => RunOnce=FALSE
+09:19:37 .Don't force windows to make restart  after installation of the Technology Restore
+09:19:37 .Check whether 'SmartHMI.EXE' is running
+09:19:37 .Check whether 'KUKA_HMI.EXE' is running
+09:19:37 .Check whether 'CROSS3.EXE' is running
+09:19:37 .Check whether 'KUKABOF.EXE' is running
+09:19:37 .Check whether 'KUKADB.EXE' is running
+09:19:37 .Check VxWin running.
+09:19:37 .No KRC process is running => RunOnce=FALSE
+09:19:37 .Technology Restore executed successfully!!
+09:19:37 !Unable to get 'DelSourceDir' from KuKaUpd.ini
+09:19:37 .Return value = 0
+09:19:37 .REINSTALL.EXE ends at: November 22, 2019 09:19:37
+09:19:37 -----------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+;****************************************
+;*** KUKA   Parametersatz             ***
+;*** Servoregler: KSD1-08             ***
+;*** Motortyp:  Siemens E0  1FK7034   ***
+;*** Lieferant: Fa. Siemens           ***
+;*** Version 1	vom 15.07.03           ***
+;****************************************
+;
+;
+PI   1069,  0 =    25    ;VP_Isq-Regler
+PI   1070,  0 =   500    ;KI_Isq-Regler
+PI   1071,  0 =    24    ;VP_Isd-Regler
+PI   1072,  0 =   500    ;KI_Isd-Regler
+PI   1073,  0 =   118    ;Back_EMF
+PI   1018,  0 =     0    ;Schaltfrequenz 4kHz
+PI   1092,  0 =    18    ;Reglervorsteuerung
+;

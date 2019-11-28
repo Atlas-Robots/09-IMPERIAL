@@ -1,0 +1,282 @@
+&ACCESS RVP
+&REL 1
+&COMMENT BrkTst-main task
+&PARAM EDITMASK = *
+DEF BRAKETESTREQ(SelfTest:IN)
+;FOLD perform brake test
+
+;ENDFOLD
+;FOLD ;%{H};KUKA.TP.BRAKETEST.BEGIN
+DECL E6AXIS BtStPos
+INT Idx, i, First, Last, Ret, IntArray[5]
+BOOL SelfTest
+INT BitfieldAxesInTest
+REAL RealArray[1]
+if Varstate("SelfTest")==#initialized then
+  if SelfTest==TRUE then
+    Ret=BtMsg({TYP #QUIT, KEY[] "AcknowledgeToPerformSelfTest"})
+  endif
+else
+  SelfTest=FALSE
+endif
+if Varstate("$pro_ip.si01.name[]")==#declared  then
+  Ret=BtMsg({TYP #QUIT, KEY[] "AcknowledgeToManuallyPerformBrakeTest"})
+else
+  if PerformBrakeTest>0 then
+    if NOT $BrakeTest_Req_int AND NOT $BrakeTest_Req_ex AND NOT $Flag[PerformBrakeTest] then
+      Return
+    endif
+    $Flag[PerformBrakeTest]=FALSE
+  else
+    if NOT $BrakeTest_Req_int AND NOT $BrakeTest_Req_ex then
+      Return
+    endif
+  endif
+endif
+
+BAS (#INITMOV,0 )
+BtStPos=$AXIS_ACT
+PTP BtStPos
+Braketest_Work=True
+BrakeTestStart()
+BtStPos=$AXIS_ACT
+repeat
+  IntArray[1]=0
+  if SelfTest==TRUE then
+    IntArray[1]=1
+  endif
+
+  Ret=MD_CMD("BRKTST", "STARTBRAKETEST", IntArray[], RealArray[])
+  if ( Ret <> 0 ) then
+    ; Es wurde bereits eine Zustandsmeldung vom Treiber abgesetzt
+    CancelBrkTest(1)
+    Return
+  endif
+
+  ; Die Achsmasken aus der INI-Datei auslesen
+  BitfieldAxesInTest = IntArray[1]
+
+  if ( (($ASYNC_AXIS*64) b_and BitfieldAxesInTest) > 0 ) then
+    Ret = BtMsg({TYP #QUIT, KEY[] "AxisMustNotBeAsync"})
+    CancelBrkTest(1)
+    Return
+  endif
+
+  if ( ($AX_SIM_ON b_and BitfieldAxesInTest) > 0 ) then
+    Ret = BtMsg({TYP #QUIT, KEY[] "AxisMustNotBeSimulated"})
+    CancelBrkTest(1)
+    Return
+  endif
+
+  if ( ($SIMULATED_AXIS b_and BitfieldAxesInTest) > 0 ) then
+    Ret = BtMsg({TYP #QUIT, KEY[] "AxisMustNotBeSimulated"})
+    CancelBrkTest(1)
+    Return
+  endif
+  
+  ; Die bisherige Prüfung auf 8 Achsen bzw. DSE-Zuordnung enfällt,
+  ; weil das der Treiber schon getan hat
+
+  i=1
+  FOR Idx=1 TO 12
+   if ( ( BitfieldAxesInTest b_and i) == i ) then
+     repeat 
+     TestAxis(Idx, 1)
+     WAIT SEC 1.0
+     IntArray[1]=Idx
+     Ret=MD_CMD("BRKTST", "ENDBRAKETESTPOS", IntArray[], RealArray[])
+     TestAxis(Idx, -1)
+     WAIT SEC 1.0
+     IntArray[1]=Idx
+     Ret=MD_CMD("BRKTST", "ENDBRAKETESTPOS", IntArray[], RealArray[])
+     PTP BtStPos
+     until GetResult()
+   endif
+   i=i*2 
+  ENDFOR
+  wait sec 1.0
+until (NOT $BrakeTest_Req_int)
+Braketest_Work=FALSE
+BrakeTestBack()
+WAIT FOR TRUE
+Ret=MD_CMD("BRKTST", "ENDBRAKETEST", IntArray[], RealArray[])
+END
+
+GLOBAL DEF CancelBrkTest(Mode:IN)
+Int Ret, Mode
+Int IntArray[3]
+Real RealArray[1]
+switch Mode
+case 1 ; force commando  
+case 2 ; if interrupt calling - VKRC  from USER_SAW(), USER_RESET(), USER_CANCEL()
+  if Not(Braketest_Work) then
+    Return
+  endif 
+case 3 ; if cycle calling - standard KRC
+  if Not(Braketest_Work) Or (Not($PRO_STATE1==#P_FREE) and Not($PRO_STATE1==#P_RESET)) then
+    Return 
+  endif
+endswitch
+Braketest_Work=FALSE
+Ret=MD_CMD("BRKTST", "CANCELBRAKETEST", IntArray[], RealArray[]) 
+END
+
+DEF TestAxis(AxisNr: IN, Sign: IN)
+INT AxisNr, Sign
+INT Ret, NrFlag
+INT BtOvProOrg
+INT IntArray[3]
+REAL RealArray[1]
+AxNr=AxisNr
+IntArray[1]=AxNr
+Ret=MD_CMD("BRKTST", "GETKRLPARAM", IntArray[], RealArray[])
+NrFlag=IntArray[1]
+BtIrNr=IntArray[3]
+$FLAG[NrFlag]=FALSE
+IF(AxNr<7) THEN
+$VEL_AXIS[AxNr]=IntArray[2]
+ELSE
+$VEL_EXTAX[AxNr-6]=IntArray[2]
+ENDIF
+INTERRUPT DECL BtIrNr WHEN $FLAG[NrFlag] DO Decelerate()
+INTERRUPT ON BtIrNr
+while $mode_op==#t1
+   Ret=BtMsg({TYP #QUIT, KEY[] "T1ModeNotAllowed"})  
+endwhile
+MoveAxis(Sign)
+END
+
+DEF MoveAxis(Sign: IN)
+INT Sign
+INT Ret, AxisBit
+INT IntArray[5]
+REAL RealArray[6]
+E6AXIS AxisRel
+$ADVANCE=0
+IntArray[1]=AxNr
+IntArray[2]=0
+IntArray[3]=Sign
+Ret=MD_CMD("BRKTST", "GETKRLANGLESA", IntArray[], RealArray[])
+AxisRel.A1=RealArray[1]
+AxisRel.A2=RealArray[2]
+AxisRel.A3=RealArray[3]
+AxisRel.A4=RealArray[4]
+AxisRel.A5=RealArray[5]
+AxisRel.A6=RealArray[6]
+Ret=MD_CMD("BRKTST", "GETKRLANGLESE", IntArray[], RealArray[])
+AxisRel.E1=RealArray[1]
+AxisRel.E2=RealArray[2]
+AxisRel.E3=RealArray[3]
+AxisRel.E4=RealArray[4]
+AxisRel.E5=RealArray[5]
+AxisRel.E6=RealArray[6]
+PTP $AXIS_ACT
+AxisBit=IntArray[2]
+RealArray[1]=$CURR_ACT[AxNr]
+IntArray[1]=AxNr
+IntArray[2]=-1
+IntArray[3]=-1
+IntArray[4]=2000
+Ret=MD_CMD("BRKTST", "SETBRKPARAM", IntArray[], RealArray[])
+$TORQUE_AXIS=AxisBit
+PTP_REL AxisRel
+WAIT FOR TRUE
+Ret=BtMsg({TYP #QUIT, KEY[] "BT_MAX_AXIS_MOVE"}, AxNr)
+END
+
+DEF Decelerate()
+INT Idx
+INTERRUPT OFF BtIrNr
+BRAKE
+$CURR_RED[AxNr,1]=5
+$CURR_RED[AxNr,2]=5
+RESUME
+END
+
+DEFFCT BOOL GetResult()
+INT Ret
+INT IntArray[5]
+REAL RealArray[1]
+Ret=MD_CMD("BRKTST", "GETBRKTSTRESULT", IntArray[], RealArray[])
+SWITCH IntArray[1]
+ CASE 0
+  Return TRUE
+ CASE 1
+  Return TRUE
+ CASE 2
+  Ret=BtMsg({TYP #DIALOG, KEY[] "BT_BRAKE_NOT_OK"}, AxNr)
+ CASE 3
+  Ret=BtMsg({TYP #DIALOG, KEY[] "BT_EVALUATION_FAILED"}, AxNr)
+ CASE 4
+  Ret=BtMsg({TYP #DIALOG, KEY[] "BT_INCOMPLETE"}, AxNr)
+ CASE 5
+  Return FALSE
+ENDSWITCH
+if Ret==1 then
+  Return FALSE
+else
+  ;goto parkposition
+  BrakeTestPark()
+  WAIT FOR TRUE
+  Ret=MD_CMD("BRKTST", "ENDBRAKETEST", IntArray[], RealArray[])
+  Ret=MD_CMD("BRKTST", "GOTOPARKPOS", IntArray[], RealArray[])
+  repeat
+    Ret=BtMsg({TYP #NOTIFY, KEY[] "ParkPositionReached"})
+    halt
+  until false
+endif
+ENDFCT
+
+DEFFCT int BtMsg(Msg :OUT, AxisNo:IN)
+DECL Int AxisNo, Ret
+DECL MSG_T Msg
+if Varstate("AxisNo")==#initialized then
+  IF(AxisNo<7) THEN
+   Msg.PARAM[]="A "
+   Msg.PARAM[2]=AxisNo+48
+  ELSE
+   Msg.PARAM[]="E "
+   Msg.PARAM[2]=AxisNo+42
+  ENDIF
+else
+  Msg.PARAM[]="  "
+endif
+Msg.VALID=FALSE
+Msg.RELEASE=FALSE
+Msg.MODUL[]="BrkTst"
+Msg.PARAM_TYP=#VALUE
+Msg.DLG_FORMAT[]=" "
+Msg.ANSWER=0
+WAIT SEC 0.2
+$MSG_T=Msg
+SWITCH Msg.TYP
+ CASE #QUIT
+  $MSG_T.VALID=TRUE
+  WHILE $MSG_T.VALID
+   WAIT SEC 0.05
+  ENDWHILE
+  WAIT SEC 0.2
+  Return 0
+ CASE #NOTIFY
+  $MSG_T.VALID=TRUE
+  WHILE  $MSG_T.VALID
+   WAIT SEC 0.05
+  ENDWHILE
+  Return 0
+ CASE #STATE
+  $MSG_T.VALID=TRUE
+  Return 0
+CASE #DIALOG
+  $MSG_T.DLG_FORMAT[]="TryAgain|GoToPark"
+  $MSG_T.ANSWER=-1
+  $MSG_T.VALID=TRUE
+  repeat
+    PTP $axis_act
+    Ret=$MSG_T.ANSWER
+  until (Ret<>-1)
+  WAIT SEC 0.2
+  Return Ret
+ENDSWITCH
+ENDFCT
+
+;ENDFOLD;KUKA.TP.BRAKETEST.END

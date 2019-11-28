@@ -1,0 +1,46 @@
+08:33:54 .Getting version from registry
+08:33:54 .Version: "V5.6.12"
+08:33:54 .KRCVersion: "KR C"
+08:33:54 .Reading "timeOut" = "120"
+08:33:54 .Reading "trayIcon" = "true"
+08:33:54 !Cannot find path: "//configuration/kukaroboter.startkrc/kukaVga"
+08:33:54 !Cannot find path: "//configuration/kukaroboter.startkrc/kukaVga"
+08:33:54 .Starting KRC
+08:33:54 .Running "C:\KRC\BIN\KukaDb.exe"
+08:33:54 .CreateProcess succeeded
+	 .Commandline: "C:\KRC\BIN\KukaDb.exe "
+	 .Directory: "C:\KRC\BIN"
+08:33:54 .Running "C:\KRC\HMI\KUKA_HMI.exe"
+08:33:54 .CreateProcess succeeded
+	 .Commandline: "C:\KRC\HMI\KUKA_HMI.exe "
+	 .Directory: "C:\KRC\HMI"
+08:33:54 .Waiting 120 secs ...
+08:34:05 .WM_COPYDATA received: "Init"
+08:34:05 .WM_COPYDATA received: "Start 10%"
+08:35:21 .WM_COPYDATA received: "Init 20%"
+08:35:33 .WM_COPYDATA received: "Init Softkeys 30%"
+08:35:35 .WM_COPYDATA received: "Init PlugIns 50%"
+08:35:47 .WM_COPYDATA received: "Init StatusKeys 70%"
+08:35:47 .WM_COPYDATA received: "Show StartUp 90%"
+08:35:50 .WM_COPYDATA received: "Ready 100%"
+08:35:50 .WM_KRC_HMI_READY received
+08:35:50 .WM_COPYDATA received: "Ready"
+08:35:54 .Timeout for splash screen
+08:35:55 .Running "C:\KRC\BIN\LTCserver.exe"
+08:35:55 .CreateProcess succeeded
+	 .Commandline: "C:\KRC\BIN\LTCserver.exe "
+	 .Directory: "C:\KRC\BIN"
+08:35:55 .Starting service "KrcWmiProviderSvc"
+08:35:59 .Service start pending...
+08:36:00 !Service not started.
+08:36:00   Current State: 2
+08:36:00   Exit Code: 0
+08:36:00 .Starting service "EscService"
+08:36:01 .Service start pending...
+08:36:02 !Service not started.
+08:36:02   Current State: 2
+08:36:02   Exit Code: 0
+08:36:02 .Starting service "KUKA Scheduler Service"
+08:36:05 .Service start pending...
+08:36:06 .Service started successfully
+08:36:06 .Start sequence finished

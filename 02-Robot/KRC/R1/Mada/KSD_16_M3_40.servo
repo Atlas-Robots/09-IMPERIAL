@@ -1,0 +1,16 @@
+;****************************************
+;*** KUKA   Parametersatz             ***
+;*** Servoregler: KSD1-16             ***
+;*** Motortyp:  MG_30_80_40_S0        ***
+;*** Art.Nr.:   00-149-300 (evolvente)***
+;*** 08.09.2006                       ***
+;****************************************
+;
+;
+PI   1069,  0 =    68    ;VP_Isq-Regler
+PI   1070,  0 =   590    ;KI_Isq-Regler
+PI   1071,  0 =    68    ;VP_Isd-Regler
+PI   1072,  0 =   590    ;KI_Isd-Regler
+PI   1073,  0 =    74    ;Back_EMF
+PI   1092,  0 =    18    ;Reglervorsteuerung
+;

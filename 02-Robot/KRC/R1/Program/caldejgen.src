@@ -1,0 +1,170 @@
+&ACCESS RV
+&REL 189
+&COMMENT Funcion de calculo de dejadas
+DEF CalDejGen()
+
+  ;*************************************************;
+  ;***    CALCULAR POSICION DE DEJADA EN PALE    ***;
+  ;                                                 ;
+  ; Creacion de los mosaicos para las producciones. ;
+  ;                                                 ;
+  ; Salidas:                                        ;
+  ;   XAPROX - Posicion de aproximacion a la dejada.;
+  ;   XDEJ   - Posicion de dejada.                  ;
+  ;   XSAL   - Posicion de salida de la dejada.     ;
+  ;*************************************************;
+
+  ; TipoProducto = 1
+
+  ; TipoPalet = 1  ->  Europal
+  ; TipoPalet = 2  ->  Especifico
+
+  ; Dato = 1  ->  NumeroCajas
+  ; Dato = 2  ->  TipoCogida
+  ; Dato = 3  ->  CintaCogida 1
+
+  ; TipoCogida = 1  ->  Pala fija vallado
+  ; TipoCogida = 2  ->  No se contempla
+
+  ; CintaCogida = 1  ->  Entrada
+
+  ; Giro = 1 -> Abre hacia CONTRARIO Robot
+  ; Giro = 2 -> Abre hacia CONTRARIO entrada producto
+
+  ; CapayPosicionActual  ->  Ajuste de capa y posicion actual
+  ; Posicion+Paridad  ->  Capa impar 1-10
+  ; Posicion+Paridad  ->  Capa par 11-20
+
+
+  MaximoCapas=5
+  MAXIMAPOSICION = 5
+  ANCHOPRODUCTO = 400
+  LARGOPRODUCTO = 600
+  ALTOPRODUCTO = 140;150
+  ANCHOPALE = 1000
+  LARGOPALE = 1200
+  ALTOPALE = 145
+ ; CENTROPALA=220
+
+
+  POSICIONX = DATOSDEJADA[1, CAPAYPOSICION_ACTUAL_1, 1]
+  POSICIONY = DATOSDEJADA[1, CAPAYPOSICION_ACTUAL_1, 2]
+  GIRO =DATOSDEJADA[1, CAPAYPOSICION_ACTUAL_1, 3]
+  TIPO_COGIDA = DATOSDEJADA[1, CAPAYPOSICION_ACTUAL_1, 4]
+
+  AJUSTEX = 0
+  AJUSTEY = 0
+  AJUSTEZ = 165
+
+
+
+    ORIGENPALEX = 0
+    ORIGENPALEY = 0
+    ORIGENPALEZ = 0
+
+
+
+
+    XDEJADA.X = POSICIONX + ORIGENPALEX + AJUSTEX
+    XDEJADA.Y = POSICIONY + ORIGENPALEY + AJUSTEY
+    XDEJADA.Z = (CONTADOR_CAPAS_DARSENA1)*ALTOPRODUCTO + ORIGENPALEZ + AJUSTEZ
+    XDEJADA.A = -180
+    XDEJADA.B = 0
+
+
+;EN PRODUCCION CONJUNTA DAMOS PRIORIDAD A LA DARSENA 1
+;CUANDO SE LLENE, PASAMOS A LA DARSENA 2
+;SI NO ES PRODUCCION CONJUNTA-->DARSENA 1
+
+
+  IF NOT LIMITE_CAPAS_DARSENA1 THEN
+      DARSENA1=TRUE
+      DARSENA2=FALSE
+  ELSE
+      DARSENA1=FALSE
+      DARSENA2=TRUE
+  ENDIF
+
+
+
+;ORIENTACION DE DEJADA
+;DEPENDIENDO DE LA DARSENA, ESTE ANGULO CAMBIARÁ Y EL TIPO DE CODIDA TAMBI�?N
+
+SWITCH GIRO
+
+  CASE 0
+          XDEJADA.A = 0
+
+  CASE 1
+
+          IF DARSENA1 THEN
+
+              XDEJADA.A=-90
+              XDEJADA.C=-180
+
+              XDEJADA.T=58
+              XDEJADA.S=6
+
+          ELSE
+
+                  IF (TIPO_COGIDA==1) THEN
+                    TIPO_COGIDA=2
+                   ELSE
+                    TIPO_COGIDA=1
+                   ENDIF
+
+           XDEJADA.A=-90
+           XDEJADA.C=0
+
+          ENDIF
+
+
+  CASE 2
+
+            IF DARSENA1 THEN
+
+                  XDEJADA.A=0
+                  XDEJADA.C = -180
+                  
+                  XDEJADA.T=58
+                  XDEJADA.S=6
+
+
+            ELSE
+
+                          IF (TIPO_COGIDA==1) THEN
+                            TIPO_COGIDA=2
+                          ELSE
+                            TIPO_COGIDA=1
+                          ENDIF
+
+                XDEJADA.A=0
+                XDEJADA.C=0
+            ENDIF
+
+  CASE 3
+                    XDEJADA.A=-90
+                    XDEJADA.C = -180
+
+                    XDEJADA.T=26
+                    XDEJADA.S=6
+
+ENDSWITCH
+
+
+    XAPROXIMACION_DEJADA = XDEJADA
+
+    XAPROXIMACION_DEJADA.X= XDEJADA.X - 100
+    XAPROXIMACION_DEJADA.Y= XDEJADA.Y - 100
+    XAPROXIMACION_DEJADA.Z= XDEJADA.Z + 250
+
+
+    ;PUNTO SALIDA - MISMO PUNTO MÁS EL ALTO DEL SACO
+    XSALIDA_DEJADA = XDEJADA
+    XSALIDA_DEJADA.Z = XDEJADA.Z + ALTOproducto +30
+
+
+
+
+
+end

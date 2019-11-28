@@ -1,0 +1,17 @@
+;****************************************
+;*** KUKA   Parametersatz             ***
+;*** Servoregler: KSD1-64             ***
+;*** Motortyp:            KK69N       ***
+;*** Lieferant: Fa. PacSci            ***
+;*** Version1	vom 14.05.2001        ***
+;****************************************
+;
+;
+PI   1018,  0 =     0    ;Schaltfrquenz 4kHz 
+PI   1069,  0 =    64    ;VP_Isq-Regler
+PI   1070,  0 =   164    ;KI_Isq-Regler
+PI   1071,  0 =    63    ;VP_Isd-Regler
+PI   1072,  0 =   164    ;KI_Isd-Regler
+PI   1073,  0 =   255    ;Back_EMF
+PI   1092,  0 =    18    ;Reglervorsteuerung
+;

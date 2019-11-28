@@ -1,0 +1,23 @@
+;****************************************
+;*** KUKA   Parametersatz             ***
+;*** Servoregler: KSD1-64             ***
+;*** Motortyp:  1FK7105 A01           ***
+;*** Lieferant: Fa. Siemens           ***
+;*** TestVersion 0	vom 23.03.09      ***
+;****************************************
+;
+;
+PI   1069,  0 =    64    ;VP_Isq-Regler  
+PI   1070,  0 =   119    ;KI_Isq-Regler 
+PI   1071,  0 =    63    ;VP_Isd-Regler
+PI   1072,  0 =   119    ;KI_Isd-Regler
+PI   1073,  0 =   189    ;Back_EMF
+PI   1092,  0 =    18    ;Reglervorsteuerung
+PI   1018,  0 =     0    ;Schaltfrequenz 4kHz
+PI   1100,  0 =   -1018  ;FS Isdmax, 1448 = Gerätenennstrom, Isd ist kleiner 0!! ==> bis -45A
+PI   1101,  0 =    200   ;FS p
+PI   1102,  0 =    2000  ;FS I
+PI   1103,  0 =    220   ;FS Einsetzp. der Feldschwäch. bez. auf max. Reglerausgangssp, 255=100%, Default: 240
+PI   1104,  0 =     40   ;FS Hysterese Feldschwächregler, 255=100% max Ausgangsspannung
+;			              Default: 40 = 87,8V (bei 560V UZK)
+;
