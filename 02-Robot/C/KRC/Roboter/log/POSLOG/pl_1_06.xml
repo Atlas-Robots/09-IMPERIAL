@@ -1,1179 +1,1199 @@
 <?xml:stylesheet href="poslog.xsl" type="text/xsl"?>
-<poslog serialno="917921" trafo="#KR2210_2 S C2 FLR ZH210" date="11-28-2019" time="08:07:25" tick="4226958012" timestamp="37893314" trigger="ENABLING SWITCH">
-<move>
-<key_image k3="-1" />
-<mouse_override m1="0.000000" m2="0.000000" m3="0.000000" m4="0.000000" m5="0.000000" m6="0.000000" />
-<mode>BASE</mode>
-<base>
-<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></base>
-<tool>
-<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
-<ipo_mode>tool</ipo_mode>
-<ipo_cycle>4294944916</ipo_cycle>
-</move>
-<value>
-<planned>
-<robot_axis a1="104.784584" a2="-28.063871" a3="74.330673" a4="-180.119324" a5="-43.830494" a6="-165.214554" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.784988" a2="-28.131010" a3="74.347595" a4="-180.118881" a5="-43.883362" a6="-165.212479" />
-<external_axis />
-</actual>
-<ipo_cycle>4294944958</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.784088" a2="-27.567232" a3="74.184822" a4="-180.120071" a5="-43.479736" a6="-165.214142" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.784889" a2="-27.626484" a3="74.193932" a4="-180.119537" a5="-43.520718" a6="-165.211578" />
-<external_axis />
-</actual>
-<ipo_cycle>4294944978</ipo_cycle>
-</value>
-<move>
-<key_image k3="+1" />
-<mouse_override m1="0.000000" m2="0.000000" m3="0.000000" m4="0.000000" m5="0.000000" m6="0.000000" />
-<mode>BASE</mode>
-<base>
-<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></base>
-<tool>
-<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
-<ipo_mode>tool</ipo_mode>
-<ipo_cycle>4294945416</ipo_cycle>
-</move>
-<value>
-<planned>
-<robot_axis a1="104.784691" a2="-28.079365" a3="74.335136" a4="-180.119324" a5="-43.841492" a6="-165.214706" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.784187" a2="-28.007719" a3="74.317009" a4="-180.119858" a5="-43.789734" a6="-165.216980" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945462</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.785294" a2="-28.587740" a3="74.476250" a4="-180.118561" a5="-44.208687" a6="-165.215179" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.784386" a2="-28.518253" a3="74.458588" a4="-180.119324" a5="-44.155708" a6="-165.216766" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945482</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.785789" a2="-29.092924" a3="74.608528" a4="-180.117813" a5="-44.581768" a6="-165.215729" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.784988" a2="-29.022968" a3="74.591980" a4="-180.118774" a5="-44.529015" a6="-165.216339" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945502</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.786392" a2="-29.594913" a3="74.731888" a4="-180.116943" a5="-44.960403" a6="-165.216354" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.785294" a2="-29.524488" a3="74.715614" a4="-180.118027" a5="-44.906319" a6="-165.216461" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945522</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.786995" a2="-30.118595" a3="74.851807" a4="-180.116180" a5="-45.364029" a6="-165.216812" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.785591" a2="-30.049486" a3="74.836838" a4="-180.116516" a5="-45.310493" a6="-165.216599" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945543</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.787598" a2="-30.638521" a3="74.961960" a4="-180.115326" a5="-45.773876" a6="-165.217361" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.786194" a2="-30.569410" a3="74.947830" a4="-180.115646" a5="-45.718674" a6="-165.217453" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945564</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.788200" a2="-31.154879" a3="75.062355" a4="-180.114563" a5="-46.189831" a6="-165.218002" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.786896" a2="-31.085957" a3="75.048874" a4="-180.114792" a5="-46.133518" a6="-165.218063" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945585</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.788803" a2="-31.667387" a3="75.152992" a4="-180.113708" a5="-46.611671" a6="-165.218536" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.787498" a2="-31.599684" a3="75.140068" a4="-180.113922" a5="-46.554474" a6="-165.218765" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945606</ipo_cycle>
-</value>
-<move>
-<key_image k3="-1" />
-<mouse_override m1="0.000000" m2="0.000000" m3="0.000000" m4="0.000000" m5="0.000000" m6="0.000000" />
-<mode>BASE</mode>
-<base>
-<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></base>
-<tool>
-<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
-<ipo_mode>tool</ipo_mode>
-<ipo_cycle>4294945900</ipo_cycle>
-</move>
-<value>
-<planned>
-<robot_axis a1="104.788101" a2="-31.162954" a3="75.063843" a4="-180.114563" a5="-46.196384" a6="-165.217926" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.789101" a2="-31.232534" a3="75.075279" a4="-180.113922" a5="-46.253139" a6="-165.216705" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945959</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.787598" a2="-30.646690" a3="74.963631" a4="-180.115326" a5="-45.780430" a6="-165.217285" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.789001" a2="-30.717022" a3="74.976463" a4="-180.114792" a5="-45.835850" a6="-165.217209" />
-<external_axis />
-</actual>
-<ipo_cycle>4294945980</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.786995" a2="-30.126766" a3="74.853661" a4="-180.116180" a5="-45.370472" a6="-165.216736" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.788704" a2="-30.195688" a3="74.868347" a4="-180.115646" a5="-45.425781" a6="-165.216812" />
-<external_axis />
-</actual>
-<ipo_cycle>4294946001</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.786392" a2="-29.603271" a3="74.733841" a4="-180.117050" a5="-44.966736" a6="-165.216278" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.788002" a2="-29.673885" a3="74.749550" a4="-180.116516" a5="-45.020157" a6="-165.216003" />
-<external_axis />
-</actual>
-<ipo_cycle>4294946022</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.785789" a2="-29.101280" a3="74.610664" a4="-180.117813" a5="-44.587986" a6="-165.215652" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.787399" a2="-29.172081" a3="74.627861" a4="-180.117477" a5="-44.640301" a6="-165.215530" />
-<external_axis />
-</actual>
-<ipo_cycle>4294946042</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.785187" a2="-28.596098" a3="74.478569" a4="-180.118561" a5="-44.214905" a6="-165.215103" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.786697" a2="-28.666805" a3="74.497070" a4="-180.118240" a5="-44.266441" a6="-165.214966" />
-<external_axis />
-</actual>
-<ipo_cycle>4294946062</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.784691" a2="-28.087721" a3="74.337555" a4="-180.119324" a5="-43.847599" a6="-165.214630" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.785789" a2="-28.159462" a3="74.356514" a4="-180.119095" a5="-43.899689" a6="-165.214340" />
-<external_axis />
-</actual>
-<ipo_cycle>4294946082</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.784088" a2="-27.576342" a3="74.187607" a4="-180.120178" a5="-43.486069" a6="-165.214066" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.785492" a2="-27.648550" a3="74.208527" a4="-180.119858" a5="-43.536716" a6="-165.213760" />
-<external_axis />
-</actual>
-<ipo_cycle>4294946102</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.783485" a2="-27.061768" a3="74.028740" a4="-180.120941" a5="-43.130424" a6="-165.213593" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.785187" a2="-27.133696" a3="74.050957" a4="-180.120605" a5="-43.180405" a6="-165.213104" />
-<external_axis />
-</actual>
-<ipo_cycle>4294946122</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782982" a2="-26.551607" a3="73.863274" a4="-180.121689" a5="-42.785664" a6="-165.213089" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.784691" a2="-26.620060" a3="73.882706" a4="-180.121475" a5="-42.829868" a6="-165.212524" />
-<external_axis />
-</actual>
-<ipo_cycle>4294946142</ipo_cycle>
-</value>
-<move>
-<key_image k3="+1" />
-<mouse_override m1="0.000000" m2="0.000000" m3="0.000000" m4="0.000000" m5="0.000000" m6="0.000000" />
-<mode>BASE</mode>
-<base>
-<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></base>
-<tool>
-<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
-<ipo_mode>tool</ipo_mode>
-<ipo_cycle>4294960336</ipo_cycle>
-</move>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-27.052940" a3="74.030045" a4="-180.120941" a5="-43.120316" a6="-165.214264" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-26.977915" a3="74.009216" a4="-180.121582" a5="-43.071339" a6="-165.215759" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960382</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-27.569393" a3="74.193741" a4="-180.120178" a5="-43.473072" a6="-165.215210" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-27.496244" a3="74.172646" a4="-180.121155" a5="-43.423206" a6="-165.217178" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960402</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-28.082745" a3="74.348335" a4="-180.119431" a5="-43.831715" a6="-165.216385" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-28.009596" a3="74.328346" a4="-180.119858" a5="-43.780739" a6="-165.216522" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960422</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-28.592999" a3="74.494095" a4="-180.118668" a5="-44.196247" a6="-165.217468" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-28.522198" a3="74.475037" a4="-180.118988" a5="-44.143600" a6="-165.217758" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960442</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-29.100060" a3="74.630928" a4="-180.117813" a5="-44.566551" a6="-165.218475" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-29.029448" a3="74.612709" a4="-180.118240" a5="-44.514351" a6="-165.218597" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960462</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-29.604023" a3="74.758751" a4="-180.117050" a5="-44.942631" a6="-165.219559" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-29.532564" a3="74.741371" a4="-180.117691" a5="-44.889320" a6="-165.219513" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960482</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-30.104698" a3="74.877831" a4="-180.116302" a5="-45.324268" a6="-165.220718" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-30.034555" a3="74.861099" a4="-180.116943" a5="-45.270290" a6="-165.220657" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960502</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-30.626972" a3="74.993195" a4="-180.115433" a5="-45.731113" a6="-165.221878" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-30.557579" a3="74.977760" a4="-180.116074" a5="-45.675915" a6="-165.222137" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960523</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-31.145489" a3="75.098793" a4="-180.114670" a5="-46.144070" a6="-165.222961" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-31.076191" a3="75.084572" a4="-180.114899" a5="-46.088203" a6="-165.223206" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960544</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-31.660343" a3="75.194641" a4="-180.113922" a5="-46.563026" a6="-165.224121" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-31.591610" a3="75.181717" a4="-180.114136" a5="-46.506603" a6="-165.224854" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960565</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-32.171349" a3="75.280716" a4="-180.113052" a5="-46.988087" a6="-165.225372" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-32.103458" a3="75.268631" a4="-180.113388" a5="-46.929665" a6="-165.225250" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960586</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-32.678596" a3="75.357132" a4="-180.112305" a5="-47.418926" a6="-165.226517" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-32.610237" a3="75.346901" a4="-180.112518" a5="-47.360950" a6="-165.227386" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960607</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-33.181999" a3="75.423691" a4="-180.111542" a5="-47.855652" a6="-165.227600" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-33.114201" a3="75.414490" a4="-180.111649" a5="-47.796120" a6="-165.227783" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960628</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-33.681358" a3="75.480583" a4="-180.110794" a5="-48.298153" a6="-165.228745" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-33.615158" a3="75.472397" a4="-180.110901" a5="-48.237953" a6="-165.228592" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960649</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-34.200253" a3="75.529755" a4="-180.109924" a5="-48.767979" a6="-165.230087" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-34.133770" a3="75.523064" a4="-180.110031" a5="-48.707222" a6="-165.230103" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960671</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-34.714729" a3="75.568237" a4="-180.109177" a5="-49.243912" a6="-165.231201" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-34.649189" a3="75.562660" a4="-180.109390" a5="-49.182156" a6="-165.231522" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960693</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-35.224609" a3="75.596039" a4="-180.108414" a5="-49.725952" a6="-165.232376" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-35.160286" a3="75.591850" a4="-180.108521" a5="-49.663754" a6="-165.232864" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960715</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-35.729885" a3="75.613235" a4="-180.107666" a5="-50.213993" a6="-165.233643" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-35.664814" a3="75.610443" a4="-180.107773" a5="-50.150574" a6="-165.233948" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960737</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-36.230469" a3="75.619743" a4="-180.106796" a5="-50.708141" a6="-165.234833" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-36.166241" a3="75.617882" a4="-180.107010" a5="-50.644390" a6="-165.235291" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960759</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-36.748703" a3="75.615189" a4="-180.106049" a5="-51.230949" a6="-165.236069" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-36.685886" a3="75.617508" a4="-180.106262" a5="-51.166973" a6="-165.236526" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960782</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-37.239521" a3="75.599846" a4="-180.105286" a5="-51.736980" a6="-165.237244" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-37.176796" a3="75.605148" a4="-180.105499" a5="-51.672119" a6="-165.237701" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960804</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-37.725361" a3="75.573914" a4="-180.104538" a5="-52.248791" a6="-165.238510" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-37.663387" a3="75.579399" a4="-180.104752" a5="-52.183151" a6="-165.238770" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960826</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-38.206223" a3="75.537285" a4="-180.103882" a5="-52.766266" a6="-165.239670" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-38.145378" a3="75.543976" a4="-180.103989" a5="-52.699623" a6="-165.239929" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960848</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-38.682014" a3="75.490059" a4="-180.103134" a5="-53.289406" a6="-165.240921" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-38.621544" a3="75.496849" a4="-180.103348" a5="-53.222542" a6="-165.241165" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960870</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-39.131424" a3="75.434937" a4="-180.102478" a5="-53.793774" a6="-165.241913" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-39.071327" a3="75.442467" a4="-180.102692" a5="-53.725910" a6="-165.242645" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960891</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-39.575947" a3="75.370148" a4="-180.101837" a5="-54.303249" a6="-165.243134" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-39.515568" a3="75.378792" a4="-180.102051" a5="-54.233719" a6="-165.243683" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960912</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-40.015774" a3="75.295593" a4="-180.101181" a5="-54.817505" a6="-165.244263" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-39.956711" a3="75.305351" a4="-180.101303" a5="-54.748085" a6="-165.244324" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960933</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-40.450626" a3="75.211281" a4="-180.100540" a5="-55.336754" a6="-165.245285" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-40.392410" a3="75.222900" a4="-180.100647" a5="-55.267223" a6="-165.245667" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960954</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-40.880596" a3="75.117294" a4="-180.099899" a5="-55.860672" a6="-165.246384" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-40.823410" a3="75.129662" a4="-180.100113" a5="-55.790478" a6="-165.246918" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960975</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-41.285305" a3="75.018661" a4="-180.099350" a5="-56.364151" a6="-165.247528" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782684" a2="-41.228966" a3="75.032516" a4="-180.099457" a5="-56.293068" a6="-165.247726" />
-<external_axis />
-</actual>
-<ipo_cycle>4294960995</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="104.782784" a2="-41.670673" a3="74.915291" a4="-180.098816" a5="-56.852859" a6="-165.248474" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="104.782784" a2="-41.623440" a3="74.934540" a4="-180.098923" a5="-56.798214" a6="-165.248734" />
-<external_axis />
-</actual>
-<ipo_cycle>4294961015</ipo_cycle>
-</value>
+<poslog serialno="917921" trafo="#KR2210_2 S C2 FLR ZH210" date="11-28-2019" time="08:16:01" tick="4227216066" timestamp="38409422" trigger="ENABLING SWITCH">
 <syn_motion>
-<program>COGER</program>
-<line>58</line>
-<name>XENTRADA_COG_1</name>
+<program>DEJAR_DARSENA1</program>
+<line>59</line>
+<name>XAPROXIMACION_DEJADA</name>
 <base>
-<pos x="910.360229" y="-201.184998" z="169.916595" a="-0.576900" b="-0.928200" c="-0.849200" /></base>
+<pos x="-248.523102" y="-1156.965942" z="-595.421875" a="179.909500" b="0.141500" c="-0.202500" /></base>
 <tool>
 <pos x="0.000000" y="-140.000000" z="549.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
 <ipo_mode>base</ipo_mode>
 <load>
 <mass>220.000000</mass>
 </load>
-<bco_motion>true</bco_motion>
+<bco_motion>false</bco_motion>
 <interrupt>false</interrupt>
-<ipo_cycle>4294966470</ipo_cycle>
+<ipo_cycle>4294964525</ipo_cycle>
 </syn_motion>
 <value>
 <planned>
-<robot_axis a1="104.294067" a2="-41.875938" a3="75.044136" a4="-180.093521" a5="-56.938690" a6="-164.722305" />
+<robot_axis a1="118.763313" a2="-64.353119" a3="96.002197" a4="-180.032349" a5="-58.595886" a6="-61.316715" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="104.395699" a2="-41.832275" a3="75.014572" a4="-180.095367" a5="-56.925705" a6="-164.853958" />
+<robot_axis a1="118.725082" a2="-64.484581" a3="95.839890" a4="-180.033096" a5="-58.888451" a6="-61.354897" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966498</ipo_cycle>
+<ipo_cycle>4294964909</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="103.817688" a2="-42.066086" a3="75.171585" a4="-180.088989" a5="-57.005978" a6="-164.209320" />
+<robot_axis a1="118.831841" a2="-64.120247" a3="96.290741" a4="-180.032120" a5="-58.074520" a6="-61.247936" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="103.970398" a2="-42.004112" a3="75.128822" a4="-180.089539" a5="-56.984097" a6="-164.395294" />
+<robot_axis a1="118.793411" a2="-64.251236" a3="96.128807" a4="-180.032883" a5="-58.365528" a6="-61.287575" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966507</ipo_cycle>
+<ipo_cycle>4294964914</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="103.295868" a2="-42.274544" a3="75.311211" a4="-180.084030" a5="-57.079700" a6="-163.647415" />
+<robot_axis a1="118.900360" a2="-63.887657" a3="96.578918" a4="-180.031906" a5="-57.553822" a6="-61.179333" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="103.480476" a2="-42.200363" a3="75.261658" a4="-180.085114" a5="-57.053940" a6="-163.858246" />
+<robot_axis a1="118.861938" a2="-64.018745" a3="96.417259" a4="-180.032776" a5="-57.845497" a6="-61.218819" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966515</ipo_cycle>
+<ipo_cycle>4294964919</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="102.819794" a2="-42.464600" a3="75.438560" a4="-180.079498" a5="-57.146877" a6="-163.134766" />
+<robot_axis a1="118.968689" a2="-63.655350" a3="96.866714" a4="-180.031799" a5="-57.033787" a6="-61.110905" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="103.010925" a2="-42.389385" a3="75.388832" a4="-180.081985" a5="-57.120232" a6="-163.346756" />
+<robot_axis a1="118.930260" a2="-63.786152" a3="96.705338" a4="-180.032562" a5="-57.324795" a6="-61.150211" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966522</ipo_cycle>
+<ipo_cycle>4294964924</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="102.343513" a2="-42.654842" a3="75.566101" a4="-180.074966" a5="-57.214161" a6="-162.621964" />
+<robot_axis a1="119.036919" a2="-63.423603" a3="97.153778" a4="-180.031586" a5="-56.514977" a6="-61.042488" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="102.535049" a2="-42.579441" a3="75.516273" a4="-180.076904" a5="-57.186295" a6="-162.831146" />
+<robot_axis a1="118.998787" a2="-63.554314" a3="96.992401" a4="-180.032227" a5="-56.805206" a6="-61.082607" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966529</ipo_cycle>
+<ipo_cycle>4294964929</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="101.866737" a2="-42.845177" a3="75.693642" a4="-180.070435" a5="-57.281448" a6="-162.108505" />
+<robot_axis a1="119.104843" a2="-63.192795" a3="97.439812" a4="-180.031372" a5="-55.998165" a6="-60.974426" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="102.057671" a2="-42.768929" a3="75.642792" a4="-180.072815" a5="-57.253693" a6="-162.316528" />
+<robot_axis a1="119.066917" a2="-63.322567" a3="97.279083" a4="-180.032120" a5="-56.287506" a6="-61.013222" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966536</ipo_cycle>
+<ipo_cycle>4294964934</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="101.389961" a2="-43.035606" a3="75.821182" a4="-180.065903" a5="-57.348736" a6="-161.595200" />
+<robot_axis a1="119.172462" a2="-62.963303" a3="97.724083" a4="-180.031158" a5="-55.484348" a6="-60.906734" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="101.581398" a2="-42.959171" a3="75.770615" a4="-180.067307" a5="-57.320751" a6="-161.801590" />
+<robot_axis a1="119.134537" a2="-63.092228" a3="97.564751" a4="-180.032013" a5="-55.771805" a6="-60.946980" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966543</ipo_cycle>
+<ipo_cycle>4294964939</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="100.913185" a2="-43.226036" a3="75.948814" a4="-180.061371" a5="-57.416019" a6="-161.081741" />
+<robot_axis a1="119.239586" a2="-62.735313" a3="98.006676" a4="-180.030945" a5="-54.973869" a6="-60.839413" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="101.104019" a2="-43.149509" a3="75.898987" a4="-180.062454" a5="-57.388145" a6="-161.287628" />
+<robot_axis a1="119.201859" a2="-62.863396" a3="97.848000" a4="-180.031799" a5="-55.258549" a6="-60.876671" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966550</ipo_cycle>
+<ipo_cycle>4294964944</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="100.436409" a2="-43.416374" a3="76.076355" a4="-180.056839" a5="-57.483307" a6="-160.568436" />
+<robot_axis a1="119.306206" a2="-62.508732" a3="98.287323" a4="-180.030838" a5="-54.466721" a6="-60.772633" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="100.627846" a2="-43.340218" a3="76.025230" a4="-180.057266" a5="-57.455540" a6="-160.774323" />
+<robot_axis a1="119.268784" a2="-62.636063" a3="98.129753" a4="-180.031586" a5="-54.749287" a6="-60.811337" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966557</ipo_cycle>
+<ipo_cycle>4294964949</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="99.959732" a2="-43.606804" a3="76.203896" a4="-180.052307" a5="-57.550701" a6="-160.054977" />
+<robot_axis a1="119.372528" a2="-62.283749" a3="98.566109" a4="-180.030609" a5="-53.962902" a6="-60.706219" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="100.151070" a2="-43.530460" a3="76.153046" a4="-180.052094" a5="-57.523491" a6="-160.260696" />
+<robot_axis a1="119.335403" a2="-62.410137" a3="98.409653" a4="-180.031372" a5="-54.244915" a6="-60.741802" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966564</ipo_cycle>
+<ipo_cycle>4294964954</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="99.482956" a2="-43.797138" a3="76.331528" a4="-180.047775" a5="-57.617989" a6="-159.541672" />
+<robot_axis a1="119.438240" a2="-62.060265" a3="98.843033" a4="-180.030396" a5="-53.462528" a6="-60.640182" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="99.674088" a2="-43.721359" a3="76.280678" a4="-180.047668" a5="-57.590885" a6="-159.747238" />
+<robot_axis a1="119.401718" a2="-62.185810" a3="98.687698" a4="-180.031265" a5="-53.742210" a6="-60.677536" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966571</ipo_cycle>
+<ipo_cycle>4294964959</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="99.006180" a2="-43.987568" a3="76.459068" a4="-180.043243" a5="-57.685276" a6="-159.028381" />
+<robot_axis a1="119.516602" a2="-61.794151" a3="99.172760" a4="-180.030182" a5="-52.866745" a6="-60.561722" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="99.197510" a2="-43.911133" a3="76.407478" a4="-180.042816" a5="-57.657948" a6="-159.233444" />
+<robot_axis a1="119.479980" a2="-61.918381" a3="99.018822" a4="-180.031052" a5="-53.143982" a6="-60.597076" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966578</ipo_cycle>
+<ipo_cycle>4294964965</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="98.529503" a2="-44.177902" a3="76.586609" a4="-180.038712" a5="-57.752560" a6="-158.514908" />
+<robot_axis a1="119.594261" a2="-61.530293" a3="99.499603" a4="-180.029968" a5="-52.276070" a6="-60.483986" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="98.720535" a2="-44.101658" a3="76.535110" a4="-180.038925" a5="-57.725128" a6="-158.719986" />
+<robot_axis a1="119.557739" a2="-61.653584" a3="99.347061" a4="-180.030838" a5="-52.551086" a6="-60.519638" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966585</ipo_cycle>
+<ipo_cycle>4294964971</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="98.052727" a2="-44.368332" a3="76.714241" a4="-180.034180" a5="-57.819847" a6="-158.001617" />
+<robot_axis a1="119.671310" a2="-61.268780" a3="99.823570" a4="-180.029755" a5="-51.690617" a6="-60.406807" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="98.244057" a2="-44.291992" a3="76.663857" a4="-180.034500" a5="-57.791748" a6="-158.207336" />
+<robot_axis a1="119.634995" a2="-61.391132" a3="99.672325" a4="-180.030502" a5="-51.963188" a6="-60.444233" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966592</ipo_cycle>
+<ipo_cycle>4294964977</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="97.575951" a2="-44.558670" a3="76.841782" a4="-180.029648" a5="-57.887241" a6="-157.488159" />
+<robot_axis a1="119.747566" a2="-61.009617" a3="100.144653" a4="-180.029541" a5="-51.110382" a6="-60.330360" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="97.767082" a2="-44.482422" a3="76.790375" a4="-180.030502" a5="-57.858814" a6="-157.693375" />
+<robot_axis a1="119.711548" a2="-61.130745" a3="99.994705" a4="-180.030289" a5="-51.380177" a6="-60.365124" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966599</ipo_cycle>
+<ipo_cycle>4294964983</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="97.099075" a2="-44.749100" a3="76.969414" a4="-180.025116" a5="-57.954529" a6="-156.974854" />
+<robot_axis a1="119.823112" a2="-60.752892" a3="100.462753" a4="-180.029327" a5="-50.535591" a6="-60.254639" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="97.290611" a2="-44.672478" a3="76.918381" a4="-180.025970" a5="-57.926208" a6="-157.179916" />
+<robot_axis a1="119.787895" a2="-60.872616" a3="100.314209" a4="-180.029968" a5="-50.803051" a6="-60.291664" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966606</ipo_cycle>
+<ipo_cycle>4294964989</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="96.622299" a2="-44.939529" a3="77.096954" a4="-180.020584" a5="-58.021816" a6="-156.461395" />
+<robot_axis a1="119.897964" a2="-60.498611" a3="100.777794" a4="-180.029099" a5="-49.966354" a6="-60.179482" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="96.813332" a2="-44.863655" a3="77.046013" a4="-180.021545" a5="-57.994164" a6="-156.666138" />
+<robot_axis a1="119.862846" a2="-60.617393" a3="100.630455" a4="-180.029861" a5="-50.231262" a6="-60.216312" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966613</ipo_cycle>
+<ipo_cycle>4294964995</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="96.145424" a2="-45.129959" a3="77.224594" a4="-180.016052" a5="-58.089100" a6="-155.947922" />
+<robot_axis a1="119.972107" a2="-60.246769" a3="101.089767" a4="-180.028885" a5="-49.402668" a6="-60.105221" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="96.336655" a2="-45.053337" a3="77.172905" a4="-180.017227" a5="-58.061893" a6="-156.152847" />
+<robot_axis a1="119.937393" a2="-60.364708" a3="100.944008" a4="-180.029755" a5="-49.665134" a6="-60.139725" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966620</ipo_cycle>
+<ipo_cycle>4294965001</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="95.668541" a2="-45.320389" a3="77.352135" a4="-180.011520" a5="-58.156498" a6="-155.434296" />
+<robot_axis a1="120.045448" a2="-59.997559" a3="101.398575" a4="-180.028671" a5="-48.844540" a6="-60.031689" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="95.859573" a2="-45.244045" a3="77.300262" a4="-180.013031" a5="-58.128849" a6="-155.639709" />
+<robot_axis a1="120.011040" a2="-60.113995" a3="101.254120" a4="-180.029541" a5="-49.104004" a6="-60.067463" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966627</ipo_cycle>
+<ipo_cycle>4294965007</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="95.191666" a2="-45.510818" a3="77.479767" a4="-180.006989" a5="-58.223782" a6="-154.920837" />
+<robot_axis a1="120.118088" a2="-59.750790" a3="101.704231" a4="-180.028458" a5="-48.292294" a6="-59.958893" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="95.382797" a2="-45.434196" a3="77.429008" a4="-180.008926" a5="-58.196583" a6="-155.125763" />
+<robot_axis a1="120.084175" a2="-59.866096" a3="101.561073" a4="-180.029205" a5="-48.549095" a6="-59.991024" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966634</ipo_cycle>
+<ipo_cycle>4294965013</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="94.714691" a2="-45.701248" a3="77.607399" a4="-180.002457" a5="-58.291180" a6="-154.407211" />
+<robot_axis a1="120.189926" a2="-59.506741" a3="102.006622" a4="-180.028244" a5="-47.745827" a6="-59.886993" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="94.905922" a2="-45.624813" a3="77.555244" a4="-180.004395" a5="-58.262867" a6="-154.611954" />
+<robot_axis a1="120.156319" a2="-59.620926" a3="101.865143" a4="-180.028885" a5="-48.000069" a6="-59.920727" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966641</ipo_cycle>
+<ipo_cycle>4294965019</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="94.237709" a2="-45.891769" a3="77.735031" a4="-179.997925" a5="-58.358467" a6="-153.893585" />
+<robot_axis a1="120.261063" a2="-59.265324" a3="102.305771" a4="-180.028030" a5="-47.205246" a6="-59.815662" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="94.428947" a2="-45.814678" a3="77.683807" a4="-180.000076" a5="-58.330265" a6="-154.098663" />
+<robot_axis a1="120.227455" a2="-59.378193" a3="102.165955" a4="-180.028885" a5="-47.456825" a6="-59.848381" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966648</ipo_cycle>
+<ipo_cycle>4294965025</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="93.765755" a2="-46.080227" a3="77.861359" a4="-179.993393" a5="-58.425087" a6="-153.385361" />
+<robot_axis a1="120.331299" a2="-59.026535" a3="102.601563" a4="-180.027817" a5="-46.670773" a6="-59.745235" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="93.955582" a2="-46.005108" a3="77.811722" a4="-179.995010" a5="-58.396770" a6="-153.586487" />
+<robot_axis a1="120.298187" a2="-59.138184" a3="102.463242" a4="-180.028778" a5="-46.919022" a6="-59.777908" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966655</ipo_cycle>
+<ipo_cycle>4294965031</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="93.281853" a2="-46.273476" a3="77.990852" a4="-179.988861" a5="-58.493370" a6="-152.864365" />
+<robot_axis a1="120.400826" a2="-58.790565" a3="102.894012" a4="-180.027695" a5="-46.142300" a6="-59.675709" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="93.450912" a2="-46.208122" a3="77.949020" a4="-179.990250" a5="-58.470497" a6="-153.034912" />
+<robot_axis a1="120.368217" a2="-58.900616" a3="102.757271" a4="-180.028458" a5="-46.388100" a6="-59.710152" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966663</ipo_cycle>
+<ipo_cycle>4294965037</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="92.845406" a2="-46.447754" a3="78.107613" a4="-179.984650" a5="-58.554993" a6="-152.394440" />
+<robot_axis a1="120.469452" a2="-58.557316" a3="103.182930" a4="-180.027481" a5="-45.620155" a6="-59.606922" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="92.959587" a2="-46.405029" a3="78.081490" a4="-179.985504" a5="-58.539227" a6="-152.500320" />
+<robot_axis a1="120.437042" a2="-58.666336" a3="103.047585" a4="-180.028244" a5="-45.862957" a6="-59.638538" />
 <external_axis />
 </actual>
-<ipo_cycle>4294966673</ipo_cycle>
+<ipo_cycle>4294965043</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="120.537277" a2="-58.326885" a3="103.468414" a4="-180.027267" a5="-45.104340" a6="-59.538876" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="120.505272" a2="-58.434494" a3="103.334923" a4="-180.028137" a5="-45.344147" a6="-59.572910" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965049</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="120.604301" a2="-58.099365" a3="103.750359" a4="-180.027054" a5="-44.594860" a6="-59.471729" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="120.572296" a2="-58.205566" a3="103.618538" a4="-180.027817" a5="-44.832111" a6="-59.502289" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965055</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="120.670418" a2="-57.874756" a3="104.028679" a4="-180.026840" a5="-44.091930" a6="-59.405495" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="120.639114" a2="-57.979641" a3="103.898445" a4="-180.027588" a5="-44.325848" a6="-59.437977" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965061</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="120.746468" a2="-57.616341" a3="104.348740" a4="-180.026627" a5="-43.513584" a6="-59.329235" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="120.716064" a2="-57.720009" a3="104.220543" a4="-180.027267" a5="-43.743393" a6="-59.358707" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965068</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="120.821320" a2="-57.362156" a3="104.663681" a4="-180.026413" a5="-42.944458" a6="-59.254246" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="120.791115" a2="-57.463943" a3="104.537628" a4="-180.027161" a5="-43.169601" a6="-59.283329" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965075</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="120.894859" a2="-57.112099" a3="104.973518" a4="-180.026184" a5="-42.384552" a6="-59.180527" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="120.864960" a2="-57.212101" a3="104.849419" a4="-180.026947" a5="-42.607697" a6="-59.211060" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965082</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="120.967300" a2="-56.866268" a3="105.278053" a4="-180.025970" a5="-41.834194" a6="-59.107918" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="120.938004" a2="-56.964485" a3="105.156181" a4="-180.026840" a5="-42.053009" a6="-59.135609" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965089</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.038330" a2="-56.624756" a3="105.577286" a4="-180.025864" a5="-41.293613" a6="-59.036755" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.009537" a2="-56.721474" a3="105.457466" a4="-180.026520" a5="-41.508537" a6="-59.067177" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965096</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.108162" a2="-56.387657" a3="105.871040" a4="-180.025650" a5="-40.762695" a6="-58.966702" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.079872" a2="-56.482307" a3="105.753540" a4="-180.026184" a5="-40.973843" a6="-58.994122" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965103</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.176590" a2="-56.155067" a3="106.159309" a4="-180.025436" a5="-40.241886" a6="-58.898094" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.149300" a2="-56.248123" a3="106.044037" a4="-180.026077" a5="-40.447926" a6="-58.925938" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965110</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.243813" a2="-55.926983" a3="106.441902" a4="-180.025223" a5="-39.731293" a6="-58.830772" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.217026" a2="-56.017971" a3="106.328773" a4="-180.025970" a5="-39.934334" a6="-58.857430" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965117</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.309532" a2="-55.703499" a3="106.718735" a4="-180.025009" a5="-39.230919" a6="-58.764900" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.282845" a2="-55.792610" a3="106.608208" a4="-180.025650" a5="-39.429737" a6="-58.792484" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965124</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.383072" a2="-55.453819" a3="107.028107" a4="-180.024796" a5="-38.671898" a6="-58.691193" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.357185" a2="-55.541145" a3="106.919716" a4="-180.025436" a5="-38.866165" a6="-58.719044" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965132</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.454712" a2="-55.210335" a3="107.329758" a4="-180.024673" a5="-38.126877" a6="-58.619476" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.429527" a2="-55.295036" a3="107.224251" a4="-180.025223" a5="-38.316032" a6="-58.643486" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965140</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.524544" a2="-54.973240" a3="107.623512" a4="-180.024460" a5="-37.596069" a6="-58.549427" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.499863" a2="-55.055779" a3="107.520599" a4="-180.025009" a5="-37.780113" a6="-58.574844" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965148</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.592468" a2="-54.742527" a3="107.909264" a4="-180.024246" a5="-37.079590" a6="-58.481369" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.568985" a2="-54.822811" a3="107.809708" a4="-180.024902" a5="-37.258305" a6="-58.503601" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965156</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.658386" a2="-54.518387" a3="108.187027" a4="-180.024033" a5="-36.577770" a6="-58.415314" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.635010" a2="-54.596603" a3="108.089981" a4="-180.024567" a5="-36.751709" a6="-58.439941" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965164</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.730324" a2="-54.274246" a3="108.489517" a4="-180.023819" a5="-36.031078" a6="-58.343246" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.707848" a2="-54.349648" a3="108.395447" a4="-180.024353" a5="-36.199245" a6="-58.365173" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965173</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.799652" a2="-54.038555" a3="108.781502" a4="-180.023605" a5="-35.503494" a6="-58.273731" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.777878" a2="-54.111423" a3="108.691147" a4="-180.024139" a5="-35.664883" a6="-58.295403" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965182</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.866470" a2="-53.811691" a3="109.062614" a4="-180.023499" a5="-34.995457" a6="-58.206772" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.845703" a2="-53.881836" a3="108.975510" a4="-180.024139" a5="-35.151070" a6="-58.228859" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965191</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="121.937607" a2="-53.569901" a3="109.362129" a4="-180.023285" a5="-34.454208" a6="-58.135433" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.917839" a2="-53.636757" a3="109.278740" a4="-180.023819" a5="-34.602825" a6="-58.154640" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965201</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.005531" a2="-53.339279" a3="109.647888" a4="-180.023056" a5="-33.937950" a6="-58.067379" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="121.986969" a2="-53.402946" a3="109.568314" a4="-180.023392" a5="-34.079014" a6="-58.087959" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965211</ipo_cycle>
 </value>
 <syn_motion>
-<program>COGER</program>
-<line>58</line>
-<name>XENTRADA_COG_1</name>
+<program>DEJAR_DARSENA1</program>
+<line>69</line>
+<name>XDEJADA</name>
 <base>
 <pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></base>
 <tool>
 <pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
 <ipo_mode>tool</ipo_mode>
 <load>
-<mass>0.000000</mass>
+<mass>220.000000</mass>
 </load>
-<bco_motion>true</bco_motion>
+<bco_motion>false</bco_motion>
 <interrupt>false</interrupt>
-<ipo_cycle>4294967103</ipo_cycle>
+<ipo_cycle>4294965211</ipo_cycle>
 </syn_motion>
 <value>
 <planned>
-<robot_axis a1="92.403450" a2="-46.623440" a3="78.225204" a4="-179.980331" a5="-58.615173" a6="-151.916962" />
+<robot_axis a1="122.076469" a2="-53.098331" a3="109.945633" a4="-180.022842" a5="-33.398369" a6="-57.996391" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="92.447189" a2="-46.604191" a3="78.209587" a4="-179.981522" a5="-58.612514" a6="-151.984650" />
+<robot_axis a1="122.058304" a2="-53.158615" a3="109.870705" a4="-180.023163" a5="-33.532990" a6="-58.012947" />
 <external_axis />
 </actual>
-<ipo_cycle>4294967121</ipo_cycle>
+<ipo_cycle>4294965222</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="91.925468" a2="-46.814339" a3="78.353119" a4="-179.975800" a5="-58.682682" a6="-151.402191" />
+<robot_axis a1="122.144287" a2="-52.869122" a3="110.224419" a4="-180.022629" a5="-32.884335" a6="-57.928368" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="92.044762" a2="-46.765793" a3="78.320023" a4="-179.973862" a5="-58.666454" a6="-151.552124" />
+<robot_axis a1="122.127136" a2="-52.926872" a3="110.154510" a4="-180.022949" a5="-33.013065" a6="-57.947308" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965233</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.214821" a2="-52.631836" a3="110.505989" a4="-180.022415" a5="-32.350750" a6="-57.857788" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.198166" a2="-52.686111" a3="110.441475" a4="-180.022736" a5="-32.472927" a6="-57.874016" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965245</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.281944" a2="-52.407600" a3="110.764137" a4="-180.022308" a5="-31.845266" a6="-57.790535" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.266296" a2="-52.458870" a3="110.705109" a4="-180.022415" a5="-31.961115" a6="-57.806347" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965257</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.350777" a2="-52.179611" a3="111.017174" a4="-180.022095" a5="-31.329565" a6="-57.721504" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.335823" a2="-52.227596" a3="110.964188" a4="-180.022202" a5="-31.437304" a6="-57.737209" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965270</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.420303" a2="-51.950401" a3="111.258873" a4="-180.021881" a5="-30.811197" a6="-57.651947" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.406761" a2="-51.995193" a3="111.212486" a4="-180.022202" a5="-30.911274" a6="-57.664764" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965284</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.489632" a2="-51.711800" a3="111.482254" a4="-180.021652" a5="-30.298384" a6="-57.582630" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.476189" a2="-51.756496" a3="111.442375" a4="-180.021881" a5="-30.391129" a6="-57.597153" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965299</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.557556" a2="-51.457237" a3="111.680069" a4="-180.021439" a5="-29.800009" a6="-57.514652" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.545616" a2="-51.502121" a3="111.647720" a4="-180.021774" a5="-29.884424" a6="-57.524799" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965315</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.626587" a2="-51.170937" a3="111.852600" a4="-180.021225" a5="-29.299301" a6="-57.445660" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.615547" a2="-51.215538" a3="111.827599" a4="-180.021332" a5="-29.373610" a6="-57.458294" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965333</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.697319" a2="-50.836933" a3="111.987114" a4="-180.021011" a5="-28.795374" a6="-57.374981" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.687584" a2="-50.881817" a3="111.971123" a4="-180.021225" a5="-28.857464" a6="-57.383846" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965354</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.767654" a2="-50.439358" a3="112.053299" a4="-180.020905" a5="-28.308107" a6="-57.304695" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.759727" a2="-50.484150" a3="112.046890" a4="-180.020905" a5="-28.356533" a6="-57.312225" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965379</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.835777" a2="-49.930420" a3="111.989159" a4="-180.020691" a5="-27.863045" a6="-57.236935" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.829758" a2="-49.975304" a3="111.998360" a4="-180.020691" a5="-27.893147" a6="-57.244061" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965411</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.879120" a2="-49.421387" a3="111.757782" a4="-180.020477" a5="-27.618689" a6="-57.193993" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.875008" a2="-49.466553" a3="111.781113" a4="-180.020477" a5="-27.632685" a6="-57.196640" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965443</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.897682" a2="-48.911320" a3="111.374229" a4="-180.020248" a5="-27.565374" a6="-57.175900" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.895172" a2="-48.960712" a3="111.412254" a4="-180.020370" a5="-27.571817" a6="-57.180084" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965474</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.898987" a2="-48.401913" a3="110.914825" a4="-180.020142" a5="-27.565374" a6="-57.174423" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.897980" a2="-48.458252" a3="110.965118" a4="-180.020142" a5="-27.565929" a6="-57.176891" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965501</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.904404" a2="-47.893162" a3="110.454308" a4="-180.019928" a5="-27.565372" a6="-57.168190" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.901894" a2="-47.955322" a3="110.508224" a4="-180.020035" a5="-27.565041" a6="-57.159824" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965525</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.921158" a2="-47.380466" a3="110.013123" a4="-180.019714" a5="-27.558264" a6="-57.151371" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.917747" a2="-47.448261" a3="110.069458" a4="-180.019821" a5="-27.555153" a6="-57.154938" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965547</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="122.946541" a2="-46.875847" a3="109.617393" a4="-180.019501" a5="-27.489843" a6="-57.126354" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.942528" a2="-46.948994" a3="109.671959" a4="-180.019714" a5="-27.503395" a6="-57.131783" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965567</ipo_cycle>
+</value>
+<syn_motion>
+<program>DEJAR_DARSENA1</program>
+<line>69</line>
+<name>XDEJADA</name>
+<base>
+<pos x="-248.523102" y="-1156.965942" z="-595.421875" a="179.909500" b="0.141500" c="-0.202500" /></base>
+<tool>
+<pos x="0.000000" y="-140.000000" z="549.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
+<ipo_mode>base</ipo_mode>
+<load>
+<mass>220.000000</mass>
+</load>
+<bco_motion>false</bco_motion>
+<interrupt>false</interrupt>
+<ipo_cycle>4294965582</ipo_cycle>
+</syn_motion>
+<value>
+<planned>
+<robot_axis a1="122.979553" a2="-46.362774" a3="109.256523" a4="-180.019287" a5="-27.352448" a6="-57.093529" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="122.974136" a2="-46.441181" a3="109.309052" a4="-180.019501" a5="-27.377439" a6="-57.100258" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965586</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.016373" a2="-45.850830" a3="108.917503" a4="-180.019073" a5="-27.180176" a6="-57.056957" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.010353" a2="-45.932991" a3="108.971512" a4="-180.019180" a5="-27.208387" a6="-57.060780" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965604</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.052795" a2="-45.345459" a3="108.579407" a4="-180.018860" a5="-27.013014" a6="-57.020786" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.046677" a2="-45.430534" a3="108.636490" a4="-180.018967" a5="-27.040781" a6="-57.027061" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965621</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.090523" a2="-44.818489" a3="108.221611" a4="-180.018524" a5="-26.843740" a6="-56.983109" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.084801" a2="-44.906853" a3="108.282219" a4="-180.018738" a5="-26.871841" a6="-56.990536" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965638</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.127441" a2="-44.303074" a3="107.866501" a4="-180.018311" a5="-26.683353" a6="-56.946533" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.121124" a2="-44.394718" a3="107.930183" a4="-180.018417" a5="-26.712120" a6="-56.952328" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965654</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.164665" a2="-43.780613" a3="107.501450" a4="-180.018097" a5="-26.525965" a6="-56.909504" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.158646" a2="-43.871975" a3="107.565224" a4="-180.018204" a5="-26.553844" a6="-56.915619" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965670</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.200386" a2="-43.276836" a3="107.144585" a4="-180.017776" a5="-26.379240" a6="-56.873932" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.194466" a2="-43.364445" a3="107.206589" a4="-180.017883" a5="-26.405008" a6="-56.881985" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965686</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.236603" a2="-42.764893" a3="106.776833" a4="-180.017563" a5="-26.235069" a6="-56.837902" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.230682" a2="-42.848465" a3="106.836884" a4="-180.017563" a5="-26.259171" a6="-56.843307" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965703</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.273026" a2="-42.248817" a3="106.401001" a4="-180.017227" a5="-26.094784" a6="-56.801758" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.266899" a2="-42.327881" a3="106.458633" a4="-180.017349" a5="-26.116667" a6="-56.806641" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965721</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.309242" a2="-41.732834" a3="106.020050" a4="-180.017014" a5="-25.959723" a6="-56.765686" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.303726" a2="-41.807579" a3="106.075546" a4="-180.017014" a5="-25.978603" a6="-56.773151" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965740</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.345062" a2="-41.221359" a3="105.637337" a4="-180.016693" a5="-25.830990" a6="-56.730026" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.339943" a2="-41.291317" a3="105.690048" a4="-180.016693" a5="-25.848206" a6="-56.735500" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965760</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.380180" a2="-40.718994" a3="105.256485" a4="-180.016479" a5="-25.709366" a6="-56.695278" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.374863" a2="-40.784630" a3="105.306122" a4="-180.016479" a5="-25.726805" a6="-56.699284" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965781</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.415596" a2="-40.209209" a3="104.865036" a4="-180.016159" a5="-25.591074" a6="-56.660084" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.410477" a2="-40.269962" a3="104.911606" a4="-180.016159" a5="-25.605181" a6="-56.666340" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965804</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.450714" a2="-39.702805" a3="104.471069" a4="-180.015839" a5="-25.478668" a6="-56.625134" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.446594" a2="-39.758114" a3="104.514206" a4="-180.015839" a5="-25.491886" a6="-56.630066" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965829</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.485825" a2="-39.193962" a3="104.070229" a4="-180.015610" a5="-25.370707" a6="-56.590244" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.482613" a2="-39.243069" a3="104.108994" a4="-180.015610" a5="-25.381592" a6="-56.592686" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965857</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.520142" a2="-38.696007" a3="103.673012" a4="-180.015289" a5="-25.269964" a6="-56.556267" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.517334" a2="-38.732628" a3="103.702110" a4="-180.015289" a5="-25.278406" a6="-56.559334" />
+<external_axis />
+</actual>
+<ipo_cycle>4294965889</ipo_cycle>
+</value>
+<syn_motion>
+<program>DEJAR_DARSENA1</program>
+<line>69</line>
+<name>XDEJADA</name>
+<base>
+<pos x="-248.523102" y="-1156.965942" z="-595.421875" a="179.909500" b="0.141500" c="-0.202500" /></base>
+<tool>
+<pos x="0.000000" y="-140.000000" z="549.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
+<ipo_mode>base</ipo_mode>
+<load>
+<mass>220.000000</mass>
+</load>
+<bco_motion>false</bco_motion>
+<interrupt>false</interrupt>
+<ipo_cycle>4294966457</ipo_cycle>
+</syn_motion>
+<value>
+<planned>
+<robot_axis a1="123.554153" a2="-38.199745" a3="103.272362" a4="-180.014969" a5="-25.174442" a6="-56.522526" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.551041" a2="-38.229794" a3="103.296249" a4="-180.015289" a5="-25.180109" a6="-56.525391" />
+<external_axis />
+</actual>
+<ipo_cycle>4294966500</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.588066" a2="-37.702732" a3="102.866127" a4="-180.014755" a5="-25.083586" a6="-56.488850" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.586258" a2="-37.724045" a3="102.883972" a4="-180.015076" a5="-25.087141" a6="-56.490868" />
+<external_axis />
+</actual>
+<ipo_cycle>4294966551</ipo_cycle>
+</value>
+<syn_motion>
+<program>DEJAR_DARSENA1</program>
+<line>85</line>
+<name>XSalida_DEJADA</name>
+<base>
+<pos x="-248.523102" y="-1156.965942" z="-595.421875" a="179.909500" b="0.141500" c="-0.202500" /></base>
+<tool>
+<pos x="0.000000" y="-140.000000" z="549.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
+<ipo_mode>base</ipo_mode>
+<load>
+<mass>220.000000</mass>
+</load>
+<bco_motion>false</bco_motion>
+<interrupt>false</interrupt>
+<ipo_cycle>4294966753</ipo_cycle>
+</syn_motion>
+<value>
+<planned>
+<robot_axis a1="123.615257" a2="-38.061337" a3="102.723251" a4="-180.014206" a5="-25.585066" a6="-56.462261" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.615257" a2="-38.033730" a3="102.716370" a4="-180.014328" a5="-25.561853" a6="-56.462444" />
+<external_axis />
+</actual>
+<ipo_cycle>4294966905</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.615257" a2="-38.572247" a3="102.841682" a4="-180.013992" a5="-25.977478" a6="-56.462418" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.615257" a2="-38.535721" a3="102.833405" a4="-180.014099" a5="-25.947378" a6="-56.462673" />
+<external_axis />
+</actual>
+<ipo_cycle>4294966948</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.615257" a2="-39.084003" a3="102.954811" a4="-180.013779" a5="-26.376221" a6="-56.462662" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.615257" a2="-39.040340" a3="102.945610" a4="-180.013779" a5="-26.341900" a6="-56.463020" />
+<external_axis />
+</actual>
+<ipo_cycle>4294966983</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.615356" a2="-39.590595" a3="103.061249" a4="-180.013565" a5="-26.776405" a6="-56.462757" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.615257" a2="-39.541016" a3="103.050468" a4="-180.013565" a5="-26.736753" a6="-56.463211" />
+<external_axis />
+</actual>
+<ipo_cycle>4294967013</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.615356" a2="-40.099724" a3="103.162575" a4="-180.013351" a5="-27.184145" a6="-56.462955" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.615257" a2="-40.044415" a3="103.152161" a4="-180.013565" a5="-27.139385" a6="-56.463345" />
+<external_axis />
+</actual>
+<ipo_cycle>4294967040</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.615456" a2="-40.615608" a3="103.259628" a4="-180.013245" a5="-27.602991" a6="-56.463142" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.615257" a2="-40.555607" a3="103.248749" a4="-180.013351" a5="-27.554121" a6="-56.463474" />
+<external_axis />
+</actual>
+<ipo_cycle>4294967065</ipo_cycle>
+</value>
+<syn_motion>
+<program>DEJAR_DARSENA1</program>
+<line>96</line>
+<name>XENTRADA_DEJADA_DARS1</name>
+<base>
+<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></base>
+<tool>
+<pos x="0.000000" y="0.000000" z="0.000000" a="0.000000" b="0.000000" c="0.000000" /></tool>
+<ipo_mode>tool</ipo_mode>
+<load>
+<mass>220.000000</mass>
+</load>
+<bco_motion>false</bco_motion>
+<interrupt>false</interrupt>
+<ipo_cycle>4294967076</ipo_cycle>
+</syn_motion>
+<value>
+<planned>
+<robot_axis a1="123.615456" a2="-41.125393" a3="103.350258" a4="-180.013031" a5="-28.023504" a6="-56.463348" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.615356" a2="-41.062386" a3="103.339661" a4="-180.013138" a5="-27.970968" a6="-56.464123" />
+<external_axis />
+</actual>
+<ipo_cycle>4294967088</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.615456" a2="-41.644287" a3="103.448708" a4="-180.012817" a5="-28.471117" a6="-56.463749" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.615356" a2="-41.580811" a3="103.436058" a4="-180.012924" a5="-28.415028" a6="-56.464314" />
+<external_axis />
+</actual>
+<ipo_cycle>4294967111</ipo_cycle>
+</value>
+<value>
+<planned>
+<robot_axis a1="123.615555" a2="-42.164307" a3="103.544357" a4="-180.012695" a5="-28.945276" a6="-56.464508" />
+<external_axis />
+</planned>
+<actual>
+<robot_axis a1="123.615456" a2="-42.100456" a3="103.533485" a4="-180.012695" a5="-28.885521" a6="-56.464859" />
 <external_axis />
 </actual>
 <ipo_cycle>4294967134</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="91.400932" a2="-47.023830" a3="78.493484" a4="-179.970718" a5="-58.756741" a6="-150.837494" />
+<robot_axis a1="123.614449" a2="-42.685452" a3="103.606644" a4="-180.012482" a5="-29.445871" a6="-56.466606" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="91.569687" a2="-46.955849" a3="78.447937" a4="-179.968994" a5="-58.732296" a6="-151.036667" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967143</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="90.931679" a2="-47.211163" a3="78.618980" a4="-179.966309" a5="-58.823025" a6="-150.332214" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="91.120201" a2="-47.136795" a3="78.569244" a4="-179.965546" a5="-58.795811" a6="-150.545135" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967150</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="90.454903" a2="-47.401592" a3="78.746613" a4="-179.961777" a5="-58.890312" a6="-149.818756" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="90.646637" a2="-47.325344" a3="78.697350" a4="-179.961777" a5="-58.862766" a6="-150.030701" />
+<robot_axis a1="123.615356" a2="-42.621883" a3="103.599762" a4="-180.012589" a5="-29.383450" a6="-56.465771" />
 <external_axis />
 </actual>
 <ipo_cycle>4294967157</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="89.977623" a2="-47.592209" a3="78.874344" a4="-179.957230" a5="-58.957710" a6="-149.304794" />
+<robot_axis a1="123.601212" a2="-43.185001" a3="103.616219" a4="-180.012375" a5="-29.949465" a6="-56.480217" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="90.169357" a2="-47.516525" a3="78.823769" a4="-179.957458" a5="-58.930275" a6="-149.514618" />
+<robot_axis a1="123.605324" a2="-43.120682" a3="103.616219" a4="-180.012268" a5="-29.883488" a6="-56.478844" />
 <external_axis />
 </actual>
-<ipo_cycle>4294967164</ipo_cycle>
+<ipo_cycle>4294967179</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="89.500046" a2="-47.782921" a3="79.002068" a4="-179.952698" a5="-59.025105" a6="-148.790512" />
+<robot_axis a1="123.573921" a2="-43.662861" a3="103.579498" a4="-180.012375" a5="-30.452837" a6="-56.507603" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="89.691780" a2="-47.706112" a3="78.951309" a4="-179.953568" a5="-58.996899" a6="-148.998367" />
+<robot_axis a1="123.579239" a2="-43.598537" a3="103.587959" a4="-180.012054" a5="-30.384081" a6="-56.496513" />
 <external_axis />
 </actual>
-<ipo_cycle>4294967171</ipo_cycle>
+<ipo_cycle>4294967200</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="89.022369" a2="-47.973728" a3="79.129982" a4="-179.948166" a5="-59.092613" a6="-148.276230" />
+<robot_axis a1="123.534584" a2="-44.118839" a3="103.502808" a4="-180.012375" a5="-30.954208" a6="-56.546597" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="89.214500" a2="-47.897385" a3="79.079315" a4="-179.949249" a5="-59.064407" a6="-148.483261" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967178</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="88.544586" a2="-48.164532" a3="79.257797" a4="-179.943634" a5="-59.160011" a6="-147.761795" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="88.736320" a2="-48.087627" a3="79.206856" a4="-179.945374" a5="-59.132030" a6="-147.967361" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967185</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="88.066704" a2="-48.355339" a3="79.385620" a4="-179.939102" a5="-59.227520" a6="-147.247177" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="88.258842" a2="-48.279278" a3="79.333656" a4="-179.940948" a5="-59.199203" a6="-147.453400" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967192</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="87.588730" a2="-48.546238" a3="79.513527" a4="-179.934464" a5="-59.295025" a6="-146.732574" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="87.780663" a2="-48.468956" a3="79.462677" a4="-179.936737" a5="-59.267380" a6="-146.938644" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967199</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="87.110649" a2="-48.737137" a3="79.641533" a4="-179.929932" a5="-59.362534" a6="-146.217804" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="87.302879" a2="-48.660889" a3="79.589752" a4="-179.932419" a5="-59.334999" a6="-146.423218" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967206</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="86.632462" a2="-48.928036" a3="79.769447" a4="-179.925400" a5="-59.430042" a6="-145.702866" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="86.824402" a2="-48.850754" a3="79.717758" a4="-179.927567" a5="-59.402950" a6="-145.908279" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967213</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="86.154182" a2="-49.119122" a3="79.897453" a4="-179.920868" a5="-59.497551" a6="-145.187759" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="86.346222" a2="-49.042595" a3="79.846138" a4="-179.923035" a5="-59.469681" a6="-145.393005" />
+<robot_axis a1="123.540810" a2="-44.054520" a3="103.515076" a4="-180.011948" a5="-30.881788" a6="-56.535625" />
 <external_axis />
 </actual>
 <ipo_cycle>4294967220</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="85.675697" a2="-49.310116" a3="80.025459" a4="-179.916336" a5="-59.565060" a6="-144.672668" />
+<robot_axis a1="123.485123" a2="-44.552753" a3="103.392372" a4="-180.012482" a5="-31.467466" a6="-56.595757" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="85.867737" a2="-49.232834" a3="79.974236" a4="-179.917847" a5="-59.537075" a6="-144.878723" />
+<robot_axis a1="123.493149" a2="-44.488243" a3="103.409477" a4="-180.012054" a5="-31.388716" a6="-56.588306" />
 <external_axis />
 </actual>
-<ipo_cycle>4294967227</ipo_cycle>
+<ipo_cycle>4294967239</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="85.197220" a2="-49.501202" a3="80.153458" a4="-179.911804" a5="-59.632675" a6="-144.157394" />
+<robot_axis a1="123.427536" a2="-44.964600" a3="103.253952" a4="-180.012695" a5="-31.994164" a6="-56.653290" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="85.389153" a2="-49.424484" a3="80.101494" a4="-179.912994" a5="-59.603695" a6="-144.362946" />
+<robot_axis a1="123.436562" a2="-44.900276" a3="103.276169" a4="-180.012161" a5="-31.908636" a6="-56.643291" />
 <external_axis />
 </actual>
-<ipo_cycle>4294967234</ipo_cycle>
+<ipo_cycle>4294967257</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="84.718536" a2="-49.692383" a3="80.281563" a4="-179.907272" a5="-59.700294" a6="-143.641983" />
+<robot_axis a1="123.367332" a2="-45.331184" a3="103.103172" a4="-180.012817" a5="-32.495205" a6="-56.713272" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="84.910774" a2="-49.614540" a3="80.230896" a4="-179.907593" a5="-59.671642" a6="-143.847351" />
+<robot_axis a1="123.378174" a2="-45.266396" a3="103.130600" a4="-180.012054" a5="-32.404011" a6="-56.702042" />
 <external_axis />
 </actual>
-<ipo_cycle>4294967241</ipo_cycle>
+<ipo_cycle>4294967273</ipo_cycle>
 </value>
 <value>
 <planned>
-<robot_axis a1="84.239853" a2="-49.883564" a3="80.409660" a4="-179.902634" a5="-59.767803" a6="-143.126541" />
+<robot_axis a1="123.298912" a2="-45.698429" a3="102.926460" a4="-180.013031" a5="-33.027344" a6="-56.781700" />
 <external_axis />
 </planned>
 <actual>
-<robot_axis a1="84.431786" a2="-49.806847" a3="80.358154" a4="-179.902847" a5="-59.739372" a6="-143.331924" />
+<robot_axis a1="123.311150" a2="-45.633827" a3="102.958527" a4="-180.012161" a5="-32.930710" a6="-56.768761" />
 <external_axis />
 </actual>
-<ipo_cycle>4294967248</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="83.760872" a2="-50.074837" a3="80.537849" a4="-179.898102" a5="-59.835423" a6="-142.610794" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="83.953003" a2="-49.996994" a3="80.486443" a4="-179.897888" a5="-59.807541" a6="-142.816177" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967255</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="83.281883" a2="-50.266113" a3="80.666039" a4="-179.893570" a5="-59.903152" a6="-142.095047" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="83.473923" a2="-50.189209" a3="80.614914" a4="-179.893677" a5="-59.875717" a6="-142.300430" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967262</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="82.802704" a2="-50.457481" a3="80.794228" a4="-179.889038" a5="-59.970772" a6="-141.578964" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="82.994934" a2="-50.379826" a3="80.743011" a4="-179.889252" a5="-59.942894" a6="-141.784836" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967269</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="82.323418" a2="-50.648849" a3="80.922516" a4="-179.884399" a5="-60.038502" a6="-141.062881" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="82.515350" a2="-50.572227" a3="80.870552" a4="-179.885269" a5="-60.010628" a6="-141.268265" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967276</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="81.843933" a2="-50.840313" a3="81.050797" a4="-179.879868" a5="-60.106121" a6="-140.546631" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="82.036469" a2="-50.762939" a3="80.999947" a4="-179.880844" a5="-60.077579" a6="-140.752350" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967283</ipo_cycle>
-</value>
-<value>
-<planned>
-<robot_axis a1="81.376587" a2="-51.026985" a3="81.175827" a4="-179.875443" a5="-60.172184" a6="-140.043320" />
-<external_axis />
-</planned>
-<actual>
-<robot_axis a1="81.564407" a2="-50.953934" a3="81.127213" a4="-179.876846" a5="-60.144981" a6="-140.240860" />
-<external_axis />
-</actual>
-<ipo_cycle>4294967290</ipo_cycle>
+<ipo_cycle>4294967289</ipo_cycle>
 </value>
 </poslog>

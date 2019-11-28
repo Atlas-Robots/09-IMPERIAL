@@ -1,5 +1,5 @@
-&ACCESS RVO
-&REL 47
+&ACCESS RVP1
+&REL 48
 &PARAM TEMPLATE = C:\KRC\Roboter\Template\vorgabe
 &PARAM EDITMASK = *
 DEF inicializacion( )
