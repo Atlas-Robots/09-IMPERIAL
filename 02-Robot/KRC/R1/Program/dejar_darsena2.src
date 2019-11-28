@@ -38,35 +38,35 @@ FSALIDA_DEJADA.BASE_NO=1
 
 
 
-;EN DARSENA 2 EL ROBOT CAMBIA EL VALOR DE T
-
-        IF (XDEJADA.X>376) THEN
-              XAPROXIMACION_DEJADA.t=43
-              XDEJADA.t=43
-              XSALIDA_DEJADA.t=43
-
-                      IF  (XDEJADA.A>170) THEN
-                        XAPROXIMACION_DEJADA.t=3
-                        XDEJADA.t=3
-                        XSALIDA_DEJADA.t=3
-                      ENDIF
-
-        ENDIF
-
-
-        IF ( (XDEJADA.X<=376) AND (XDEJADA.X>50) ) THEN
-              XAPROXIMACION_DEJADA.t=42
-              XDEJADA.t=42
-              XSALIDA_DEJADA.t=42
-
-        ENDIF
-
-
-        IF (XDEJADA.X<70)  THEN
-              XAPROXIMACION_DEJADA.t=10
-              XDEJADA.t=10
-              XSALIDA_DEJADA.t=10
-        ENDIF
+; ;EN DARSENA 2 EL ROBOT CAMBIA EL VALOR DE T
+;
+;         IF (XDEJADA.X>376) THEN
+;               XAPROXIMACION_DEJADA.t=43
+;               XDEJADA.t=43
+;               XSALIDA_DEJADA.t=43
+;
+;                       IF  (XDEJADA.A>170) THEN
+;                         XAPROXIMACION_DEJADA.t=3
+;                         XDEJADA.t=3
+;                         XSALIDA_DEJADA.t=3
+;                       ENDIF
+;
+;         ENDIF
+;
+;
+;         IF ( (XDEJADA.X<=376) AND (XDEJADA.X>50) ) THEN
+;               XAPROXIMACION_DEJADA.t=42
+;               XDEJADA.t=42
+;               XSALIDA_DEJADA.t=42
+;
+;         ENDIF
+;
+;
+;         IF (XDEJADA.X<70)  THEN
+;               XAPROXIMACION_DEJADA.t=10
+;               XDEJADA.t=10
+;               XSALIDA_DEJADA.t=10
+;         ENDIF
 
 
 ;IGUALO LA ORIENTCION DE LA ENTRADA A LA DARSENA A LA DEL PTO DE DEJADA
@@ -138,6 +138,13 @@ PTP XENTRADA_DEJADA_DAR2 C_PTP
 
 CONTADOR_SACOS_DARSENA2=CONTADOR_SACOS_DARSENA2+1
 
-
+;FOLD PTP home Vel=100 % PDAT130;%{PE}%R 5.6.16,%MKUKATPBASIS,%CMOVE,%VPTP,%P 1:PTP, 2:home, 3:, 5:100, 7:PDAT130
+$BWDSTART=FALSE
+PDAT_ACT=PPDAT130
+FDAT_ACT=Fhome
+BAS(#PTP_PARAMS,100)
+$H_POS=XHOME
+PTP Xhome
+;ENDFOLD
 
 END

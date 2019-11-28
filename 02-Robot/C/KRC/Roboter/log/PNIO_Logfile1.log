@@ -641,3 +641,32 @@ Driverevent     27.11.2019, 12:41:13 identical FW version on CP and in backup
 Driverevent     27.11.2019, 12:41:14 identical S7Project on CP and in backup
 Driverevent     27.11.2019, 12:41:14 Deviceinstance...OK
 IOCTLEvent      27.11.2019, 12:41:16 START IOCTL command for driver
+IOCTLEvent      27.11.2019, 17:34:54 STOP IOCTL command for driver
+Deviceevent     27.11.2019, 17:34:55 Device was STOPPED
+Driverevent     27.11.2019, 17:34:56 Deviceinstance...ENDED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Profinet V2.3 Driver KUKA Roboter GmbH 2011
+Version 2.3.3.0 Inc 8
+For usage with FW 2.5.1.0.8
+Build   Jul  4 2011 , 18:20:13 
+Logfile started at Day:  27.11.2019  Time: 17:35:01
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Driverevent     27.11.2019, 17:35:02 FW connection established
+Driverevent     27.11.2019, 17:35:03 reading INI file...OK
+Driverevent     27.11.2019, 17:35:04 FW Version 2.5.1.0
+Driverevent     27.11.2019, 17:35:04 IP Adress of CP is 192.168.100.2
+Driverevent     27.11.2019, 17:35:05 identical serialnumber on CP and in backup
+Driverevent     27.11.2019, 17:35:05 identical FW version on CP and in backup
+Driverevent     27.11.2019, 17:35:06 identical S7Project on CP and in backup
+Driverevent     27.11.2019, 17:35:07 Deviceinstance...OK
+IOCTLEvent      27.11.2019, 17:35:08 START IOCTL command for driver
+Deviceevent     27.11.2019, 17:35:55 Device was STOPPED
+IOCTLEvent      28.11.2019, 06:36:26 FREEZE IOCTL command for driver
+IOCTLEvent      28.11.2019, 06:36:27 CONTINUE IOCTL command for driver
+Driverevent     28.11.2019, 06:36:27 FW connection established
+Driverevent     28.11.2019, 06:36:28 FW Version 2.5.1.0
+Driverevent     28.11.2019, 06:36:29 IP Adress of CP is 192.168.100.2
+Driverevent     28.11.2019, 06:36:30 identical serialnumber on CP and in backup
+Driverevent     28.11.2019, 06:36:31 identical FW version on CP and in backup
+Driverevent     28.11.2019, 06:36:32 identical S7Project on CP and in backup
+IOCTLEvent      28.11.2019, 06:36:32 START IOCTL command for driver

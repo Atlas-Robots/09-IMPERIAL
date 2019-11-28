@@ -234,3 +234,86 @@ KUKA_HMI.exe Error: 0 : 11/27/2019 16:55:09 Unexpected exeption in KUKARoboter.R
 11/27/2019 16:57:03 OnModalChanged IsModal = False
 11/27/2019 17:02:22 OnModalChanged IsModal = True
 11/27/2019 17:02:22 OnModalChanged IsModal = False
+11/27/2019 17:34:37 OnModalChanged IsModal = True
+11/27/2019 17:34:37 OnModalChanged IsModal = False
+11/28/2019 06:47:14 OnModalChanged IsModal = True
+11/28/2019 06:47:15 OnModalChanged IsModal = False
+KUKA_HMI.exe Error: 0 : 11/28/2019 06:47:22 Unexpected exeption in KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh: KUKARoboter.KRCModel.KRCException: CrossMeld#1375: M_1375
+   at KUKARoboter.KRCModel.Robot.Variables.KRCVariableProxy.StartSetInfo(String name, SetInfoAnswerEventHandler setInfoCallback, Object owner)
+   at KUKARoboter.KRCModel.Robot.Variables.VariableInfoImpl.add_Changed(EventHandler value)
+   at KUKARoboter.KinematicsModel.ToolBaseModel.add_BaseChanged(EventHandler value)
+   at KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh()
+11/28/2019 06:54:40 OnModalChanged IsModal = True
+11/28/2019 06:54:41 OnModalChanged IsModal = False
+KUKA_HMI.exe Error: 0 : 11/28/2019 06:55:29 Unexpected exeption in KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh: KUKARoboter.KRCModel.KRCException: CrossMeld#1375: M_1375
+   at KUKARoboter.KRCModel.Robot.Variables.KRCVariableProxy.StartSetInfo(String name, SetInfoAnswerEventHandler setInfoCallback, Object owner)
+   at KUKARoboter.KRCModel.Robot.Variables.VariableInfoImpl.add_Changed(EventHandler value)
+   at KUKARoboter.KinematicsModel.ToolBaseModel.add_ToolChanged(EventHandler value)
+   at KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh()
+11/28/2019 06:57:56 OnModalChanged IsModal = True
+11/28/2019 06:57:57 OnModalChanged IsModal = False
+11/28/2019 07:02:06 Fail: KRCVariableProxy ShowVar /R1/CELL.SRC/$POS_ACT.t CrossMeld#1419: M_1419
+11/28/2019 07:03:16 Fail: KRCVariableProxy ShowVar /R1/CALDEJGEN.SRC/capaypoisicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:03:16 Fail: KRCVariableProxy ShowVar /R1/CALDEJGEN.SRC/capaypoisicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:03:18 Fail: KRCVariableProxy ShowVar /R1/CALDEJGEN.SRC/capaypoisicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:03:26 Fail: KRCVariableProxy ShowVar /R1/CALDEJGEN.SRC/capayposicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:03:28 Fail: KRCVariableProxy ShowVar /R1/CALDEJGEN.SRC/capayposicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:03:37 Fail: KRCVariableProxy ShowVar /R1/CALDEJGEN.SRC/capayposicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:04:56 OnModalChanged IsModal = True
+11/28/2019 07:04:57 OnModalChanged IsModal = False
+11/28/2019 07:05:56 OnModalChanged IsModal = True
+11/28/2019 07:05:58 OnModalChanged IsModal = False
+KUKA_HMI.exe Error: 0 : 11/28/2019 07:11:58 Unexpected exeption in KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh: KUKARoboter.KRCModel.KRCException: CrossMeld#1375: M_1375
+   at KUKARoboter.KRCModel.Robot.Variables.KRCVariableProxy.StartSetInfo(String name, SetInfoAnswerEventHandler setInfoCallback, Object owner)
+   at KUKARoboter.KRCModel.Robot.Variables.VariableInfoImpl.add_Changed(EventHandler value)
+   at KUKARoboter.KinematicsModel.ToolBaseModel.add_ToolChanged(EventHandler value)
+   at KUKARoboter.RobotPositionMonitor.TPCartesian.StartDataRefresh()
+11/28/2019 07:12:39 OnModalChanged IsModal = True
+11/28/2019 07:12:40 OnModalChanged IsModal = False
+11/28/2019 07:13:19 OnModalChanged IsModal = True
+11/28/2019 07:13:20 OnModalChanged IsModal = False
+11/28/2019 07:13:34 OnModalChanged IsModal = True
+11/28/2019 07:13:35 OnModalChanged IsModal = False
+11/28/2019 07:16:00 OnModalChanged IsModal = True
+11/28/2019 07:16:02 OnModalChanged IsModal = False
+11/28/2019 07:22:04 OnModalChanged IsModal = True
+11/28/2019 07:22:06 OnModalChanged IsModal = False
+11/28/2019 07:26:41 OnModalChanged IsModal = True
+11/28/2019 07:26:44 OnModalChanged IsModal = False
+11/28/2019 07:33:24 OnModalChanged IsModal = True
+11/28/2019 07:33:26 OnModalChanged IsModal = False
+11/28/2019 07:40:12 OnModalChanged IsModal = True
+11/28/2019 07:40:15 OnModalChanged IsModal = False
+11/28/2019 07:50:49 OnModalChanged IsModal = True
+11/28/2019 07:50:51 OnModalChanged IsModal = False
+11/28/2019 07:51:08 Fail: KRCVariableProxy ShowVar /R1/CELL.SRC/$POS_ACT.t CrossMeld#1419: M_1419
+11/28/2019 07:51:37 Fail: KRCVariableProxy ShowVar /R1/CELL.SRC/capayposicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:51:58 Fail: KRCVariableProxy ShowVar /R1/CELL.SRC/capayposicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:52:10 Fail: KRCVariableProxy ShowVar capa_actual CrossMeld#2047: M_2047
+11/28/2019 07:52:13 Fail: KRCVariableProxy ShowVar capaactual CrossMeld#2047: M_2047
+11/28/2019 07:52:14 Fail: KRCVariableProxy ShowVar capaactual CrossMeld#2047: M_2047
+11/28/2019 07:53:30 Fail: KRCVariableProxy ShowVar capayposicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:53:34 Fail: KRCVariableProxy ShowVar capayposicion_actual CrossMeld#2047: M_2047
+11/28/2019 07:53:40 OnModalChanged IsModal = True
+11/28/2019 07:53:41 OnModalChanged IsModal = False
+11/28/2019 07:53:53 Fail: KRCVariableProxy ShowVar capaactual CrossMeld#2047: M_2047
+11/28/2019 07:54:24 Fail: KRCVariableProxy ShowVar capaactual CrossMeld#2047: M_2047
+11/28/2019 07:54:28 Fail: KRCVariableProxy ShowVar capaactual_1 CrossMeld#2047: M_2047
+11/28/2019 07:54:33 Fail: KRCVariableProxy ShowVar capaactual_darsena1 CrossMeld#2047: M_2047
+11/28/2019 07:54:33 Fail: KRCVariableProxy ShowVar capaactual_darsena1 CrossMeld#2047: M_2047
+11/28/2019 07:58:52 OnModalChanged IsModal = True
+11/28/2019 07:58:54 OnModalChanged IsModal = False
+11/28/2019 08:04:48 OnModalChanged IsModal = True
+11/28/2019 08:04:50 OnModalChanged IsModal = False
+11/28/2019 08:14:17 OnModalChanged IsModal = True
+11/28/2019 08:14:19 OnModalChanged IsModal = False
+11/28/2019 08:19:40 OnModalChanged IsModal = True
+11/28/2019 08:19:43 OnModalChanged IsModal = False
+11/28/2019 08:23:45 OnModalChanged IsModal = True
+11/28/2019 08:23:47 OnModalChanged IsModal = False
+11/28/2019 08:31:30 OnModalChanged IsModal = True
+11/28/2019 08:31:34 OnModalChanged IsModal = False
+11/28/2019 08:31:34 OnModalChanged IsModal = True
+11/28/2019 08:31:38 OnModalChanged IsModal = False
+11/28/2019 08:39:42 OnModalChanged IsModal = True
+11/28/2019 08:39:42 OnModalChanged IsModal = False

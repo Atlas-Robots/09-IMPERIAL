@@ -1,4 +1,4 @@
-&REL 13
+&REL 27
 DEFDAT  $CONFIG
 ;FOLD BASISTECH GLOBALS
 ;==================================
@@ -641,9 +641,9 @@ SIGNAL EXTENDER_PISADORES $OUT[85]
 
 ;************************PTOS COMUNES******************************
 
-DECL E6POS XDEJADA={X 1015.0,Y 395.0,Z 165.0,A -90.0,B 0.0,C -180.0,S 6,T 58,E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}
-DECL E6POS XAPROXIMACION_DEJADA={X 915.0,Y 295.0,Z 415.0,A -90.0,B 0.0,C -180.0,S 6,T 58,E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}
-DECL E6POS XSalida_DEJADA={X 1015.0,Y 395.0,Z 335.0,A -90.0,B 0.0,C -180.0,S 6,T 58,E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}
+DECL E6POS XDEJADA={X 720.0,Y 1256.0,Z 305.0,A 0.0,B 0.0,C -180.0,S 6,T 58,E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}
+DECL E6POS XAPROXIMACION_DEJADA={X 620.0,Y 1156.0,Z 555.0,A 0.0,B 0.0,C -180.0,S 6,T 58,E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}
+DECL E6POS XSalida_DEJADA={X 720.0,Y 1256.0,Z 475.0,A 0.0,B 0.0,C -180.0,S 6,T 58,E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}
 
 
 ; DECL E6POS XDEJADA2={X 690.0,Y 1155.0,Z -165.0,A -90.0,B 0.0,C 0.0,S 2,T 43,E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}
@@ -723,7 +723,7 @@ DECL INT ORIGENPALEZ
 DECL INT Produccion=1
 DECL INT CAPA_ACTUAL_DARSENA1=0
 DECL INT CAPAYPOSICION_ACTUAL_1=1
-DECL INT TIPO_COGIDA=2
+DECL INT TIPO_COGIDA=4
 
 
 DECL INT CAPA_ACTUAL_DARSENA2=0
@@ -732,7 +732,7 @@ DECL INT TIPO_COGIDA2=1
 DECL BOOL init=TRUE
 
 DECL INT CONTADOR_SACOS_DARSENA1=0
-DECL INT CONTADOR_CAPAS_DARSENA1=0
+DECL INT CONTADOR_CAPAS_DARSENA1=2
 DECL INT CONTADOR_SACOS_DARSENA2=0
 DECL INT CONTADOR_CAPAS_DARSENA2=0
 
@@ -768,12 +768,6 @@ DatosPale[1,3]=140
 
 DECL INT DatosDejada[3,30,5] ; [Produccion, Posicion+Paridad, DatoDejada] ;DATOS DEJADA (X,Y,GIRO,COGIDA) ;
 
-;***COGIDA***
-
-;1 COGIDA 1
-;2 COGIDA 1 DESPLAZADA
-;3 COGIDA 2
-;4 COGIDA 2 DESPLAZADA
 
 ;****GIRO ****
 
@@ -782,64 +776,72 @@ DECL INT DatosDejada[3,30,5] ; [Produccion, Posicion+Paridad, DatoDejada] ;DATOS
 ;3 ABRIENDO HACIA EL OTRO PALET
 ;4
 
+;***COGIDA***
+
+;1 COGIDA 1
+;2 COGIDA 1 DESPLAZADA
+;3 COGIDA 2
+;4 COGIDA 2 DESPLAZADA
+
+
 
 ;FOLD Produccion 1
 
 
-DatosDejada[1,1,1]=1015
-DatosDejada[1,1,2]=395 ;400
-DatosDejada[1,1,3]=1
+DatosDejada[1,1,1]=572
+DatosDejada[1,1,2]=840
+DatosDejada[1,1,3]=3
 DatosDejada[1,1,4]=3
 
-DatosDejada[1,2,1]=1015
-DatosDejada[1,2,2]=840 ;820
-DatosDejada[1,2,3]=2
-DatosDejada[1,2,4]=3
+DatosDejada[1,2,1]=569
+DatosDejada[1,2,2]=243
+DatosDejada[1,2,3]=3
+DatosDejada[1,2,4]=2
 
 
-DatosDejada[1,3,1]=398
+DatosDejada[1,3,1]=232 ;398
 DatosDejada[1,3,2]=400
-DatosDejada[1,3,3]=4
-DatosDejada[1,3,4]=1
+DatosDejada[1,3,3]=2
+DatosDejada[1,3,4]=2
 
-DatosDejada[1,4,1]=398
-DatosDejada[1,4,2]=860
-DatosDejada[1,4,3]=4
-DatosDejada[1,4,4]=1
+DatosDejada[1,4,1]=232
+DatosDejada[1,4,2]=840
+DatosDejada[1,4,3]=2
+DatosDejada[1,4,4]=2
 
-DatosDejada[1,5,1]=398
-DatosDejada[1,5,2]=1207
-DatosDejada[1,5,3]=4
-DatosDejada[1,5,4]=1
+DatosDejada[1,5,1]=229
+DatosDejada[1,5,2]=1256
+DatosDejada[1,5,3]=2
+DatosDejada[1,5,4]=2
 
 ;FALTA POR CAMBIAR
 
-DatosDejada[1,11,1]=720 ;700
-DatosDejada[1,11,2]=820 ;830;800 ;470 ;800
-DatosDejada[1,11,3]=2
-DatosDejada[1,11,4]=1
+DatosDejada[1,11,1]=390 ;700
+DatosDejada[1,11,2]=364 ;830;800 ;470 ;800
+DatosDejada[1,11,3]=1
+DatosDejada[1,11,4]=3
 
-DatosDejada[1,12,1]=720 ;700
-DatosDejada[1,12,2]=415 ;70 ;400
-DatosDejada[1,12,3]=2
-DatosDejada[1,12,4]=1
+DatosDejada[1,12,1]=390 ;700
+DatosDejada[1,12,2]=943 ;70 ;400
+DatosDejada[1,12,3]=1
+DatosDejada[1,12,4]=2
 
 DatosDejada[1,13,1]=720 ;700
-DatosDejada[1,13,2]=0 ;-330
+DatosDejada[1,13,2]=400 ;-330
 DatosDejada[1,13,3]=2
-DatosDejada[1,13,4]=1
+DatosDejada[1,13,4]=4
 
 
 
-DatosDejada[1,14,1]=25 ;40 ;60 ;70 ;400
-DatosDejada[1,14,2]=930 ;900
-DatosDejada[1,14,3]=1
-DatosDejada[1,14,4]=2
+DatosDejada[1,14,1]=720 ;40 ;60 ;70 ;400
+DatosDejada[1,14,2]=840 ;900
+DatosDejada[1,14,3]=2
+DatosDejada[1,14,4]=4
 
-DatosDejada[1,15,1]=25 ;40 ;60 ;70 ;400
-DatosDejada[1,15,2]=230 ;150 ;200 ;300
-DatosDejada[1,15,3]=1
-DatosDejada[1,15,4]=1
+DatosDejada[1,15,1]=720 ;40 ;60 ;70 ;400
+DatosDejada[1,15,2]=1256 ;150 ;200 ;300
+DatosDejada[1,15,3]=2
+DatosDejada[1,15,4]=4
 ;ENDFOLD
 
 ;FOLD Produccion 2

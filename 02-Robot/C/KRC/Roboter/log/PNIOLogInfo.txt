@@ -1,1 +1,1 @@
-Logging : FileNo = 1; logfileSize = 27120;
+Logging : FileNo = 1; logfileSize = 30000;
